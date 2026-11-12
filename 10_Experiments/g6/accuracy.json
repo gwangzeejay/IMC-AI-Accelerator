@@ -1,0 +1,367 @@
+{
+  "status": "PASS_MODEL_EQUIVALENCE",
+  "vww_reference_inputs": 40,
+  "vww_reference_correct": 33,
+  "vww_reference_accuracy": 0.825,
+  "scope": "40-image balanced research-preprocessed COCO/VWW subset, not full-dataset or official MLPerf accuracy",
+  "own_checked_inputs": 16,
+  "own_checked_operator_outputs": 280,
+  "own_checked_elements": 1794096,
+  "mismatches": 0,
+  "checks": [
+    {
+      "workload": "vww",
+      "id": "000000570169",
+      "operators": 31,
+      "elements": 232068,
+      "mismatches": 0
+    },
+    {
+      "workload": "vww",
+      "id": "000000476704",
+      "operators": 31,
+      "elements": 232068,
+      "mismatches": 0
+    },
+    {
+      "workload": "vww",
+      "id": "000000343218",
+      "operators": 31,
+      "elements": 232068,
+      "mismatches": 0
+    },
+    {
+      "workload": "vww",
+      "id": "000000332570",
+      "operators": 31,
+      "elements": 232068,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000211_Down_0.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000238_Go_1.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000210_Left_2.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000212_No_3.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000228_Off_4.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000222_On_5.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000235_Right_6.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000245_Stop_7.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000208_Up_8.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000230_Yes_9.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000216_Silence_10.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "workload": "kws",
+      "id": "tst_000215_Unknown_11.bin",
+      "operators": 13,
+      "elements": 72152,
+      "mismatches": 0
+    }
+  ],
+  "predictions": [
+    {
+      "id": "000000570169",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000476704",
+      "label": 0,
+      "prediction": 1,
+      "correct": false
+    },
+    {
+      "id": "000000165257",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000015278",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000286994",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000177714",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000008762",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000251065",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000136355",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000248980",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000580757",
+      "label": 0,
+      "prediction": 1,
+      "correct": false
+    },
+    {
+      "id": "000000281179",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000521540",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000376442",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000106235",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000213224",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000311295",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000127987",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000031269",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000269196",
+      "label": 0,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "id": "000000343218",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000332570",
+      "label": 1,
+      "prediction": 0,
+      "correct": false
+    },
+    {
+      "id": "000000352684",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000003934",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000272566",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000187243",
+      "label": 1,
+      "prediction": 0,
+      "correct": false
+    },
+    {
+      "id": "000000577539",
+      "label": 1,
+      "prediction": 0,
+      "correct": false
+    },
+    {
+      "id": "000000329323",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000334483",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000281414",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000232563",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000199055",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000482275",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000337055",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000326248",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000360960",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000173830",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "id": "000000290843",
+      "label": 1,
+      "prediction": 0,
+      "correct": false
+    },
+    {
+      "id": "000000213086",
+      "label": 1,
+      "prediction": 0,
+      "correct": false
+    },
+    {
+      "id": "000000018150",
+      "label": 1,
+      "prediction": 1,
+      "correct": true
+    }
+  ]
+}

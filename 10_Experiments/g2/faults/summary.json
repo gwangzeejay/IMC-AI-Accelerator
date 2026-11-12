@@ -1,0 +1,234 @@
+{
+  "status": "PASS",
+  "scope": "one pinned official-model microtile; finite campaign, not universal proof",
+  "counts": {
+    "single_boundary": 1712,
+    "interior": 384,
+    "restore_interruption": 3,
+    "random_multi": 1000
+  },
+  "total_cases": 3099,
+  "injected_losses_executed": 5035,
+  "mismatches": 0,
+  "seed": 20261015,
+  "baseline_event_counts": [
+    407,
+    419,
+    437,
+    449
+  ],
+  "boundary_coverage": [
+    {
+      "action": "BOOT_RECOVER",
+      "phase": "startup"
+    },
+    {
+      "action": "BOOT_RECOVER",
+      "phase": "validate_slots"
+    },
+    {
+      "action": "COMMIT_CHECKPOINT",
+      "phase": "invalidate"
+    },
+    {
+      "action": "COMMIT_CHECKPOINT",
+      "phase": "metadata"
+    },
+    {
+      "action": "COMMIT_CHECKPOINT",
+      "phase": "publish"
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "invalidate"
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "metadata"
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "payload_output"
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "publish"
+    },
+    {
+      "action": "COMPUTE_DW",
+      "phase": "full_dw"
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci0:16"
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci16:32"
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci32:48"
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci48:64"
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "dw"
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "dw_bank_program"
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "pw"
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "pw_bank_program"
+    },
+    {
+      "action": "READ_INPUT",
+      "phase": "immutable_anchor"
+    },
+    {
+      "action": "REQUANTIZE",
+      "phase": "pw_output"
+    },
+    {
+      "action": "SAVE_DW",
+      "phase": "payload_z"
+    },
+    {
+      "action": "SAVE_PW_PS",
+      "phase": "payload_ps"
+    }
+  ],
+  "actual_fault_coverage": [
+    {
+      "action": "BOOT_RECOVER",
+      "phase": "startup",
+      "cuts": 19
+    },
+    {
+      "action": "BOOT_RECOVER",
+      "phase": "validate_slots",
+      "cuts": 3276
+    },
+    {
+      "action": "COMMIT_CHECKPOINT",
+      "phase": "invalidate",
+      "cuts": 31
+    },
+    {
+      "action": "COMMIT_CHECKPOINT",
+      "phase": "metadata",
+      "cuts": 618
+    },
+    {
+      "action": "COMMIT_CHECKPOINT",
+      "phase": "publish",
+      "cuts": 36
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "invalidate",
+      "cuts": 13
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "metadata",
+      "cuts": 212
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "payload_output",
+      "cuts": 12
+    },
+    {
+      "action": "COMMIT_OUTPUT",
+      "phase": "publish",
+      "cuts": 9
+    },
+    {
+      "action": "COMPUTE_DW",
+      "phase": "full_dw",
+      "cuts": 11
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci0:16",
+      "cuts": 7
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci16:32",
+      "cuts": 7
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci32:48",
+      "cuts": 4
+    },
+    {
+      "action": "COMPUTE_PW",
+      "phase": "ci48:64",
+      "cuts": 9
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "dw",
+      "cuts": 226
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "dw_bank_program",
+      "cuts": 6
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "pw",
+      "cuts": 78
+    },
+    {
+      "action": "LOAD_WEIGHT",
+      "phase": "pw_bank_program",
+      "cuts": 6
+    },
+    {
+      "action": "READ_INPUT",
+      "phase": "immutable_anchor",
+      "cuts": 277
+    },
+    {
+      "action": "REQUANTIZE",
+      "phase": "pw_output",
+      "cuts": 7
+    },
+    {
+      "action": "RESTORE_PAYLOAD",
+      "phase": "ps",
+      "cuts": 1
+    },
+    {
+      "action": "RESTORE_PAYLOAD",
+      "phase": "z",
+      "cuts": 5
+    },
+    {
+      "action": "SAVE_DW",
+      "phase": "payload_z",
+      "cuts": 133
+    },
+    {
+      "action": "SAVE_PW_PS",
+      "phase": "payload_ps",
+      "cuts": 32
+    }
+  ],
+  "elapsed_s": 20.084143799999993,
+  "energy_calibrated": false
+}

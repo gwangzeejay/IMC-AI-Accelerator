@@ -1,0 +1,9134 @@
+{
+  "status": "PASS_FINITE_G6_FAULTS",
+  "full_network_cases": 8,
+  "full_network_losses": 8,
+  "random_large_slot_schedules": 1000,
+  "random_executed_losses": 2494,
+  "applied_byte_transactions": 4158674,
+  "random_scope": "model-derived large DW/PW tile only; random 1-4 interrupted commit schedules; not 1000 full-network runs",
+  "mismatches": 0,
+  "graph_cases": [
+    {
+      "workload": "kws",
+      "action": "checkpoint_partial",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ]
+    },
+    {
+      "workload": "kws",
+      "action": "checkpoint_output",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ]
+    },
+    {
+      "workload": "kws",
+      "action": "layer_log",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ]
+    },
+    {
+      "workload": "kws",
+      "action": "graph_root",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ]
+    },
+    {
+      "workload": "vww",
+      "action": "checkpoint_partial",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        107,
+        -107
+      ]
+    },
+    {
+      "workload": "vww",
+      "action": "checkpoint_output",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        107,
+        -107
+      ]
+    },
+    {
+      "workload": "vww",
+      "action": "layer_log",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        107,
+        -107
+      ]
+    },
+    {
+      "workload": "vww",
+      "action": "graph_root",
+      "completed": 1,
+      "losses": 1,
+      "output": [
+        107,
+        -107
+      ]
+    }
+  ],
+  "random_details": [
+    {
+      "trial": 0,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 1,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 2,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 3,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 4,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 5,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 6,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 7,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 8,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 9,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 10,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 11,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 12,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 13,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 14,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 15,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 16,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 17,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 18,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 19,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 20,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 21,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 22,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 23,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 24,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 25,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 26,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 27,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 28,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 29,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 30,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 31,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 32,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 33,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 34,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 35,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 36,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 37,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 38,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 39,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 40,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 41,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 42,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 43,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 44,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 45,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 46,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 47,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 48,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 49,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 50,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 51,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 52,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 53,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 54,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 55,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 56,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 57,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 58,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 59,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 60,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 61,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 62,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 63,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 64,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 65,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 66,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 67,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 68,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 69,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 70,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 71,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 72,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 73,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 74,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 75,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 76,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 77,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 78,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 79,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 80,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 81,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 82,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 83,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 84,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 85,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 86,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 87,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 88,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 89,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 90,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 91,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 92,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 93,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 94,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 95,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 96,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 97,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 98,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 99,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 100,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 101,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 102,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 103,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 104,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 105,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 106,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 107,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 108,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 109,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 110,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 111,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 112,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 113,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 114,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 115,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 116,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 117,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 118,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 119,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 120,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 121,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 122,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 123,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 124,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 125,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 126,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 127,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 128,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 129,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 130,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 131,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 132,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 133,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 134,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 135,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 136,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 137,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 138,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 139,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 140,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 141,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 142,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 143,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 144,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 145,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 146,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 147,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 148,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 149,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 150,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 151,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 152,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 153,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 154,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 155,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 156,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 157,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 158,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 159,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 160,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 161,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 162,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 163,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 164,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 165,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 166,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 167,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 168,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 169,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 170,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 171,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 172,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 173,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 174,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 175,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 176,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 177,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 178,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 179,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 180,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 181,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 182,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 183,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 184,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 185,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 186,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 187,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 188,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 189,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 190,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 191,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 192,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 193,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 194,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 195,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 196,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 197,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 198,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 199,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 200,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 201,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 202,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 203,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 204,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 205,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 206,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 207,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 208,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 209,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 210,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 211,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 212,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 213,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 214,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 215,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 216,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 217,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 218,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 219,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 220,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 221,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 222,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 223,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 224,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 225,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 226,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 227,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 228,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 229,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 230,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 231,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 232,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 233,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 234,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 235,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 236,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 237,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 238,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 239,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 240,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 241,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 242,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 243,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 244,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 245,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 246,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 247,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 248,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 249,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 250,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 251,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 252,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 253,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 254,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 255,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 256,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 257,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 258,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 259,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 260,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 261,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 262,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 263,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 264,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 265,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 266,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 267,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 268,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 269,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 270,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 271,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 272,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 273,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 274,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 275,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 276,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 277,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 278,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 279,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 280,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 281,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 282,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 283,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 284,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 285,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 286,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 287,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 288,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 289,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 290,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 291,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 292,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 293,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 294,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 295,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 296,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 297,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 298,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 299,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 300,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 301,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 302,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 303,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 304,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 305,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 306,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 307,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 308,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 309,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 310,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 311,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 312,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 313,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 314,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 315,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 316,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 317,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 318,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 319,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 320,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 321,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 322,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 323,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 324,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 325,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 326,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 327,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 328,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 329,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 330,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 331,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 332,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 333,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 334,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 335,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 336,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 337,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 338,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 339,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 340,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 341,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 342,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 343,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 344,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 345,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 346,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 347,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 348,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 349,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 350,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 351,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 352,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 353,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 354,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 355,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 356,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 357,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 358,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 359,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 360,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 361,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 362,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 363,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 364,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 365,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 366,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 367,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 368,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 369,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 370,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 371,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 372,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 373,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 374,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 375,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 376,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 377,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 378,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 379,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 380,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 381,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 382,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 383,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 384,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 385,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 386,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 387,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 388,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 389,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 390,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 391,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 392,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 393,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 394,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 395,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 396,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 397,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 398,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 399,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 400,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 401,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 402,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 403,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 404,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 405,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 406,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 407,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 408,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 409,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 410,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 411,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 412,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 413,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 414,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 415,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 416,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 417,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 418,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 419,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 420,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 421,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 422,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 423,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 424,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 425,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 426,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 427,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 428,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 429,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 430,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 431,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 432,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 433,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 434,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 435,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 436,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 437,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 438,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 439,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 440,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 441,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 442,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 443,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 444,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 445,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 446,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 447,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 448,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 449,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 450,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 451,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 452,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 453,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 454,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 455,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 456,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 457,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 458,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 459,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 460,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 461,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 462,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 463,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 464,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 465,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 466,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 467,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 468,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 469,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 470,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 471,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 472,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 473,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 474,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 475,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 476,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 477,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 478,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 479,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 480,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 481,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 482,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 483,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 484,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 485,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 486,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 487,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 488,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 489,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 490,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 491,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 492,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 493,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 494,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 495,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 496,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 497,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 498,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 499,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 500,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 501,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 502,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 503,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 504,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 505,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 506,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 507,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 508,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 509,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 510,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 511,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 512,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 513,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 514,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 515,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 516,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 517,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 518,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 519,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 520,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 521,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 522,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 523,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 524,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 525,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 526,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 527,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 528,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 529,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 530,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 531,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 532,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 533,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 534,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 535,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 536,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 537,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 538,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 539,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 540,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 541,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 542,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 543,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 544,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 545,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 546,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 547,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 548,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 549,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 550,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 551,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 552,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 553,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 554,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 555,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 556,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 557,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 558,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 559,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 560,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 561,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 562,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 563,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 564,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 565,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 566,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 567,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 568,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 569,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 570,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 571,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 572,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 573,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 574,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 575,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 576,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 577,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 578,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 579,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 580,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 581,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 582,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 583,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 584,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 585,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 586,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 587,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 588,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 589,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 590,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 591,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 592,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 593,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 594,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 595,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 596,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 597,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 598,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 599,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 600,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 601,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 602,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 603,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 604,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 605,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 606,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 607,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 608,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 609,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 610,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 611,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 612,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 613,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 614,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 615,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 616,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 617,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 618,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 619,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 620,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 621,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 622,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 623,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 624,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 625,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 626,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 627,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 628,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 629,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 630,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 631,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 632,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 633,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 634,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 635,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 636,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 637,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 638,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 639,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 640,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 641,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 642,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 643,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 644,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 645,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 646,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 647,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 648,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 649,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 650,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 651,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 652,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 653,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 654,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 655,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 656,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 657,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 658,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 659,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 660,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 661,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 662,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 663,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 664,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 665,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 666,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 667,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 668,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 669,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 670,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 671,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 672,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 673,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 674,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 675,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 676,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 677,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 678,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 679,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 680,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 681,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 682,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 683,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 684,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 685,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 686,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 687,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 688,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 689,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 690,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 691,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 692,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 693,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 694,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 695,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 696,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 697,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 698,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 699,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 700,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 701,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 702,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 703,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 704,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 705,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 706,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 707,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 708,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 709,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 710,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 711,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 712,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 713,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 714,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 715,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 716,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 717,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 718,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 719,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 720,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 721,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 722,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 723,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 724,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 725,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 726,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 727,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 728,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 729,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 730,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 731,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 732,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 733,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 734,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 735,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 736,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 737,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 738,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 739,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 740,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 741,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 742,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 743,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 744,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 745,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 746,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 747,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 748,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 749,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 750,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 751,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 752,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 753,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 754,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 755,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 756,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 757,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 758,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 759,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 760,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 761,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 762,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 763,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 764,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 765,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 766,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 767,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 768,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 769,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 770,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 771,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 772,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 773,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 774,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 775,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 776,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 777,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 778,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 779,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 780,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 781,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 782,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 783,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 784,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 785,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 786,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 787,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 788,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 789,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 790,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 791,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 792,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 793,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 794,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 795,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 796,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 797,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 798,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 799,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 800,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 801,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 802,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 803,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 804,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 805,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 806,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 807,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 808,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 809,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 810,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 811,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 812,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 813,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 814,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 815,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 816,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 817,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 818,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 819,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 820,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 821,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 822,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 823,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 824,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 825,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 826,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 827,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 828,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 829,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 830,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 831,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 832,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 833,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 834,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 835,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 836,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 837,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 838,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 839,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 840,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 841,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 842,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 843,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 844,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 845,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 846,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 847,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 848,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 849,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 850,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 851,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 852,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 853,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 854,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 855,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 856,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 857,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 858,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 859,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 860,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 861,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 862,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 863,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 864,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 865,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 866,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 867,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 868,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 869,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 870,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 871,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 872,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 873,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 874,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 875,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 876,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 877,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 878,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 879,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 880,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 881,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 882,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 883,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 884,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 885,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 886,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 887,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 888,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 889,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 890,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 891,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 892,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 893,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 894,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 895,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 896,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 897,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 898,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 899,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 900,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 901,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 902,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 903,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 904,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 905,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 906,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 907,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 908,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 909,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 910,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 911,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 912,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 913,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 914,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 915,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 916,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 917,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 918,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 919,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 920,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 921,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 922,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 923,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 924,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 925,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 926,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 927,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 928,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 929,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 930,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 931,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 932,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 933,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 934,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 935,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 936,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 937,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 938,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 939,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 940,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 941,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 942,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 943,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 944,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 945,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 946,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 947,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 948,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 949,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 950,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 951,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 952,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 953,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 954,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 955,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 956,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 957,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 958,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 959,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 960,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 961,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 962,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 963,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 964,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 965,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 966,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 967,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 968,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 969,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 970,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 971,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 972,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 973,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 974,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 975,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 976,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 977,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 978,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 979,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 980,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 981,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 982,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 983,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 984,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 985,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 986,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 987,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 988,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 989,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 990,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 1,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 991,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": true,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 992,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 993,
+      "workload": "vww",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 994,
+      "workload": "kws",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 3,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 995,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 1,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 996,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 997,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": true,
+      "losses": 2,
+      "ci": 256,
+      "output_elements": 512
+    },
+    {
+      "trial": 998,
+      "workload": "kws",
+      "save_dw": false,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 64,
+      "output_elements": 512
+    },
+    {
+      "trial": 999,
+      "workload": "vww",
+      "save_dw": true,
+      "keep_ps": false,
+      "losses": 4,
+      "ci": 256,
+      "output_elements": 512
+    }
+  ]
+}

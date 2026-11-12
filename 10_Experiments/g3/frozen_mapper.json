@@ -1,0 +1,158 @@
+{
+  "protocol_hash": "3ab0e435145c3a3b80dc0e2f8601d5e35ed7f0ce2dd43f56654435ba4837d1c5",
+  "mapping": {
+    "h": 1,
+    "w": 2,
+    "co": 16,
+    "ci": 64,
+    "save_z": false,
+    "keep_ps": false
+  },
+  "mapping_name": "h1w2_co16_ci64_z0ps0",
+  "fixed_mapping_ablation": {
+    "h": 2,
+    "w": 2,
+    "co": 4,
+    "ci": 16,
+    "save_z": true,
+    "keep_ps": true
+  },
+  "fit_ids": [
+    "train_31000",
+    "train_31100",
+    "train_31200",
+    "train_31300",
+    "train_31400",
+    "train_31500",
+    "validation_41000",
+    "validation_41100",
+    "validation_41200",
+    "validation_41300",
+    "validation_41400",
+    "validation_41500"
+  ],
+  "finalists": [
+    "h1w2_co16_ci64_z0ps0",
+    "h2w2_co4_ci64_z0ps0"
+  ],
+  "validation_ranking": [
+    {
+      "method": "h1w2_co16_ci64_z0ps0",
+      "energy_j": 9.682608e-05,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.227536e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h2w2_co4_ci64_z0ps0",
+      "energy_j": 0.00011345048,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.7816826666666664e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    }
+  ],
+  "training_ranking": [
+    {
+      "method": "h1w2_co16_ci64_z0ps0",
+      "energy_j": 0.00010427424000000001,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.475808000000001e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h1w2_co16_ci64_z0ps1",
+      "energy_j": 0.00010427424000000001,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.475808000000001e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h1w2_co16_ci64_z1ps0",
+      "energy_j": 0.00010427424000000001,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.475808000000001e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h1w2_co16_ci64_z1ps1",
+      "energy_j": 0.00010427424000000001,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.475808000000001e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h2w2_co4_ci64_z0ps0",
+      "energy_j": 0.00012217744,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 4.0725813333333334e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h2w2_co4_ci64_z0ps1",
+      "energy_j": 0.00012217744,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 4.0725813333333334e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h2w2_co4_ci64_z1ps0",
+      "energy_j": 0.00012217744,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 4.0725813333333334e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    {
+      "method": "h2w2_co4_ci64_z1ps1",
+      "energy_j": 0.00012217744,
+      "completed": 3,
+      "total_inputs": 6,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 4.0725813333333334e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    }
+  ],
+  "feasibility_reference": "B3_micro",
+  "fixed_mapping_feasible": false,
+  "frozen_at_utc": "2026-10-16T01:03:21.465719+00:00",
+  "fit_seconds": 34.02248939999981,
+  "python_tracemalloc_peak_bytes": 3048869,
+  "used_test_for_selection": false
+}

@@ -1,0 +1,20 @@
+{
+  "kws": {
+    "scratch_completed": 18,
+    "direct_completed": 18,
+    "arrivals": 18,
+    "scratch_j_per_commit": 0.0009247485517535631,
+    "direct_j_per_commit": 0.0008044700682283508,
+    "relative_reduction": 0.13006614965455543,
+    "scope": "preset 6-scenario secondary subset; policy may respond to publication cost; not main objective or hardware measurement"
+  },
+  "vww": {
+    "scratch_completed": 18,
+    "direct_completed": 18,
+    "arrivals": 18,
+    "scratch_j_per_commit": 0.009253747542365305,
+    "direct_j_per_commit": 0.008553873952280609,
+    "relative_reduction": 0.07563136846780727,
+    "scope": "preset 6-scenario secondary subset; policy may respond to publication cost; not main objective or hardware measurement"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/mlcommons/tiny",
+  "commit": "4addd0fa08d216e20637637874e084895f289da4",
+  "retrieved_on": "2026-10-15",
+  "files": [
+    {
+      "path": "kws_ref_model.tflite",
+      "repository_path": "benchmark/training/keyword_spotting/trained_models/kws_ref_model.tflite",
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/training/keyword_spotting/trained_models/kws_ref_model.tflite",
+      "bytes": 53936,
+      "sha256": "aeea436800704fce17b17292e4412630ad856e9d777c044c64ef748a880bd0ae"
+    },
+    {
+      "path": "kws_input_data.cc",
+      "repository_path": "benchmark/reference_submissions/keyword_spotting/kws/kws_input_data.cc",
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/reference_submissions/keyword_spotting/kws/kws_input_data.cc",
+      "bytes": 2449,
+      "sha256": "86677d920aaeef0f48c472305d3fe0bad7466d69780f0978fa40fc7cbb06f676"
+    },
+    {
+      "path": "README_training.md",
+      "repository_path": "benchmark/training/keyword_spotting/README.md",
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/training/keyword_spotting/README.md",
+      "bytes": 4701,
+      "sha256": "28ea0da09f72194618a873db9aa873f485b00decf729e0b0ea7f54f86a956892"
+    },
+    {
+      "path": "README_reference.md",
+      "repository_path": "benchmark/reference_submissions/keyword_spotting/README.md",
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/reference_submissions/keyword_spotting/README.md",
+      "bytes": 94,
+      "sha256": "216b467e5bc7421b7312cc1d27810fc901f2849041342ed416f9ffbfcdbcf627"
+    },
+    {
+      "path": "LICENSE.md",
+      "repository_path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/LICENSE.md",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    }
+  ]
+}

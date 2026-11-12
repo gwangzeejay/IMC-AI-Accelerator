@@ -1,0 +1,40 @@
+| Workload | Axis | Value | RECAP commits | Adaptive commits | Reduction (%) |
+| --- | --- | --- | --- | --- | --- |
+| KWS | nvm_energy_scale | 0.25 | 21/24 | 21/24 | 0.000000 |
+| KWS | nvm_energy_scale | 1.0 | 20/24 | 20/24 | 0.807128 |
+| KWS | nvm_energy_scale | 4.0 | 14/24 | 14/24 | 0.000000 |
+| KWS | bandwidth_scale | 0.25 | 18/24 | 18/24 | -0.000000 |
+| KWS | bandwidth_scale | 1.0 | 20/24 | 20/24 | 0.807128 |
+| KWS | bandwidth_scale | 4.0 | 20/24 | 20/24 | 0.000000 |
+| KWS | compute_energy_scale | 0.25 | 20/24 | 20/24 | 0.440279 |
+| KWS | compute_energy_scale | 1.0 | 20/24 | 20/24 | 0.807128 |
+| KWS | compute_energy_scale | 4.0 | 17/24 | 17/24 | 0.000000 |
+| KWS | active_leakage_w | 0.0 | 20/24 | 20/24 | 0.807128 |
+| KWS | active_leakage_w | 1e-06 | 20/24 | 20/24 | 0.000000 |
+| KWS | active_leakage_w | 1e-05 | 20/24 | 20/24 | 0.000000 |
+| KWS | admission_margin_fraction | 0.0 | 20/24 | 20/24 | 0.807128 |
+| KWS | admission_margin_fraction | 0.05 | 20/24 | 20/24 | 0.609299 |
+| KWS | admission_margin_fraction | 0.2 | 20/24 | 20/24 | 0.315027 |
+| KWS | retention_w | 0.0 | 20/24 | 20/24 | -0.000000 |
+| KWS | retention_w | 1e-06 | 20/24 | 20/24 | 0.807128 |
+| KWS | retention_w | 1e-05 | 20/24 | 20/24 | 0.943511 |
+| VWW | nvm_energy_scale | 0.25 | 10/24 | 10/24 | 0.252015 |
+| VWW | nvm_energy_scale | 1.0 | 4/24 | 4/24 | 0.001469 |
+| VWW | nvm_energy_scale | 4.0 | 0/24 | 0/24 | undefined |
+| VWW | bandwidth_scale | 0.25 | 3/24 | 2/24 | 33.506468 |
+| VWW | bandwidth_scale | 1.0 | 4/24 | 4/24 | 0.001469 |
+| VWW | bandwidth_scale | 4.0 | 4/24 | 4/24 | 0.023776 |
+| VWW | compute_energy_scale | 0.25 | 4/24 | 4/24 | -0.001953 |
+| VWW | compute_energy_scale | 1.0 | 4/24 | 4/24 | 0.001469 |
+| VWW | compute_energy_scale | 4.0 | 4/24 | 4/24 | 0.000000 |
+| VWW | active_leakage_w | 0.0 | 4/24 | 4/24 | 0.001469 |
+| VWW | active_leakage_w | 1e-06 | 4/24 | 4/24 | 0.005964 |
+| VWW | active_leakage_w | 1e-05 | 4/24 | 4/24 | 0.000000 |
+| VWW | admission_margin_fraction | 0.0 | 4/24 | 4/24 | 0.001469 |
+| VWW | admission_margin_fraction | 0.05 | 4/24 | 4/24 | 0.001469 |
+| VWW | admission_margin_fraction | 0.2 | 4/24 | 4/24 | 0.001470 |
+| VWW | retention_w | 0.0 | 4/24 | 4/24 | 0.000000 |
+| VWW | retention_w | 1e-06 | 4/24 | 4/24 | 0.001469 |
+| VWW | retention_w | 1e-05 | 4/24 | 4/24 | 0.000000 |
+
+Eight preselected traces/24 arrivals per cell. These are engineering stress ranges, not calibrated parameter confidence intervals. VWW bandwidth x0.25 has only 3 vs 2 commits.

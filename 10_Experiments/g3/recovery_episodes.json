@@ -1,0 +1,3339 @@
+{
+  "status": "PASS_EXPLORATORY_EPISODES",
+  "post_hoc_diagnostic": true,
+  "used_to_refit_mapper": false,
+  "scope": "one descriptor to committed output; intervention after same durable PW prefix; not full workload or stochastic/source evidence",
+  "mapping": "h1w2_co16_ci16_z0ps1",
+  "descriptor": {
+    "y": 1,
+    "x": 1,
+    "h": 1,
+    "w": 2,
+    "co_start": 0,
+    "co_count": 16,
+    "ci": 64,
+    "padding": "VALID",
+    "halo": 1
+  },
+  "model_calibrated": false,
+  "ready_for_paper_energy_results": false,
+  "cells": [
+    {
+      "dw_scale": 1.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 9.23808e-06,
+      "replay_energy_j": 8.66208e-06,
+      "save_relative_energy_reduction": -0.06649673057741334
+    },
+    {
+      "dw_scale": 1.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 1.3809680000000001e-05,
+      "replay_energy_j": 1.4755600000000002e-05,
+      "save_relative_energy_reduction": 0.06410583100653311
+    },
+    {
+      "dw_scale": 1.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 1.262808e-05,
+      "replay_energy_j": 1.147608e-05,
+      "save_relative_energy_reduction": -0.10038270907836133
+    },
+    {
+      "dw_scale": 1.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 1.719968e-05,
+      "replay_energy_j": 1.7569600000000002e-05,
+      "save_relative_energy_reduction": 0.021054548766050618
+    },
+    {
+      "dw_scale": 1.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 3.296808e-05,
+      "replay_energy_j": 2.8360080000000002e-05,
+      "save_relative_energy_reduction": -0.16248191119348032
+    },
+    {
+      "dw_scale": 1.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 3.753968e-05,
+      "replay_energy_j": 3.4453600000000005e-05,
+      "save_relative_energy_reduction": -0.08957206213574187
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 9.57216e-06,
+      "replay_energy_j": 8.996160000000001e-06,
+      "save_relative_energy_reduction": -0.0640273183224842
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 1.414376e-05,
+      "replay_energy_j": 1.542376e-05,
+      "save_relative_energy_reduction": 0.08298884318739397
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 1.2962160000000002e-05,
+      "replay_energy_j": 1.1810160000000001e-05,
+      "save_relative_energy_reduction": -0.0975431323538376
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 1.7533760000000002e-05,
+      "replay_energy_j": 1.823776e-05,
+      "save_relative_energy_reduction": 0.03860123173021246
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 3.3302160000000005e-05,
+      "replay_energy_j": 2.869416e-05,
+      "save_relative_energy_reduction": -0.16059016887059951
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 3.787376e-05,
+      "replay_energy_j": 3.5121760000000004e-05,
+      "save_relative_energy_reduction": -0.07835598216034723
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 1.268256e-05,
+      "replay_energy_j": 1.2106560000000001e-05,
+      "save_relative_energy_reduction": -0.04757751169613833
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 1.7254160000000002e-05,
+      "replay_energy_j": 2.164456e-05,
+      "save_relative_energy_reduction": 0.20284080618871425
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 1.607256e-05,
+      "replay_energy_j": 1.4920560000000001e-05,
+      "save_relative_energy_reduction": -0.0772088983255319
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 2.0644160000000002e-05,
+      "replay_energy_j": 2.445856e-05,
+      "save_relative_energy_reduction": 0.1559535802598353
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "save_energy_j": 3.641256e-05,
+      "replay_energy_j": 3.180456e-05,
+      "save_relative_energy_reduction": -0.14488488443166636
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "save_energy_j": 4.0984160000000004e-05,
+      "replay_energy_j": 4.1342560000000004e-05,
+      "save_relative_energy_reduction": 0.008669032590144399
+    }
+  ],
+  "rows": [
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 8.66208e-06,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.7970000000000018e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 9.23808e-06,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.9890000000000016e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.4755600000000002e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 2.304e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.7970000000000018e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.3809680000000001e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.9890000000000016e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.147608e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 3.5940000000000036e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.262808e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 3.978000000000003e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.7569600000000002e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 2.304e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 3.5940000000000036e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.719968e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 3.978000000000003e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 2.8360080000000002e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.4376000000000014e-05
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 3.296808e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.5912000000000013e-05
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 3.4453600000000005e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 2.304e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.4376000000000014e-05
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 1.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 3.753968e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 1.152e-08
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.5912000000000013e-05
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 8.996160000000001e-06,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.7970000000000018e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 9.57216e-06,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.9890000000000016e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.542376e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 6.912e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.7970000000000018e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.414376e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.9890000000000016e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.1810160000000001e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 3.5940000000000036e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.2962160000000002e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 3.978000000000003e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.823776e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 6.912e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 3.5940000000000036e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.7533760000000002e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 3.978000000000003e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 2.869416e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.4376000000000014e-05
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 3.3302160000000005e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.5912000000000013e-05
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 3.5121760000000004e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 6.912e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.4376000000000014e-05
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 30.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 3.787376e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-07
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.5912000000000013e-05
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.2106560000000001e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.7970000000000018e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.268256e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.9890000000000016e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 2.164456e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 6.912e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.7970000000000018e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 0.5,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 1.7254160000000002e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.9890000000000016e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.840000000000001e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 6.319999999999999e-07
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 1e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.4920560000000001e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 3.5940000000000036e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 1.607256e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 3.978000000000003e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 2.445856e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 6.912e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 3.5940000000000036e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 1.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 2.0644160000000002e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 3.978000000000003e-06
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 7.680000000000002e-07
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 1.2639999999999999e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 2e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 3.180456e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.4376000000000014e-05
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 0,
+      "committed_prefix_at_intervention": null,
+      "energy_j": 3.641256e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 69,
+          "units": 2127.0,
+          "replay_units": 0,
+          "energy_j": 2.6259999999999987e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 62,
+          "units": 3840.0,
+          "replay_units": 0,
+          "energy_j": 2.304000000000001e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.5912000000000013e-05
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": false,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 4.1342560000000004e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 142,
+          "units": 4382.0,
+          "replay_units": 0,
+          "energy_j": 5.379999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 48,
+          "units": 1536.0,
+          "replay_units": 0,
+          "energy_j": 1.536000000000001e-06
+        },
+        "LOAD_WEIGHT": {
+          "events": 124,
+          "units": 7680.0,
+          "replay_units": 0,
+          "energy_j": 4.607999999999993e-06
+        },
+        "COMPUTE_DW": {
+          "events": 2,
+          "units": 2304.0,
+          "replay_units": 1152.0,
+          "energy_j": 6.912e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 63,
+          "units": 1797.0,
+          "replay_units": 0,
+          "energy_j": 1.4376000000000014e-05
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 4,
+          "units": 128.0,
+          "replay_units": 0,
+          "energy_j": 1.28e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    },
+    {
+      "save_z": true,
+      "keep_ps": true,
+      "ci": 16,
+      "dw_scale": 300.0,
+      "write_scale": 4.0,
+      "controlled_cold_losses": 1,
+      "committed_prefix_at_intervention": 16,
+      "energy_j": 4.0984160000000004e-05,
+      "breakdown": {
+        "SELECT_DESCRIPTOR": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "BOOT_RECOVER": {
+          "events": 146,
+          "units": 4510.0,
+          "replay_units": 0,
+          "energy_j": 5.507999999999989e-06
+        },
+        "READ_INPUT": {
+          "events": 24,
+          "units": 768.0,
+          "replay_units": 0,
+          "energy_j": 7.679999999999999e-07
+        },
+        "LOAD_WEIGHT": {
+          "events": 97,
+          "units": 6016.0,
+          "replay_units": 0,
+          "energy_j": 3.6095999999999963e-06
+        },
+        "COMPUTE_DW": {
+          "events": 1,
+          "units": 1152.0,
+          "replay_units": 0,
+          "energy_j": 3.456e-06
+        },
+        "COMPUTE_PW": {
+          "events": 4,
+          "units": 2048.0,
+          "replay_units": 0,
+          "energy_j": 1.024e-08
+        },
+        "COMMIT_CHECKPOINT": {
+          "events": 69,
+          "units": 1989.0,
+          "replay_units": 0,
+          "energy_j": 1.5912000000000013e-05
+        },
+        "SAVE_DW": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "SAVE_PW_PS": {
+          "events": 12,
+          "units": 384.0,
+          "replay_units": 0,
+          "energy_j": 3.072000000000001e-06
+        },
+        "POWER_LOSS": {
+          "events": 1,
+          "units": 0.0,
+          "replay_units": 0,
+          "energy_j": 0.0
+        },
+        "RESTORE_PAYLOAD": {
+          "events": 8,
+          "units": 256.0,
+          "replay_units": 0,
+          "energy_j": 2.56e-07
+        },
+        "REQUANTIZE": {
+          "events": 1,
+          "units": 32.0,
+          "replay_units": 0,
+          "energy_j": 3.2e-10
+        },
+        "COMMIT_OUTPUT": {
+          "events": 22,
+          "units": 632.0,
+          "replay_units": 0,
+          "energy_j": 5.0559999999999995e-06
+        },
+        "COMMIT_FRONTIER": {
+          "events": 1,
+          "units": 1.0,
+          "replay_units": 0,
+          "energy_j": 8e-09
+        }
+      },
+      "mismatches": 0
+    }
+  ],
+  "mismatches": 0,
+  "evaluated_episodes": 36,
+  "boundary_probe_executions": 18
+}

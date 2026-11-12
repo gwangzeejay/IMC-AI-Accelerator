@@ -1,0 +1,203 @@
+{
+  "version": "G8_DATA_1",
+  "selection": "First 12 unused official IDs per class, excluding every G6 image; first 2/class development, next 10/class holdout",
+  "label_sha256": "3697ca57c48b23b21602ae9bdb32b1925407a1d41d79167cdfb365054cb9c33d",
+  "label_url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/evaluation/datasets/vww01/y_labels.csv",
+  "preprocessing": "research preprocessing: Pillow RGB full-image resize BILINEAR to 96x96; uint8 minus 128; not official MLPerf performance inputs",
+  "license_note": "COCO images retain source image rights; Apache MLCommons source license does not relicense photos",
+  "images": [
+    {
+      "id": "000000429281",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000429281.jpg",
+      "source_sha256": "c52b59812cdbebaef4755007cfbcaf59165c437ca09724113c352905d38b1e4e",
+      "feature_sha256": "86dbd36d3646827f6926cdc07cac8728562726f967ff86bc23ec20a5ce2940bb",
+      "split": "development"
+    },
+    {
+      "id": "000000215245",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000215245.jpg",
+      "source_sha256": "8f26d81db7cb960105b0dbfdd5e2846a4aace8d2fb352b0698f00afb3fe6ebb4",
+      "feature_sha256": "6797e038719d9cb5a02772a70b8afda6e3ac906fe0c7a9fc86a60bda8461808d",
+      "split": "development"
+    },
+    {
+      "id": "000000471991",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000471991.jpg",
+      "source_sha256": "51288ea643006b471c953a548554822e2c5e2f6745c9dd65726458dce634907f",
+      "feature_sha256": "ef7c72458c872a11ec62dd5699217697e6a6b4f484a853fcf99affab9ed170ae",
+      "split": "holdout"
+    },
+    {
+      "id": "000000063602",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000063602.jpg",
+      "source_sha256": "f5ec3b32e35d09164814b6a3950129e266e69ef36ac8dd3f0918b0991dccfab7",
+      "feature_sha256": "3dcb6a68bd15372b210b38d2cbf9041666d71f37ca854c49057bc6b4001cbf47",
+      "split": "holdout"
+    },
+    {
+      "id": "000000300659",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000300659.jpg",
+      "source_sha256": "021eaf98c76439e397785f9998b9ec15c73a6076fcee76ad29e5f38340a1a2d2",
+      "feature_sha256": "5e8f56038f05d7ca43ecfca229a4caaca448925ae16c26d814bc557584b3895b",
+      "split": "holdout"
+    },
+    {
+      "id": "000000287545",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000287545.jpg",
+      "source_sha256": "401a2acc9f34c0a7c34eb51b29285de817f2db3bc799e26aad942f11998c2e36",
+      "feature_sha256": "08e26727093bce888a84b4cee9bfdaf0fa531299f6b476d22cbdb8c33bb4815e",
+      "split": "holdout"
+    },
+    {
+      "id": "000000263594",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000263594.jpg",
+      "source_sha256": "9dff529c08db5dee9c6ef3bb4a381ef813e9032c98350e464ad68df0408fa441",
+      "feature_sha256": "117304587b8b98f94b29084e8bebfe3e46fe969b05e8bf16460a84dbdf7cff75",
+      "split": "holdout"
+    },
+    {
+      "id": "000000033114",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000033114.jpg",
+      "source_sha256": "6ad530e1d20b1b23d52b880192d8ef314cae28a93b9300561d419ea6a2bbdbfc",
+      "feature_sha256": "fff42116ddb4d76bd88833c48d3dca802e76abd444b1d24b7b22ed34a670c378",
+      "split": "holdout"
+    },
+    {
+      "id": "000000010977",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000010977.jpg",
+      "source_sha256": "fba520c270003f70a09bdbb9ab8ca856a4a6cde110c64f05879e96b755ca7af6",
+      "feature_sha256": "2ae9d0c5a8aaf9e53ff8cceb0cd7fa4283ccdced04ed315640fb4c597556823e",
+      "split": "holdout"
+    },
+    {
+      "id": "000000078266",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000078266.jpg",
+      "source_sha256": "01297ee066ac26e787c2f112d73e24085b9b9b94100e4bb6b13b5758c77ab2e5",
+      "feature_sha256": "506587a17c3c858b2d7df367eafeaed357ab27609f6e7b66e93d1fa46b278ad1",
+      "split": "holdout"
+    },
+    {
+      "id": "000000137576",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000137576.jpg",
+      "source_sha256": "2f8afa2ad21ae4779f7edfe45a79eab44b462342a15ed6c642610ce19288df69",
+      "feature_sha256": "98ab7e1f9e91a693d7408131094ba45b50fe0c202173d91f00b6093eedc39973",
+      "split": "holdout"
+    },
+    {
+      "id": "000000203317",
+      "label": 0,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000203317.jpg",
+      "source_sha256": "bb6175c1bdb5efc4a741165651a61a7a8ddfd21df73497b46a319d6da34b1c15",
+      "feature_sha256": "6f26e2296097be812657683678e3993fc7fea827083fb2a424f5c1d66ec7a94b",
+      "split": "holdout"
+    },
+    {
+      "id": "000000372819",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000372819.jpg",
+      "source_sha256": "ba959429e80e0291609b81caa25e1a31abb24a3de0df6c7f1f68dd1649349d47",
+      "feature_sha256": "b1773bc34b2f9e2a2cc2f2ac2bdbc371d4e6a7710c8e1abbb8dee7fd34adc42f",
+      "split": "development"
+    },
+    {
+      "id": "000000130599",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000130599.jpg",
+      "source_sha256": "669aa9b450c1d423c450da6a9e25cab88a9fcbc61b447028248fb748a0925e4d",
+      "feature_sha256": "6182b73c1c250da58c4bfaae4d773ad2beeaa4e10a671577751ddcd700789969",
+      "split": "development"
+    },
+    {
+      "id": "000000247917",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000247917.jpg",
+      "source_sha256": "3d19e31ae4de033abffb9586dffd9663e646f040d1ac5293bc4c7c467150c1c1",
+      "feature_sha256": "58f63b3d83492f4aae6636c8604c72389c9ca17e0427ab32b655792b56ab96e4",
+      "split": "holdout"
+    },
+    {
+      "id": "000000411817",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000411817.jpg",
+      "source_sha256": "586beec9cea94bff35cc953ae63f759cfe3a354073565ab8cb6e7467cc93584e",
+      "feature_sha256": "df1d95e80af3431c0b07d7de5fb6cbcd576736f336c158d36a09fb1f648b3c73",
+      "split": "holdout"
+    },
+    {
+      "id": "000000290163",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000290163.jpg",
+      "source_sha256": "0b45c8bdbbf95d6c99aa0a9eb845d1d86e46857b77be703a3dc68854d1c6bb4f",
+      "feature_sha256": "19ea7307d4f126e469bd1e1d3de848108cf4f15227fccb088e145971b1224fa5",
+      "split": "holdout"
+    },
+    {
+      "id": "000000201072",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000201072.jpg",
+      "source_sha256": "23bef955722c66bcf17440a52e54aad67b44ada4f5e20a7ee433eeeaad8fdcbe",
+      "feature_sha256": "fd7bed78c9e25f3a99959c446efc77b804cf9bc6a5a56887ef722f04ff920690",
+      "split": "holdout"
+    },
+    {
+      "id": "000000024021",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000024021.jpg",
+      "source_sha256": "5b65fe7a6d334fa5f7d0328c37470d7d68d6e711b960d37f61ff133be78c4450",
+      "feature_sha256": "edba7ba8bc1ec59e37c8a1d591220ac2765219ab2840440597a30219fd1349fc",
+      "split": "holdout"
+    },
+    {
+      "id": "000000143931",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000143931.jpg",
+      "source_sha256": "45cf81830e1b95dc25a9be1ebdf2798238b9bda4dc3e34e589442c5c9ad98aad",
+      "feature_sha256": "dbf519cf8631cb2f0f1c271417615377fa001f662522083db442a946164a8866",
+      "split": "holdout"
+    },
+    {
+      "id": "000000520264",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000520264.jpg",
+      "source_sha256": "3a1cf56ddde8013d7d02fd63329e5b435936db386fb9db51d5f37ee60c6d2bcb",
+      "feature_sha256": "e807346cea49470f83e282e464fd86b4e3a9d95ddc6635438c3fa38e4ef3fa27",
+      "split": "holdout"
+    },
+    {
+      "id": "000000321214",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000321214.jpg",
+      "source_sha256": "5b4d5e12a578b4407a3724c83a8950c5f00b36763bdefdc535363818d057ae9e",
+      "feature_sha256": "7845971a29c24b1846a5102519b711701775fa16339003ea71ee22f3ac0a8960",
+      "split": "holdout"
+    },
+    {
+      "id": "000000284991",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000284991.jpg",
+      "source_sha256": "916e3eab5929c2ec0ebc9971f98ce5fa5b5cc44af1036b5104e093f53f48c46a",
+      "feature_sha256": "b43c07c1d2bca55c03b07bc8d64fe623a468616a6f06e3af0304d206807e1e5a",
+      "split": "holdout"
+    },
+    {
+      "id": "000000357742",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2014/COCO_val2014_000000357742.jpg",
+      "source_sha256": "592f3b383bde4be94eb70469301905d2ffbaf5bab77e59a08ed6d11c3d25a7ce",
+      "feature_sha256": "32d65f2ed7db77c1ccd27f437f9cf575f9f7017538802558476e2c95a3460bc2",
+      "split": "holdout"
+    }
+  ],
+  "tensor_sha256": "f9358314ee119baf4da98e76dfe2a90f28ebc6eed1fa6b12928d83ec5cd73f49"
+}

@@ -1,0 +1,18 @@
+main kws nvm 0.25 done 246 s
+main kws nvm 1.0 done 356 s
+main kws nvm 4.0 done 555 s
+main kws nvm 16.0 done 711 s
+main vww nvm 0.25 done 2190 s
+main vww nvm 1.0 done 3635 s
+main vww nvm 4.0 done 4758 s
+main vww nvm 16.0 done 5005 s
+{
+  "verdict_primary": "NO_REGION",
+  "verdict_full_grid": "NO_REGION",
+  "labels": {
+    "win": 0,
+    "win_without_state_saving": 0,
+    "loss_to_some_control": 0,
+    "tie_or_inconclusive": 48
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS_PROJECT_INTEGRITY",
+  "legacy_hash_entries": 2769,
+  "fresh_execution": false,
+  "checker_sha256": "2bb7852911065dcda2ff0ed3db756a748d2e68d5f9cab8817a6e3fcd33e87e18",
+  "g8": {
+    "status": "PASS_G8_INDEPENDENT_AUDIT",
+    "run_id": "20261023-v2",
+    "hash_entries_checked": 144,
+    "main_rows": 280,
+    "secondary_rows": 120,
+    "aggregate_cells": 40,
+    "auditor_sha256": "94b7a8745514bc6864224b63f27693f6d6271541202c565889d5beea930e88ad",
+    "scope": "Read-only hashes, independent raw aggregation, full pairing, ledger/memory/censoring checks; not a fresh inference replay or physical calibration"
+  },
+  "rtl": {
+    "status": "PASS_G8_OUTPUT_LOG_RTL",
+    "reset_cut_cases": 284,
+    "invalid_commands": 2
+  }
+}

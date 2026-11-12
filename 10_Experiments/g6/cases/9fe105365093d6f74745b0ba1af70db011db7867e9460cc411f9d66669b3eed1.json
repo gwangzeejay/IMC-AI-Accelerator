@@ -1,0 +1,86 @@
+{
+  "workload": "kws",
+  "method": "B1_layer",
+  "variant": "full",
+  "backend": "cim",
+  "scenario_id": "g6_341300",
+  "family": "zero_cap1",
+  "seed": 341300,
+  "total_inputs": 3,
+  "energy_j": 0.00010000000000000022,
+  "completed": 0,
+  "failed": 0,
+  "incomplete": 3,
+  "completion_rate": 0.0,
+  "on_time_rate": 0.0,
+  "throughput_per_s": 0.0,
+  "energy_per_completed_j": null,
+  "p95_latency_s": null,
+  "p95_is_infinite": true,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 2.6
+    },
+    {
+      "arrival_s": 2.6,
+      "deadline_s": 5.2
+    },
+    {
+      "arrival_s": 5.2,
+      "deadline_s": 7.800000000000001
+    }
+  ],
+  "outputs": [],
+  "breakdown_j": {
+    "boot": 5e-07,
+    "boot_root": 5.13e-07,
+    "load_feature": 4.900000000000001e-07,
+    "scan_destination": 1.24e-07,
+    "boot_scratch": 1.6384999999999996e-05,
+    "boot_parser_assumed": 2.56e-09,
+    "runtime_decision_assumed": 1.6000000000000004e-08,
+    "weight_load": 4.505600000000002e-05,
+    "weight_bank_load": 9.011200000000001e-06,
+    "activation_load": 1.0000000000000004e-06,
+    "first_conv": 1.6000000000000001e-06,
+    "requant": 8e-08,
+    "layer_log": 1.9999999999999995e-05,
+    "layer_log_controller": 2.0993599999999995e-06,
+    "load_next_anchor": 3.072e-06,
+    "retention_wait": 5.088000000020995e-08
+  },
+  "units": {
+    "boot": 1.0,
+    "boot_root": 513.0,
+    "load_feature": 490.0,
+    "scan_destination": 124.0,
+    "boot_scratch": 16385.0,
+    "boot_parser_assumed": 256.0,
+    "runtime_decision_assumed": 16.0,
+    "weight_load": 45056.0,
+    "weight_bank_load": 45056.0,
+    "activation_load": 5000.0,
+    "first_conv": 320000.0,
+    "requant": 8000.0,
+    "layer_log": 10000.0,
+    "load_next_anchor": 3072.0
+  },
+  "losses": 1,
+  "admitted_units": 93,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 3.5507200000000003e-06,
+  "max_sram_algorithm_bytes": 6002,
+  "max_nvm_reserved_bytes": 215420,
+  "chosen": {
+    "p8_co64_ci1_z0ps0": 15,
+    "p5_co64_ci1_z0ps0": 1
+  },
+  "bank_hits": 0,
+  "bank_misses": 16,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": -5.421010862427522e-20,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}

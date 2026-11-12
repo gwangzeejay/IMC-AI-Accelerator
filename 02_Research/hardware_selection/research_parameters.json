@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-15",
+  "g1_status": "PARTIAL_NOT_PASSED",
+  "ready_for_energy_results": false,
+  "primary_cim_backend": {
+    "selected": false,
+    "name": null,
+    "required_semantics": "digital INT8 with exact reference arithmetic; INT32 accumulation per plan",
+    "compute_energy_j_per_mac": null,
+    "weight_update_bandwidth_bits_per_cycle": null,
+    "weight_load_energy_j_per_byte": null,
+    "weight_load_latency_model": null,
+    "unknown_fields_are_zero": false
+  },
+  "reference_candidates": {
+    "tdc_cim": {
+      "source_id": "S5",
+      "source_url": "https://arxiv.org/html/2601.00434v1",
+      "year": 2026,
+      "evidence_type": "reported_post_layout_simulation",
+      "backend_type": "mixed_signal_time_domain",
+      "approved_for_exact_backend": false,
+      "input_bits_reported": 8,
+      "weight_bits_reported": 8,
+      "exact_signed_mac_semantics_verified": false,
+      "accumulator_bits_verified": null,
+      "section_iii_a_geometry_bitcells": [
+        256,
+        256
+      ],
+      "section_iii_a_capacity_bytes": 8192,
+      "table_iii_geometry_bitcells": [
+        512,
+        256
+      ],
+      "table_iii_capacity_bytes": 16384,
+      "table_iii_efficiency_tops_per_w": 38.46,
+      "table_iii_throughput_gops": 320,
+      "table_iii_frequency_hz": 500000000,
+      "table_iii_voltage_v": 1.0,
+      "operations_per_mac_verified": null,
+      "weight_load_energy_j_per_byte": null,
+      "compute_cycles_per_mac": null,
+      "scope_warning": "Do not combine 8 KiB geometry with 16 KiB performance or treat peak efficiency as system calibration"
+    }
+  },
+  "nvm_candidate": {
+    "selected_for_final_system": false,
+    "manufacturer": "Infineon Technologies AG",
+    "part_number": "FM25V20A",
+    "source_id": "S10",
+    "source_manifest": "../source_materials/manifest.json",
+    "evidence_type": "reported_datasheet_parameters",
+    "capacity_bytes": 262144,
+    "spi_max_frequency_hz": 40000000,
+    "supply_range_v": [
+      2.0,
+      3.6
+    ],
+    "assumed_operating_voltage_v": 3.3,
+    "assumed_operating_spi_hz": 40000000,
+    "active_current_typ_a": 0.0024,
+    "active_current_max_a_at_same_clock": 0.003,
+    "current_test_condition": "Table 11; SO open; typical values at 25 C and VDD typ",
+    "standby_current_typ_a_at_25c": 0.0001,
+    "sleep_current_typ_a_at_25c": 3e-06,
+    "endurance_accesses_per_row_min": 100000000000000.0,
+    "read_command_and_address_bytes": 4,
+    "write_wren_command_and_address_bytes": 5,
+    "addressable_write_unit_bytes": 1,
+    "power_failure_atomic_write_unit_verified": null,
+    "cold_power_up_to_first_access_min_s": 0.001,
+    "sleep_recovery_max_s": 0.00045,
+    "spi_gap_time_s": null,
+    "spi_master_and_io_energy_j": null,
+    "power_converter_loss_model": null,
+    "complete_brownout_commit_protocol_validated": false,
+    "illustration_only": {
+      "energy_type": "derived_chip_only_current_times_time; not measured transaction or board energy",
+      "streaming_typ_j_per_byte": 1.5839999999999997e-09,
+      "streaming_upper_current_scenario_j_per_byte": 1.9799999999999998e-09,
+      "payload_bytes": 8192,
+      "read_duration_s_excluding_gaps": 0.0016392,
+      "write_duration_s_excluding_gaps": 0.0016394,
+      "read_energy_j_typ_excluding_extra_costs": 1.2982463999999996e-05,
+      "write_energy_j_typ_excluding_extra_costs": 1.2984047999999998e-05,
+      "standby_power_w_typ": 0.00033,
+      "sleep_power_w_typ": 9.9e-06
+    }
+  },
+  "benchmark": {
+    "family": "MLPerf Tiny KWS DS-CNN",
+    "repository_commit": "4addd0fa08d216e20637637874e084895f289da4",
+    "model_sha256": "aeea436800704fce17b17292e4412630ad856e9d777c044c64ef748a880bd0ae",
+    "weight_bytes": 22016,
+    "activation_peak_bytes": null,
+    "checkpoint_payload_bytes": null,
+    "macs_per_inference": 2656768,
+    "all_live_memory_fits_nvm": null,
+    "model_file_bytes": 53936,
+    "constant_tensor_bytes": 24376,
+    "reference_report": "../../10_Experiments/g2/reference/reference_report.json",
+    "accuracy_measured": false
+  },
+  "sensitivity": {
+    "status": "planned_not_executed",
+    "numeric_axes_finalized": false,
+    "axes_requiring_sources": [
+      "weight update energy and bandwidth",
+      "NVM transaction current and timing",
+      "voltage and SPI frequency",
+      "sleep/power gating",
+      "buffer and checkpoint capacity"
+    ]
+  },
+  "g2_status": "PARTIAL_CORE_VALIDATED"
+}

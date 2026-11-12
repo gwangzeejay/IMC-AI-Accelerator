@@ -1,0 +1,119 @@
+{
+  "schema": "g9_nvm_scale_range_v1",
+  "derived": "2026-11-11",
+  "vdd_v": 3.3,
+  "t_byte_s": 2e-07,
+  "g6_read_j": 1e-09,
+  "g6_write_j": 2e-09,
+  "devices": [
+    {
+      "name": "Infineon FM25V20A (FRAM)",
+      "tech": "FRAM",
+      "source": "fm25v20a_rev_j.pdf (local, sha256 63c9dfae...), Table 11, p.19",
+      "read_ma": {
+        "typ": 2.4,
+        "max": 3.0
+      },
+      "write_ma": {
+        "typ": 2.4,
+        "max": 3.0
+      },
+      "note": "no write delay; 40 MHz"
+    },
+    {
+      "name": "RAMXEED/Fujitsu MB85RS2MTA (FRAM)",
+      "tech": "FRAM",
+      "source": "MB85RS2MTA-DS6v1-E.pdf, DC table, PDF p.13 (IDD @40 MHz: 1.9 typ / 2.3 max)",
+      "read_ma": {
+        "typ": 1.9,
+        "max": 2.3
+      },
+      "write_ma": {
+        "typ": 1.9,
+        "max": 2.3
+      },
+      "note": "single operating-current row applied to read and write; VDD 3.3 V column; \"takes no wait time\""
+    },
+    {
+      "name": "Everspin MR25H10 (MRAM)",
+      "tech": "MRAM",
+      "source": "MR25H10 Rev. 9.5 (3/2018), Table 3.4, PDF p.12 (distributor copy, not the vendor site)",
+      "read_ma": {
+        "typ": 6.0,
+        "max": 10.0
+      },
+      "write_ma": {
+        "typ": 23.0,
+        "max": 27.0
+      },
+      "note": "\"No write delays\"; 40 MHz"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Winbond W25Q64PW (NOR flash, 1.8 V)",
+      "reason": "Needs erase before program and programs in <=256 B pages; not a byte-granular atomic-log medium. Reference numbers: program 8 mA typ x 1.8 V x 0.12 ms typ = 1.73 uJ per page (6.75 nJ/B if full; write ratio ~3.4x G6); 4 KB sector erase 30 ms typ x 8 mA x 1.8 V = 432 uJ (105 nJ/B amortised; ratio ~53x, beyond the grid). W25Q64PW Rev D, DC table PDF p.66, AC p.69."
+    }
+  ],
+  "rows": [
+    {
+      "device": "Infineon FM25V20A (FRAM)",
+      "condition": "typ",
+      "read_j_per_byte": 1.584e-09,
+      "write_j_per_byte": 1.584e-09,
+      "ratio_read": 1.5839999999999999,
+      "ratio_write": 0.7919999999999999
+    },
+    {
+      "device": "Infineon FM25V20A (FRAM)",
+      "condition": "max",
+      "read_j_per_byte": 1.9799999999999998e-09,
+      "write_j_per_byte": 1.9799999999999998e-09,
+      "ratio_read": 1.9799999999999998,
+      "ratio_write": 0.9899999999999999
+    },
+    {
+      "device": "RAMXEED/Fujitsu MB85RS2MTA (FRAM)",
+      "condition": "typ",
+      "read_j_per_byte": 1.2539999999999998e-09,
+      "write_j_per_byte": 1.2539999999999998e-09,
+      "ratio_read": 1.2539999999999998,
+      "ratio_write": 0.6269999999999999
+    },
+    {
+      "device": "RAMXEED/Fujitsu MB85RS2MTA (FRAM)",
+      "condition": "max",
+      "read_j_per_byte": 1.518e-09,
+      "write_j_per_byte": 1.518e-09,
+      "ratio_read": 1.5179999999999998,
+      "ratio_write": 0.7589999999999999
+    },
+    {
+      "device": "Everspin MR25H10 (MRAM)",
+      "condition": "typ",
+      "read_j_per_byte": 3.9599999999999996e-09,
+      "write_j_per_byte": 1.5179999999999998e-08,
+      "ratio_read": 3.9599999999999995,
+      "ratio_write": 7.589999999999998
+    },
+    {
+      "device": "Everspin MR25H10 (MRAM)",
+      "condition": "max",
+      "read_j_per_byte": 6.6e-09,
+      "write_j_per_byte": 1.782e-08,
+      "ratio_read": 6.6,
+      "ratio_write": 8.91
+    }
+  ],
+  "grounded_nvm_scale_range": [
+    0.627,
+    8.91
+  ],
+  "rule": "range = [min, max] over included devices, typ and max conditions, of device_energy/G6_coefficient for read and write separately; byte-addressable no-erase NVM only",
+  "limitations": [
+    "Chip-only lower bound; SPI master/IO, level shifting, controller, converter, startup are not included.",
+    "One scale multiplies read and write equally; G6 write/read = 2 while FRAM ~1 and MRAM ~3.8, so no single scale matches every device.",
+    "MR25H10 figures come from a distributor copy of Rev 9.5; MB85RS2MTA assumes the same IDD for read and write.",
+    "On-chip embedded NVM (far lower pJ/byte) and flash with erase (far higher) are outside this range and outside the verdict."
+  ]
+}

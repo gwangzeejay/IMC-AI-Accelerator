@@ -1,0 +1,2 @@
+PASS checkpoint testbench
+09_Simulation/g4/tb_checkpoint.sv:205: $finish called at 210581000 (1ps)

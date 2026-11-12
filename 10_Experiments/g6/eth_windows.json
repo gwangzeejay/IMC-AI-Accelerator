@@ -1,0 +1,128 @@
+{
+  "attribution": "Lukas Sigrist, Andres Gomez, Lothar Thiele; ETH Zurich; DATA 2019",
+  "record": "https://zenodo.org/records/3715472",
+  "license": "CC BY 4.0",
+  "scope": "measured panel input power with assumed 70% transfer to simulated capacitor rail; fixed-MPPT measurement, not a validated load-dependent harvester I-V model",
+  "windows": [
+    {
+      "window": 0,
+      "index_start": 0,
+      "skipped_invalid_blocks": 0,
+      "timestamp_start_ns": 1560885862379172000,
+      "native_dt_s": 1.00352,
+      "original_negative_power_samples": 0,
+      "samples": 120,
+      "columns": [
+        "I_bat",
+        "I_in",
+        "V_bat",
+        "V_in",
+        "dt"
+      ],
+      "measured_power_mean_w": 3.6931887347508473e-06,
+      "rail_transfer": "max(0,-I_in*V_in)*0.70; converter efficiency assumed; no amplitude normalization or time compression",
+      "day": "2019-06-18",
+      "source_sha256": "e781fdff077a340495a88c7351f423bea21ebf7d12359cd996377d1591d44b89"
+    },
+    {
+      "window": 1,
+      "index_start": 749057,
+      "skipped_invalid_blocks": 0,
+      "timestamp_start_ns": 1561637556059812000,
+      "native_dt_s": 1.00352,
+      "original_negative_power_samples": 0,
+      "samples": 120,
+      "columns": [
+        "I_bat",
+        "I_in",
+        "V_bat",
+        "V_in",
+        "dt"
+      ],
+      "measured_power_mean_w": 0.00014955527230008068,
+      "rail_transfer": "max(0,-I_in*V_in)*0.70; converter efficiency assumed; no amplitude normalization or time compression",
+      "day": "2019-06-27",
+      "source_sha256": "e781fdff077a340495a88c7351f423bea21ebf7d12359cd996377d1591d44b89"
+    },
+    {
+      "window": 2,
+      "index_start": 1498114,
+      "skipped_invalid_blocks": 0,
+      "timestamp_start_ns": 1562389249740452000,
+      "native_dt_s": 1.00352,
+      "original_negative_power_samples": 0,
+      "samples": 120,
+      "columns": [
+        "I_bat",
+        "I_in",
+        "V_bat",
+        "V_in",
+        "dt"
+      ],
+      "measured_power_mean_w": 6.125690084450237e-05,
+      "rail_transfer": "max(0,-I_in*V_in)*0.70; converter efficiency assumed; no amplitude normalization or time compression",
+      "day": "2019-07-06",
+      "source_sha256": "e781fdff077a340495a88c7351f423bea21ebf7d12359cd996377d1591d44b89"
+    },
+    {
+      "window": 3,
+      "index_start": 2247171,
+      "skipped_invalid_blocks": 0,
+      "timestamp_start_ns": 1563140943421092000,
+      "native_dt_s": 1.00352,
+      "original_negative_power_samples": 0,
+      "samples": 120,
+      "columns": [
+        "I_bat",
+        "I_in",
+        "V_bat",
+        "V_in",
+        "dt"
+      ],
+      "measured_power_mean_w": 6.82057643128915e-09,
+      "rail_transfer": "max(0,-I_in*V_in)*0.70; converter efficiency assumed; no amplitude normalization or time compression",
+      "day": "2019-07-14",
+      "source_sha256": "e781fdff077a340495a88c7351f423bea21ebf7d12359cd996377d1591d44b89"
+    },
+    {
+      "window": 4,
+      "index_start": 2996228,
+      "skipped_invalid_blocks": 0,
+      "timestamp_start_ns": 1563892637101732000,
+      "native_dt_s": 1.00352,
+      "original_negative_power_samples": 0,
+      "samples": 120,
+      "columns": [
+        "I_bat",
+        "I_in",
+        "V_bat",
+        "V_in",
+        "dt"
+      ],
+      "measured_power_mean_w": 6.976298538280538e-05,
+      "rail_transfer": "max(0,-I_in*V_in)*0.70; converter efficiency assumed; no amplitude normalization or time compression",
+      "day": "2019-07-23",
+      "source_sha256": "e781fdff077a340495a88c7351f423bea21ebf7d12359cd996377d1591d44b89"
+    },
+    {
+      "window": 5,
+      "index_start": 3745286,
+      "skipped_invalid_blocks": 0,
+      "timestamp_start_ns": 1564644331785892000,
+      "native_dt_s": 1.00352,
+      "original_negative_power_samples": 0,
+      "samples": 120,
+      "columns": [
+        "I_bat",
+        "I_in",
+        "V_bat",
+        "V_in",
+        "dt"
+      ],
+      "measured_power_mean_w": 0.00011351764274779729,
+      "rail_transfer": "max(0,-I_in*V_in)*0.70; converter efficiency assumed; no amplitude normalization or time compression",
+      "day": "2019-08-01",
+      "source_sha256": "e781fdff077a340495a88c7351f423bea21ebf7d12359cd996377d1591d44b89"
+    }
+  ]
+}

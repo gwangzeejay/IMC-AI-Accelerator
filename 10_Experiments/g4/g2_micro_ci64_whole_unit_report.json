@@ -1,0 +1,208 @@
+{
+  "cases": 13,
+  "transactions": 20434,
+  "restored_bytes": 64,
+  "cycle_checks": 10,
+  "mismatches": 0,
+  "results": [
+    {
+      "case_id": 0,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 1312,
+      "passed": true
+    },
+    {
+      "case_id": 1,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 3667,
+      "passed": true
+    },
+    {
+      "case_id": 2,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 1312,
+      "passed": true
+    },
+    {
+      "case_id": 3,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 3599,
+      "passed": true
+    },
+    {
+      "case_id": 4,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 1312,
+      "passed": true
+    },
+    {
+      "case_id": 5,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 3584,
+      "passed": true
+    },
+    {
+      "case_id": 6,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 1312,
+      "passed": true
+    },
+    {
+      "case_id": 7,
+      "reads": 1025,
+      "writes": 142,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 3664,
+      "passed": true
+    },
+    {
+      "case_id": 8,
+      "reads": 2050,
+      "writes": 142,
+      "restores": 16,
+      "losses": 1,
+      "cycles": 6848,
+      "passed": true
+    },
+    {
+      "case_id": 9,
+      "reads": 2050,
+      "writes": 282,
+      "restores": 0,
+      "losses": 1,
+      "cycles": 7243,
+      "passed": true
+    },
+    {
+      "case_id": 10,
+      "reads": 2050,
+      "writes": 141,
+      "restores": 16,
+      "losses": 1,
+      "cycles": 6896,
+      "passed": true
+    },
+    {
+      "case_id": 11,
+      "reads": 2050,
+      "writes": 141,
+      "restores": 16,
+      "losses": 1,
+      "cycles": 6957,
+      "passed": true
+    },
+    {
+      "case_id": 12,
+      "reads": 2050,
+      "writes": 142,
+      "restores": 16,
+      "losses": 1,
+      "cycles": 6844,
+      "passed": true
+    }
+  ],
+  "cycle_measurements": [
+    {
+      "case_id": 0,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 1,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 276,
+      "rtl_cycles": 555,
+      "reference_cycles": 555
+    },
+    {
+      "case_id": 2,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 3,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 267,
+      "rtl_cycles": 546,
+      "reference_cycles": 546
+    },
+    {
+      "case_id": 4,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 5,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 274,
+      "rtl_cycles": 553,
+      "reference_cycles": 553
+    },
+    {
+      "case_id": 6,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 7,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 272,
+      "rtl_cycles": 551,
+      "reference_cycles": 551
+    },
+    {
+      "case_id": 9,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 268,
+      "rtl_cycles": 547,
+      "reference_cycles": 547
+    },
+    {
+      "case_id": 12,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 280,
+      "rtl_cycles": 559,
+      "reference_cycles": 559
+    }
+  ]
+}

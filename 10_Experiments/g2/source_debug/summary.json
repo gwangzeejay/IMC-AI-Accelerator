@@ -1,0 +1,430 @@
+{
+  "status": "PASS_SOURCE_INVARIANTS",
+  "mode": "ASSUMED_DEBUG_ONLY",
+  "workload_completed_policies": 2,
+  "ready_for_paper_energy_results": false,
+  "results": [
+    {
+      "policy": "z0_ps0_ci16",
+      "completed": false,
+      "mismatches": null,
+      "power_losses": 7,
+      "unexpected_losses": 0,
+      "progress_v": 0,
+      "progress_d": 0,
+      "failure_reason": "horizon",
+      "nvm_reserved_bytes": 10320,
+      "sram_reserved_bytes": 6512,
+      "ledger": {
+        "total_energy_j": 8.463784e-05,
+        "calibrated": false,
+        "provenance": "ASSUMED_DEBUG_ONLY: arbitrary capacitor-rail coefficients for software tests; NOT macro/FRAM calibration, measurement or paper energy results; off-state load assumed zero",
+        "unknown_event_count": 0,
+        "breakdown": {
+          "WAIT_CHARGE": {
+            "events": 228,
+            "units": 0.22759344800001224,
+            "replay_units": 0,
+            "energy_j": 0.0
+          },
+          "BOOT_RECOVER": {
+            "events": 1799,
+            "units": 57351.0,
+            "replay_units": 0,
+            "energy_j": 6.084400000000185e-05
+          },
+          "READ_INPUT": {
+            "events": 224,
+            "units": 7168.0,
+            "replay_units": 0,
+            "energy_j": 7.1679999999999795e-06
+          },
+          "LOAD_WEIGHT": {
+            "events": 259,
+            "units": 15456.0,
+            "replay_units": 0,
+            "energy_j": 9.273600000000012e-06
+          },
+          "COMPUTE_DW": {
+            "events": 7,
+            "units": 16128.0,
+            "replay_units": 13824.0,
+            "energy_j": 1.6128e-07
+          },
+          "COMPUTE_PW": {
+            "events": 7,
+            "units": 1792.0,
+            "replay_units": 1536.0,
+            "energy_j": 8.96e-09
+          },
+          "COMMIT_CHECKPOINT": {
+            "events": 126,
+            "units": 3591.0,
+            "replay_units": 0,
+            "energy_j": 7.181999999999992e-06
+          },
+          "POWER_LOSS": {
+            "events": 7,
+            "units": 0.0,
+            "replay_units": 0,
+            "energy_j": 0.0
+          }
+        }
+      },
+      "source_time_s": 0.25,
+      "source_balance_error_j": 4.89669746807711e-18,
+      "events": 2422,
+      "horizon_s": 0.25,
+      "source_consumed_j": 8.46378399999371e-05,
+      "source_ledger_error_j": -6.289727853131533e-17,
+      "admission_bound_j": 1.4521120000000002e-05,
+      "metrics": {
+        "completed": 0,
+        "failed": 0,
+        "incomplete": 1,
+        "completion_rate": 0.0,
+        "on_time_rate": 0.0,
+        "throughput_per_s": 0.0,
+        "energy_per_completed_j": null,
+        "p95_latency_s": null,
+        "p95_is_infinite": true
+      }
+    },
+    {
+      "policy": "z0_ps1_ci16",
+      "completed": true,
+      "mismatches": 0,
+      "power_losses": 3,
+      "unexpected_losses": 0,
+      "progress_v": 64,
+      "progress_d": 64,
+      "failure_reason": null,
+      "nvm_reserved_bytes": 10320,
+      "sram_reserved_bytes": 6512,
+      "ledger": {
+        "total_energy_j": 4.9474640000000005e-05,
+        "calibrated": false,
+        "provenance": "ASSUMED_DEBUG_ONLY: arbitrary capacitor-rail coefficients for software tests; NOT macro/FRAM calibration, measurement or paper energy results; off-state load assumed zero",
+        "unknown_event_count": 0,
+        "breakdown": {
+          "WAIT_CHARGE": {
+            "events": 120,
+            "units": 0.12000000000000009,
+            "replay_units": 0,
+            "energy_j": 0.0
+          },
+          "BOOT_RECOVER": {
+            "events": 1028,
+            "units": 32772.0,
+            "replay_units": 0,
+            "energy_j": 3.476800000000001e-05
+          },
+          "READ_INPUT": {
+            "events": 128,
+            "units": 4096.0,
+            "replay_units": 0,
+            "energy_j": 4.095999999999993e-06
+          },
+          "LOAD_WEIGHT": {
+            "events": 148,
+            "units": 8832.0,
+            "replay_units": 0,
+            "energy_j": 5.299199999999991e-06
+          },
+          "COMPUTE_DW": {
+            "events": 4,
+            "units": 9216.0,
+            "replay_units": 6912.0,
+            "energy_j": 9.216e-08
+          },
+          "COMPUTE_PW": {
+            "events": 4,
+            "units": 1024.0,
+            "replay_units": 0,
+            "energy_j": 5.12e-09
+          },
+          "COMMIT_CHECKPOINT": {
+            "events": 60,
+            "units": 1725.0,
+            "replay_units": 0,
+            "energy_j": 3.4500000000000034e-06
+          },
+          "SAVE_PW_PS": {
+            "events": 6,
+            "units": 192.0,
+            "replay_units": 0,
+            "energy_j": 3.84e-07
+          },
+          "POWER_LOSS": {
+            "events": 3,
+            "units": 0.0,
+            "replay_units": 0,
+            "energy_j": 0.0
+          },
+          "RESTORE_PAYLOAD": {
+            "events": 6,
+            "units": 192.0,
+            "replay_units": 0,
+            "energy_j": 1.92e-07
+          },
+          "REQUANTIZE": {
+            "events": 1,
+            "units": 16.0,
+            "replay_units": 0,
+            "energy_j": 1.6e-10
+          },
+          "COMMIT_OUTPUT": {
+            "events": 21,
+            "units": 594.0,
+            "replay_units": 0,
+            "energy_j": 1.188e-06
+          },
+          "IDLE_OFF": {
+            "events": 1,
+            "units": 0.11706589600000197,
+            "replay_units": 0,
+            "energy_j": 0.0
+          }
+        }
+      },
+      "source_time_s": 0.13293410399999803,
+      "source_balance_error_j": 1.81603863891322e-18,
+      "events": 1406,
+      "horizon_s": 0.25,
+      "source_consumed_j": 4.947463999998966e-05,
+      "source_ledger_error_j": -1.0347354483658533e-17,
+      "admission_bound_j": 1.4521120000000002e-05,
+      "metrics": {
+        "completed": 1,
+        "failed": 0,
+        "incomplete": 0,
+        "completion_rate": 1.0,
+        "on_time_rate": 1.0,
+        "throughput_per_s": 4.0,
+        "energy_per_completed_j": 4.9474640000000005e-05,
+        "p95_latency_s": 0.13293410399999803,
+        "p95_is_infinite": false
+      }
+    },
+    {
+      "policy": "z1_ps0_ci16",
+      "completed": false,
+      "mismatches": null,
+      "power_losses": 7,
+      "unexpected_losses": 0,
+      "progress_v": 0,
+      "progress_d": 0,
+      "failure_reason": "horizon",
+      "nvm_reserved_bytes": 10320,
+      "sram_reserved_bytes": 6512,
+      "ledger": {
+        "total_energy_j": 7.83672e-05,
+        "calibrated": false,
+        "provenance": "ASSUMED_DEBUG_ONLY: arbitrary capacitor-rail coefficients for software tests; NOT macro/FRAM calibration, measurement or paper energy results; off-state load assumed zero",
+        "unknown_event_count": 0,
+        "breakdown": {
+          "WAIT_CHARGE": {
+            "events": 230,
+            "units": 0.229255008000011,
+            "replay_units": 0,
+            "energy_j": 0.0
+          },
+          "BOOT_RECOVER": {
+            "events": 1799,
+            "units": 57351.0,
+            "replay_units": 0,
+            "energy_j": 6.084400000000185e-05
+          },
+          "READ_INPUT": {
+            "events": 32,
+            "units": 1024.0,
+            "replay_units": 0,
+            "energy_j": 1.0239999999999999e-06
+          },
+          "LOAD_WEIGHT": {
+            "events": 97,
+            "units": 5472.0,
+            "replay_units": 0,
+            "energy_j": 3.2831999999999964e-06
+          },
+          "COMPUTE_DW": {
+            "events": 1,
+            "units": 2304.0,
+            "replay_units": 0,
+            "energy_j": 2.304e-08
+          },
+          "COMPUTE_PW": {
+            "events": 7,
+            "units": 1792.0,
+            "replay_units": 1536.0,
+            "energy_j": 8.96e-09
+          },
+          "COMMIT_CHECKPOINT": {
+            "events": 140,
+            "units": 4032.0,
+            "replay_units": 0,
+            "energy_j": 8.063999999999988e-06
+          },
+          "SAVE_DW": {
+            "events": 56,
+            "units": 1792.0,
+            "replay_units": 0,
+            "energy_j": 3.5840000000000033e-06
+          },
+          "POWER_LOSS": {
+            "events": 7,
+            "units": 0.0,
+            "replay_units": 0,
+            "energy_j": 0.0
+          },
+          "RESTORE_PAYLOAD": {
+            "events": 48,
+            "units": 1536.0,
+            "replay_units": 0,
+            "energy_j": 1.536000000000001e-06
+          }
+        }
+      },
+      "source_time_s": 0.25,
+      "source_balance_error_j": 3.347474207548995e-18,
+      "events": 2180,
+      "horizon_s": 0.25,
+      "source_consumed_j": 7.836719999994127e-05,
+      "source_ledger_error_j": -5.87366526944022e-17,
+      "admission_bound_j": 1.4521120000000002e-05,
+      "metrics": {
+        "completed": 0,
+        "failed": 0,
+        "incomplete": 1,
+        "completion_rate": 0.0,
+        "on_time_rate": 0.0,
+        "throughput_per_s": 0.0,
+        "energy_per_completed_j": null,
+        "p95_latency_s": null,
+        "p95_is_infinite": true
+      }
+    },
+    {
+      "policy": "z1_ps1_ci16",
+      "completed": true,
+      "mismatches": 0,
+      "power_losses": 3,
+      "unexpected_losses": 0,
+      "progress_v": 64,
+      "progress_d": 64,
+      "failure_reason": null,
+      "nvm_reserved_bytes": 10320,
+      "sram_reserved_bytes": 6512,
+      "ledger": {
+        "total_energy_j": 4.6032320000000004e-05,
+        "calibrated": false,
+        "provenance": "ASSUMED_DEBUG_ONLY: arbitrary capacitor-rail coefficients for software tests; NOT macro/FRAM calibration, measurement or paper energy results; off-state load assumed zero",
+        "unknown_event_count": 0,
+        "breakdown": {
+          "WAIT_CHARGE": {
+            "events": 119,
+            "units": 0.11900000000000009,
+            "replay_units": 0,
+            "energy_j": 0.0
+          },
+          "BOOT_RECOVER": {
+            "events": 1028,
+            "units": 32772.0,
+            "replay_units": 0,
+            "energy_j": 3.476800000000001e-05
+          },
+          "READ_INPUT": {
+            "events": 32,
+            "units": 1024.0,
+            "replay_units": 0,
+            "energy_j": 1.0239999999999999e-06
+          },
+          "LOAD_WEIGHT": {
+            "events": 67,
+            "units": 3840.0,
+            "replay_units": 0,
+            "energy_j": 2.3040000000000003e-06
+          },
+          "COMPUTE_DW": {
+            "events": 1,
+            "units": 2304.0,
+            "replay_units": 0,
+            "energy_j": 2.304e-08
+          },
+          "COMPUTE_PW": {
+            "events": 4,
+            "units": 1024.0,
+            "replay_units": 0,
+            "energy_j": 5.12e-09
+          },
+          "COMMIT_CHECKPOINT": {
+            "events": 66,
+            "units": 1920.0,
+            "replay_units": 0,
+            "energy_j": 3.840000000000004e-06
+          },
+          "SAVE_DW": {
+            "events": 24,
+            "units": 768.0,
+            "replay_units": 0,
+            "energy_j": 1.5359999999999998e-06
+          },
+          "SAVE_PW_PS": {
+            "events": 6,
+            "units": 192.0,
+            "replay_units": 0,
+            "energy_j": 3.84e-07
+          },
+          "POWER_LOSS": {
+            "events": 3,
+            "units": 0.0,
+            "replay_units": 0,
+            "energy_j": 0.0
+          },
+          "RESTORE_PAYLOAD": {
+            "events": 30,
+            "units": 960.0,
+            "replay_units": 0,
+            "energy_j": 9.599999999999997e-07
+          },
+          "REQUANTIZE": {
+            "events": 1,
+            "units": 16.0,
+            "replay_units": 0,
+            "energy_j": 1.6e-10
+          },
+          "COMMIT_OUTPUT": {
+            "events": 21,
+            "units": 594.0,
+            "replay_units": 0,
+            "energy_j": 1.188e-06
+          },
+          "IDLE_OFF": {
+            "events": 1,
+            "units": 0.1189273760000018,
+            "replay_units": 0,
+            "energy_j": 0.0
+          }
+        }
+      },
+      "source_time_s": 0.1310726239999982,
+      "source_balance_error_j": 1.0503208545953324e-18,
+      "events": 1280,
+      "horizon_s": 0.25,
+      "source_consumed_j": 4.603231999999073e-05,
+      "source_ledger_error_j": -9.276704838329097e-18,
+      "admission_bound_j": 1.4521120000000002e-05,
+      "metrics": {
+        "completed": 1,
+        "failed": 0,
+        "incomplete": 0,
+        "completion_rate": 1.0,
+        "on_time_rate": 1.0,
+        "throughput_per_s": 4.0,
+        "energy_per_completed_j": 4.6032320000000004e-05,
+        "p95_latency_s": 0.1310726239999982,
+        "p95_is_infinite": false
+      }
+    }
+  ]
+}

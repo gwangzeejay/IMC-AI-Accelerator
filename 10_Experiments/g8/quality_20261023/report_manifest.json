@@ -1,0 +1,16 @@
+{
+  "scope": "Derived report, not new experimental evidence",
+  "source_sha256": {
+    "10_Experiments/g8/20261023-v2/results.json": "edebb4217e045d988edb52e4807a952a7d45158f3bbe15fd6eed3fbc9282b38f",
+    "10_Experiments/g8/20261023-v2/main.jsonl": "c1add6e1b67d581afb0316621aa47550a18e232263454c0aab18147933dfaa95",
+    "10_Experiments/g8/20261023-v2/secondary.jsonl": "ba83ce65035a7597f06f74062fbf6c59cc318a4fac6e4487b6e559cad3e7323a",
+    "10_Experiments/g8/quality_20261023/integrity_audit.json": "ada98b43409516231eccc22c1bfcdcdbe44c971779e6a9a10d7f8c4c9049cab6",
+    "10_Experiments/summarize_g8.py": "273e44eac5979a0f5f975a40f2a1a7214c27bc189f46f845e696694ba552790e"
+  },
+  "output_sha256": {
+    "02_Research/G8_deliverables.md": "e49716de30dbb1abb75a376063e0ca00a40159f3e811431b2db29c2de5ca5b65",
+    "10_Experiments/g8/quality_20261023/software_readiness.json": "6378f0f4abfa3b9b8ca8684fb51ed3adbc55e679455cbbb214c59d77284b3649",
+    "10_Experiments/g8/quality_20261023/publication_ablation.json": "c3f7e1183e9655a346acb0f1b792195c038eae541c7388621ccfa5b39b7d81d8",
+    "10_Experiments/g8/quality_20261023/main_comparison.png": "030e80d9b05c1e6f2ad73f52b8546a54303ff1fcb0e110b769b9ccdd10f3bc00"
+  }
+}

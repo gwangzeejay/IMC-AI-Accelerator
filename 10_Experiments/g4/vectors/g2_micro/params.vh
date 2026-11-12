@@ -1,0 +1,14 @@
+localparam integer IH=4,IW=4,OH=2,OW=2,CI=64,CO=4,PIXELS=4;
+localparam integer ZB=256,PB=64,OB=16,SLOT=512;
+localparam [255:0] MODEL_ID=256'haed00b888a74ef644c047c779d6e85ad302641e49272b117ce4f70006843eaae;
+localparam [255:0] INPUT_ID=256'h5827273591f0b9bdb1a053969b43b468a95c7f9707a47c885051f96e4d5b45ac;
+localparam [255:0] DESCRIPTOR_ID=256'h0076a71089c8fadfdfb2d2d94c19b2532171761dd67c0189cf34296536b68701;
+localparam integer DW_INPUT_ZERO_POINT=-128;
+localparam integer DW_OUTPUT_ZERO_POINT=-128;
+localparam integer DW_ACTIVATION_MIN=-128;
+localparam integer DW_ACTIVATION_MAX=127;
+localparam integer PW_INPUT_ZERO_POINT=-128;
+localparam integer PW_OUTPUT_ZERO_POINT=-128;
+localparam integer PW_ACTIVATION_MIN=-128;
+localparam integer PW_ACTIVATION_MAX=127;
+localparam VECTOR_DIR="10_Experiments/g4/vectors/g2_micro/";

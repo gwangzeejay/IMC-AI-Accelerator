@@ -1,0 +1,20 @@
+{
+  "cases": 1,
+  "transactions": 1025,
+  "restored_bytes": 64,
+  "cycle_checks": 0,
+  "mismatches": 0,
+  "results": [
+    {
+      "case_id": 0,
+      "reads": 1025,
+      "writes": 0,
+      "restores": 64,
+      "losses": 0,
+      "cycles": 3358,
+      "passed": true,
+      "expected_error": true
+    }
+  ],
+  "cycle_measurements": []
+}

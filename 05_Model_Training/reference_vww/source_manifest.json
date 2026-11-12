@@ -1,0 +1,30 @@
+{
+  "commit": "4addd0fa08d216e20637637874e084895f289da4",
+  "files": {
+    "vww_96_int8.tflite": {
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/training/visual_wake_words/trained_models/vww_96_int8.tflite",
+      "bytes": 333288,
+      "sha256": "597a384c8c2c8a1276f04702f25013b7838f2f814f1ca7c174d295b73e3d6b7b"
+    },
+    "vww_inputs.cc": {
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/training/visual_wake_words/trained_models/vww/vww_inputs.cc",
+      "bytes": 150579,
+      "sha256": "06ee15db7d84b5bb2e4731d7d6bddf15b4e8adef680636449b5308b35cb22548"
+    },
+    "vww_model.py": {
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/training/visual_wake_words/vww_model.py",
+      "bytes": 9654,
+      "sha256": "4d2889b23701c723536279cb77ea1c9ef92a437d61c1ea331028e2b0a1e3c652"
+    },
+    "download_and_train_vww.sh": {
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/training/visual_wake_words/download_and_train_vww.sh",
+      "bytes": 361,
+      "sha256": "ecccf317cdd2432a0ca93859b2158e9edf36b6589b04e3495b4f0ff14068523f"
+    },
+    "LICENSE.md": {
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/LICENSE.md",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    }
+  }
+}

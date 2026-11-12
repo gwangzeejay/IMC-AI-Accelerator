@@ -1,0 +1,60 @@
+{
+  "workload": "vww",
+  "method": "B1_layer",
+  "variant": "full",
+  "backend": "cim",
+  "scenario_id": "eth_3_cap0",
+  "family": "eth_day_2019-07-14",
+  "seed": 360300,
+  "total_inputs": 3,
+  "energy_j": 2.500223097798769e-05,
+  "completed": 0,
+  "failed": 0,
+  "incomplete": 3,
+  "completion_rate": 0.0,
+  "on_time_rate": 0.0,
+  "throughput_per_s": 0.0,
+  "energy_per_completed_j": null,
+  "p95_latency_s": null,
+  "p95_is_infinite": true,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 40.0
+    },
+    {
+      "arrival_s": 40.0,
+      "deadline_s": 80.0
+    },
+    {
+      "arrival_s": 80.0,
+      "deadline_s": 120.0
+    }
+  ],
+  "outputs": [],
+  "breakdown_j": {
+    "boot": 5e-07,
+    "boot_root": 5.13e-07,
+    "load_feature": 2.3552000000000014e-05,
+    "retention_wait": 4.372309779876759e-07
+  },
+  "units": {
+    "boot": 1.0,
+    "boot_root": 513.0,
+    "load_feature": 23552.0
+  },
+  "losses": 1,
+  "admitted_units": 49,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 5.12e-07,
+  "max_sram_algorithm_bytes": 0,
+  "max_nvm_reserved_bytes": 1027050,
+  "chosen": {},
+  "bank_hits": 0,
+  "bank_misses": 0,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": 1.1117307432712692e-20,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}

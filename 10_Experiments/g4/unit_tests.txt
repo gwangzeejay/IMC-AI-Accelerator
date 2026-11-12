@@ -1,0 +1,15 @@
+test_crc_known_vector (test_g4.BinaryProtocolTests.test_crc_known_vector) ... ok
+test_crc_payload_and_metadata_corruption_rejected (test_g4.BinaryProtocolTests.test_crc_payload_and_metadata_corruption_rejected) ... ok
+test_fallback_and_latest_generation (test_g4.BinaryProtocolTests.test_fallback_and_latest_generation) ... ok
+test_full_identity_and_record_roundtrip (test_g4.BinaryProtocolTests.test_full_identity_and_record_roundtrip) ... ok
+test_json_to_binary_semantics_do_not_imply_equal_traffic (test_g4.BinaryProtocolTests.test_json_to_binary_semantics_do_not_imply_equal_traffic) ... ok
+test_malformed_flags_and_prefix_rejected_with_valid_crc (test_g4.BinaryProtocolTests.test_malformed_flags_and_prefix_rejected_with_valid_crc) ... ok
+test_output_publication_before_frontier (test_g4.BinaryProtocolTests.test_output_publication_before_frontier) ... ok
+test_save_false_keep_false_preserves_old_nonzero_prefix (test_g4.BinaryProtocolTests.test_save_false_keep_false_preserves_old_nonzero_prefix) ... ok
+test_unpublished_record_ignored (test_g4.BinaryProtocolTests.test_unpublished_record_ignored) ... ok
+test_wrong_identity_not_restored (test_g4.BinaryProtocolTests.test_wrong_identity_not_restored) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.033s
+
+OK

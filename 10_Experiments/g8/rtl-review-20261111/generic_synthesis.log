@@ -1,0 +1,245 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.70+16 (git sha1 3bb533450, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)
+
+-- Running command `read_verilog -sv 04_RTL/g8/recap_output_log_commit.sv; hierarchy -check -top recap_output_log_commit; proc; opt; check -assert; stat; write_json 10_Experiments/g8/rtl-review-20261111/publisher_generic.json' --
+
+1. Executing Verilog-2005 frontend: 04_RTL/g8/recap_output_log_commit.sv
+Parsing SystemVerilog input from `04_RTL/g8/recap_output_log_commit.sv' to AST representation.
+Generating RTLIL representation for module `\recap_output_log_commit'.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Analyzing design hierarchy..
+Top module:  \recap_output_log_commit
+
+2.2. Analyzing design hierarchy..
+Top module:  \recap_output_log_commit
+Removed 0 unused modules.
+
+3. Executing PROC pass (convert processes to netlists).
+
+3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 5 switch rules as full_case in process $proc$04_RTL/g8/recap_output_log_commit.sv:39$11 in module recap_output_log_commit.
+Marked 1 switch rules as full_case in process $proc$04_RTL/g8/recap_output_log_commit.sv:28$5 in module recap_output_log_commit.
+Removed a total of 0 dead cases.
+
+3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 2 redundant assignments.
+Promoted 4 assignments to connections.
+
+3.4. Executing PROC_INIT pass (extract init attributes).
+
+3.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst_n in `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+
+3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~10 debug messages>
+
+3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+     1/6: $0\error[0:0]
+     2/6: $0\done[0:0]
+     3/6: $0\cursor[16:0]
+     4/6: $0\length[15:0]
+     5/6: $0\base[31:0]
+     6/6: $0\state[2:0]
+Creating decoders for process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:28$5'.
+     1/3: $1\mem_wdata[7:0]
+     2/3: $1\mem_addr[31:0]
+     3/3: $1\source_addr[16:0]
+
+3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\recap_output_log_commit.\source_addr' from process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:28$5'.
+No latch inferred for signal `\recap_output_log_commit.\mem_valid' from process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:28$5'.
+No latch inferred for signal `\recap_output_log_commit.\mem_addr' from process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:28$5'.
+No latch inferred for signal `\recap_output_log_commit.\mem_wdata' from process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:28$5'.
+
+3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\recap_output_log_commit.\done' using process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+  created $adff cell `$procdff$130' with positive edge clock and positive level reset.
+Creating register for signal `\recap_output_log_commit.\error' using process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+  created $adff cell `$procdff$135' with positive edge clock and positive level reset.
+Creating register for signal `\recap_output_log_commit.\state' using process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+  created $adff cell `$procdff$140' with positive edge clock and positive level reset.
+Creating register for signal `\recap_output_log_commit.\base' using process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+  created $adff cell `$procdff$145' with positive edge clock and positive level reset.
+Creating register for signal `\recap_output_log_commit.\length' using process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+  created $adff cell `$procdff$150' with positive edge clock and positive level reset.
+Creating register for signal `\recap_output_log_commit.\cursor' using process `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+  created $adff cell `$procdff$155' with positive edge clock and positive level reset.
+
+3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 9 empty switches in `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+Removing empty process `recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:39$11'.
+Found and cleaned up 1 empty switch in `\recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:28$5'.
+Removing empty process `recap_output_log_commit.$proc$04_RTL/g8/recap_output_log_commit.sv:28$5'.
+Cleaned up 10 empty switches.
+
+3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_output_log_commit.
+<suppressed ~20 debug messages>
+
+4. Executing OPT pass (performing simple optimizations).
+
+4.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_output_log_commit.
+
+4.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_output_log_commit'.
+Computing hashes of 84 cells of `\recap_output_log_commit'.
+Finding duplicate cells in `\recap_output_log_commit'.
+Computing hashes of 58 cells of `\recap_output_log_commit'.
+Finding duplicate cells in `\recap_output_log_commit'.
+<suppressed ~78 debug messages>
+Removed a total of 26 cells.
+
+4.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \recap_output_log_commit..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~40 debug messages>
+
+4.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \recap_output_log_commit.
+    New ctrl vector for $pmux cell $procmux$112: { $procmux$113_CMP $auto$opt_reduce.cc:137:opt_pmux$157 }
+    New ctrl vector for $pmux cell $procmux$21: { $auto$opt_reduce.cc:137:opt_pmux$159 $procmux$110_CMP }
+  Optimizing cells in module \recap_output_log_commit.
+Performed a total of 2 changes.
+
+4.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_output_log_commit'.
+Computing hashes of 60 cells of `\recap_output_log_commit'.
+Finding duplicate cells in `\recap_output_log_commit'.
+Removed a total of 0 cells.
+
+4.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $procdff$145 ($adff) from module recap_output_log_commit (D = \cmd_base, Q = \base).
+Adding EN signal on $procdff$155 ($adff) from module recap_output_log_commit (D = $procmux$44_Y, Q = \cursor).
+Adding EN signal on $procdff$150 ($adff) from module recap_output_log_commit (D = \cmd_payload_length, Q = \length).
+Adding EN signal on $procdff$140 ($adff) from module recap_output_log_commit (D = $procmux$88_Y, Q = \state).
+
+4.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \recap_output_log_commit..
+Removed 8 unused cells and 81 unused wires.
+<suppressed ~9 debug messages>
+
+4.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_output_log_commit.
+<suppressed ~1 debug messages>
+
+4.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \recap_output_log_commit..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~32 debug messages>
+
+4.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \recap_output_log_commit.
+Performed a total of 0 changes.
+
+4.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_output_log_commit'.
+Computing hashes of 73 cells of `\recap_output_log_commit'.
+Finding duplicate cells in `\recap_output_log_commit'.
+Computing hashes of 67 cells of `\recap_output_log_commit'.
+Finding duplicate cells in `\recap_output_log_commit'.
+Computing hashes of 66 cells of `\recap_output_log_commit'.
+Finding duplicate cells in `\recap_output_log_commit'.
+<suppressed ~21 debug messages>
+Removed a total of 7 cells.
+
+4.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \recap_output_log_commit..
+Removed 0 unused cells and 7 unused wires.
+<suppressed ~1 debug messages>
+
+4.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_output_log_commit.
+
+4.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \recap_output_log_commit..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~32 debug messages>
+
+4.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \recap_output_log_commit.
+Performed a total of 0 changes.
+
+4.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_output_log_commit'.
+Computing hashes of 66 cells of `\recap_output_log_commit'.
+Finding duplicate cells in `\recap_output_log_commit'.
+Removed a total of 0 cells.
+
+4.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \recap_output_log_commit..
+
+4.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_output_log_commit.
+
+4.23. Finished fast OPT passes. (There is nothing left to do.)
+
+5. Executing CHECK pass (checking for obvious problems).
+Checking module recap_output_log_commit...
+Found and reported 0 problems.
+
+6. Printing statistics.
+
+=== recap_output_log_commit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       74 wires
+      673 wire bits
+       20 public wires
+      223 public wire bits
+       15 ports
+      122 port bits
+       66 cells
+        7   $add
+        2   $adff
+        4   $adffe
+        6   $eq
+        2   $logic_not
+        1   $logic_or
+       19   $mux
+        9   $ne
+        1   $not
+        6   $pmux
+        3   $reduce_and
+        2   $reduce_bool
+        2   $reduce_or
+        2   $sub
+
+7. Executing JSON backend.
+
+End of script. Logfile hash: 88ee445bae
+Yosys 0.70+16 (git sha1 3bb533450, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)
+Time spent: 4% 5x opt_expr (0 sec), 4% 4x opt_merge (0 sec), ...

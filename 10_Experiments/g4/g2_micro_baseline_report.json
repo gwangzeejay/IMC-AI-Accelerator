@@ -1,0 +1,390 @@
+{
+  "cases": 10,
+  "transactions": 19703,
+  "restored_bytes": 0,
+  "cycle_checks": 36,
+  "mismatches": 0,
+  "results": [
+    {
+      "case_id": 0,
+      "reads": 1025,
+      "writes": 517,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 2053,
+      "passed": true
+    },
+    {
+      "case_id": 1,
+      "reads": 1025,
+      "writes": 517,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 5149,
+      "passed": true
+    },
+    {
+      "case_id": 2,
+      "reads": 1025,
+      "writes": 709,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 2437,
+      "passed": true
+    },
+    {
+      "case_id": 3,
+      "reads": 1025,
+      "writes": 709,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 5950,
+      "passed": true
+    },
+    {
+      "case_id": 4,
+      "reads": 1025,
+      "writes": 1285,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 3589,
+      "passed": true
+    },
+    {
+      "case_id": 5,
+      "reads": 1025,
+      "writes": 1285,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 8194,
+      "passed": true
+    },
+    {
+      "case_id": 6,
+      "reads": 1025,
+      "writes": 1477,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 3973,
+      "passed": true
+    },
+    {
+      "case_id": 7,
+      "reads": 1025,
+      "writes": 1477,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 9068,
+      "passed": true
+    },
+    {
+      "case_id": 8,
+      "reads": 1025,
+      "writes": 1477,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 8911,
+      "passed": true
+    },
+    {
+      "case_id": 9,
+      "reads": 1025,
+      "writes": 0,
+      "restores": 0,
+      "losses": 0,
+      "cycles": 3082,
+      "passed": true,
+      "expected_error": true
+    }
+  ],
+  "cycle_measurements": [
+    {
+      "case_id": 0,
+      "payload_bytes": 0,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 246,
+      "reference_cycles": 246
+    },
+    {
+      "case_id": 0,
+      "payload_bytes": 0,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 246,
+      "reference_cycles": 246
+    },
+    {
+      "case_id": 0,
+      "payload_bytes": 0,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 246,
+      "reference_cycles": 246
+    },
+    {
+      "case_id": 0,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 1,
+      "payload_bytes": 0,
+      "final": 0,
+      "stall_cycles": 242,
+      "rtl_cycles": 488,
+      "reference_cycles": 488
+    },
+    {
+      "case_id": 1,
+      "payload_bytes": 0,
+      "final": 0,
+      "stall_cycles": 243,
+      "rtl_cycles": 489,
+      "reference_cycles": 489
+    },
+    {
+      "case_id": 1,
+      "payload_bytes": 0,
+      "final": 0,
+      "stall_cycles": 240,
+      "rtl_cycles": 486,
+      "reference_cycles": 486
+    },
+    {
+      "case_id": 1,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 273,
+      "rtl_cycles": 552,
+      "reference_cycles": 552
+    },
+    {
+      "case_id": 2,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 374,
+      "reference_cycles": 374
+    },
+    {
+      "case_id": 2,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 374,
+      "reference_cycles": 374
+    },
+    {
+      "case_id": 2,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 374,
+      "reference_cycles": 374
+    },
+    {
+      "case_id": 2,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 3,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 399,
+      "rtl_cycles": 773,
+      "reference_cycles": 773
+    },
+    {
+      "case_id": 3,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 401,
+      "rtl_cycles": 775,
+      "reference_cycles": 775
+    },
+    {
+      "case_id": 3,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 388,
+      "rtl_cycles": 762,
+      "reference_cycles": 762
+    },
+    {
+      "case_id": 3,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 276,
+      "rtl_cycles": 555,
+      "reference_cycles": 555
+    },
+    {
+      "case_id": 4,
+      "payload_bytes": 256,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 758,
+      "reference_cycles": 758
+    },
+    {
+      "case_id": 4,
+      "payload_bytes": 256,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 758,
+      "reference_cycles": 758
+    },
+    {
+      "case_id": 4,
+      "payload_bytes": 256,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 758,
+      "reference_cycles": 758
+    },
+    {
+      "case_id": 4,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 5,
+      "payload_bytes": 256,
+      "final": 0,
+      "stall_cycles": 760,
+      "rtl_cycles": 1518,
+      "reference_cycles": 1518
+    },
+    {
+      "case_id": 5,
+      "payload_bytes": 256,
+      "final": 0,
+      "stall_cycles": 772,
+      "rtl_cycles": 1530,
+      "reference_cycles": 1530
+    },
+    {
+      "case_id": 5,
+      "payload_bytes": 256,
+      "final": 0,
+      "stall_cycles": 763,
+      "rtl_cycles": 1521,
+      "reference_cycles": 1521
+    },
+    {
+      "case_id": 5,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 289,
+      "rtl_cycles": 568,
+      "reference_cycles": 568
+    },
+    {
+      "case_id": 6,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 886,
+      "reference_cycles": 886
+    },
+    {
+      "case_id": 6,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 886,
+      "reference_cycles": 886
+    },
+    {
+      "case_id": 6,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 0,
+      "rtl_cycles": 886,
+      "reference_cycles": 886
+    },
+    {
+      "case_id": 6,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 0,
+      "rtl_cycles": 279,
+      "reference_cycles": 279
+    },
+    {
+      "case_id": 7,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 886,
+      "rtl_cycles": 1772,
+      "reference_cycles": 1772
+    },
+    {
+      "case_id": 7,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 916,
+      "rtl_cycles": 1802,
+      "reference_cycles": 1802
+    },
+    {
+      "case_id": 7,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 895,
+      "rtl_cycles": 1781,
+      "reference_cycles": 1781
+    },
+    {
+      "case_id": 7,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 278,
+      "rtl_cycles": 557,
+      "reference_cycles": 557
+    },
+    {
+      "case_id": 8,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 854,
+      "rtl_cycles": 1740,
+      "reference_cycles": 1740
+    },
+    {
+      "case_id": 8,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 880,
+      "rtl_cycles": 1766,
+      "reference_cycles": 1766
+    },
+    {
+      "case_id": 8,
+      "payload_bytes": 320,
+      "final": 0,
+      "stall_cycles": 881,
+      "rtl_cycles": 1767,
+      "reference_cycles": 1767
+    },
+    {
+      "case_id": 8,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 288,
+      "rtl_cycles": 567,
+      "reference_cycles": 567
+    }
+  ]
+}

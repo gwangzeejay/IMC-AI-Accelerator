@@ -1,0 +1,26 @@
+{
+  "frozen_at_utc": "2026-10-15T09:09:39.207669+00:00",
+  "mapper_reserve": 0.3,
+  "mapper_feasible_train_validation": true,
+  "baseline_reserve": 0.3,
+  "baseline_feasible_train_validation": true,
+  "protocol_sha256": "b2d9b46c2dcf112ad8aa73befdb07bcd31667695d805be48fddb6ae502728246",
+  "source_sha256": {
+    "09_Simulation/g5_experiments.py": "c0245b8ba2e3f9e2b134522136f16ad3b911ecd1a3ff908265d070f6ea867b3b",
+    "09_Simulation/g5_faults.py": "bb2b1f6f3c2715ec18612e6460b0c2a8b5d1e4eccb1e5351485601ef071a6cec",
+    "09_Simulation/g5_model.py": "28e28bc689401f0a9615a548df679a886a7487af3e7e18675db42f9bb6d3d2be",
+    "09_Simulation/g5_plot.py": "7ac800f247fa210f01234cc66859198ab1e733497f7b9181bf39629aacdffa75",
+    "09_Simulation/g5_runtime.py": "554022e7bf017bcf7e1b8ee494241a87b0c82a62cc51ae11560c09184907c6bb",
+    "09_Simulation/g5_storage.py": "8fdee5fdd5915cc38e4b505bbafa1d8f0f975b9a3181e0ff78172f972ea57a45",
+    "09_Simulation/configs/g5_protocol.json": "b2d9b46c2dcf112ad8aa73befdb07bcd31667695d805be48fddb6ae502728246",
+    "10_Experiments/run_g5.py": "8793dd1f6ed7d15aa29af534ec7bd9d3d739d96ee7b7c023c8bc83263a4ae5d7",
+    "09_Simulation/recap/integer.py": "6d7c8fb4a3e48f90ac2827af3e69431344321f0d7c5c2216fb240f2b11b8da62",
+    "09_Simulation/recap/power.py": "9233d52c1f0af1abd1b0c650f73ec3774e0624d8690c0a49aed6a664c47a6280",
+    "09_Simulation/g4_reference.py": "583e3d125432f56a197f0f5489542aed23eb817c06a1d1ef44fecc43c1008928"
+  },
+  "model_sha256": "aeea436800704fce17b17292e4412630ad856e9d777c044c64ef748a880bd0ae",
+  "softmax_subgraph_sha256": "ec87c2bdfadfb053af9643f0d30ff464506bc1bcbe1d2538595471c7f1f26ea9",
+  "data_manifest_sha256": "96814e9887a8dccfb82f51b460af47b5df8cff9226c06b2a7514c38e2f83a71f",
+  "scenarios_sha256": "9387cc32cd5d89447398966fa0129712336c027a6556196cad73c3294b496a42",
+  "input_splits_sha256": "b0e04bb8fdf8a6423ec74310d64c1ba9ec2e90fe49f0f01961c5651cc10998da"
+}

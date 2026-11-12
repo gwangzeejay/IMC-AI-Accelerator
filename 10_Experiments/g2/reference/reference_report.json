@@ -1,0 +1,213 @@
+{
+  "status": "PASS_REFERENCE_SCOPE",
+  "repository_commit": "4addd0fa08d216e20637637874e084895f289da4",
+  "model_sha256": "aeea436800704fce17b17292e4412630ad856e9d777c044c64ef748a880bd0ae",
+  "model_file_bytes": 53936,
+  "input_shape": [
+    1,
+    49,
+    10,
+    1
+  ],
+  "weight_bytes": 22016,
+  "constant_tensor_bytes": 24376,
+  "macs": 2656768,
+  "operator_inventory": [
+    {
+      "op": 0,
+      "kind": "CONV_2D",
+      "macs": 320000
+    },
+    {
+      "op": 1,
+      "kind": "DEPTHWISE_CONV_2D",
+      "macs": 72000
+    },
+    {
+      "op": 2,
+      "kind": "CONV_2D",
+      "macs": 512000
+    },
+    {
+      "op": 3,
+      "kind": "DEPTHWISE_CONV_2D",
+      "macs": 72000
+    },
+    {
+      "op": 4,
+      "kind": "CONV_2D",
+      "macs": 512000
+    },
+    {
+      "op": 5,
+      "kind": "DEPTHWISE_CONV_2D",
+      "macs": 72000
+    },
+    {
+      "op": 6,
+      "kind": "CONV_2D",
+      "macs": 512000
+    },
+    {
+      "op": 7,
+      "kind": "DEPTHWISE_CONV_2D",
+      "macs": 72000
+    },
+    {
+      "op": 8,
+      "kind": "CONV_2D",
+      "macs": 512000
+    },
+    {
+      "op": 11,
+      "kind": "FULLY_CONNECTED",
+      "macs": 768
+    }
+  ],
+  "verified_pairs": 4,
+  "fixtures": 4,
+  "checks": [
+    {
+      "fixture": "official_sample",
+      "pair": 0,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "official_sample",
+      "pair": 1,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "official_sample",
+      "pair": 2,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "official_sample",
+      "pair": 3,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_min",
+      "pair": 0,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_min",
+      "pair": 1,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_min",
+      "pair": 2,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_min",
+      "pair": 3,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_max",
+      "pair": 0,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_max",
+      "pair": 1,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_max",
+      "pair": 2,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_max",
+      "pair": 3,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_seed20261015",
+      "pair": 0,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_seed20261015",
+      "pair": 1,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_seed20261015",
+      "pair": 2,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    },
+    {
+      "fixture": "unit_seed20261015",
+      "pair": 3,
+      "dw_mismatches": 0,
+      "pw_mismatches": 0,
+      "dw_elements": 8000,
+      "pw_elements": 8000
+    }
+  ],
+  "accuracy": null,
+  "accuracy_reason": "One unlabeled official sample plus three arithmetic stress fixtures; not a test dataset",
+  "activation_peak_bytes": null,
+  "activation_peak_reason": "TFLite arena/scratch and full intermittent liveness not characterized",
+  "tensorflow": "2.21.0",
+  "numpy": "2.2.4",
+  "reference_resolver": "BUILTIN_REF",
+  "microtile_identity": {
+    "model_hash": "aeea436800704fce17b17292e4412630ad856e9d777c044c64ef748a880bd0ae",
+    "input_id": "ac455b4d6ef95150887ca407977f5ca968b4439b9653a0b1bdb9f09135272758",
+    "descriptor_id": "pair0_y1:3_x1:3_ci0:64_co0:4_VALID_halo1_v1",
+    "arithmetic_id": "int8_int32_gemmlowp_double_v1",
+    "layout_id": "NHWC_KH_KW_C_CI_CO_v1"
+  }
+}

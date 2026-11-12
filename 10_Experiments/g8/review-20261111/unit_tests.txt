@@ -1,0 +1,19 @@
+test_checkpoint_crossover (test_g8.RenewalTests.test_checkpoint_crossover) ... ok
+test_external_disconnect_conserves_energy (test_g8.RenewalTests.test_external_disconnect_conserves_energy) ... ok
+test_invalid_probabilities_and_dimensions (test_g8.RenewalTests.test_invalid_probabilities_and_dimensions) ... ok
+test_matches_independent_linear_system (test_g8.RenewalTests.test_matches_independent_linear_system) ... ok
+test_zero_hazard_no_replay_credit (test_g8.RenewalTests.test_zero_hazard_no_replay_credit) ... ok
+test_all_policies_share_publication (test_g8.RuntimeTests.test_all_policies_share_publication) ... ok
+test_committed_log_survives_torn_suffix (test_g8.RuntimeTests.test_committed_log_survives_torn_suffix) ... ok
+test_direct_log_every_byte_cut (test_g8.RuntimeTests.test_direct_log_every_byte_cut) ... ok
+test_expected_cost_not_added_to_execution_ledger (test_g8.RuntimeTests.test_expected_cost_not_added_to_execution_ledger) ... ok
+test_external_reset_tears_action_without_admission_error (test_g8.RuntimeTests.test_external_reset_tears_action_without_admission_error) ... ok
+test_full_network_direct_and_torn_log (test_g8.RuntimeTests.test_full_network_direct_and_torn_log) ... ok
+test_no_future_trace_or_schedule_in_decision (test_g8.RuntimeTests.test_no_future_trace_or_schedule_in_decision) ... ok
+test_real_planner_changes_state_with_hazard (test_g8.RuntimeTests.test_real_planner_changes_state_with_hazard) ... ok
+test_vww_layer_mapping_all_stage_geometries (test_g8.RuntimeTests.test_vww_layer_mapping_all_stage_geometries) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 11.322s
+
+OK

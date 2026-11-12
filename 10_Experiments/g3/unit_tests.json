@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "suites": [
+    {
+      "suite": "tests",
+      "tests": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "tests_g3",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "total": 39
+}

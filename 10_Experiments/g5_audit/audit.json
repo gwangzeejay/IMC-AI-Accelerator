@@ -1,0 +1,144 @@
+{
+  "status": "PASS_G5_POST_RUN_AUDIT",
+  "provenance": {
+    "g2": {
+      "files": 43,
+      "manifest_sha256": "7c82657260017bec8242e74b59d0637ec662ff918cc72d120c314ba31e56be72"
+    },
+    "g3": {
+      "files": 204,
+      "manifest_sha256": "5ed1d222bb0e965fa68aefcb786c1ac826f4c19c75d9dd3e79e68bd6de83c1d1"
+    },
+    "g4": {
+      "files": 184,
+      "manifest_sha256": "dd0c38936e61faf628e708eb7f46ba9f36c03a0fdec0c96c3c01ebc54d8acd2e"
+    },
+    "g5": {
+      "files": 1028,
+      "manifest_sha256": "085bfcb38b38df885b7393e8e115ffd490dda13ff183554cdd4f03cdf3536c62"
+    }
+  },
+  "independent_power_seeds": 20,
+  "input_split_counts": {
+    "train": 100,
+    "validation": 101,
+    "test": 799
+  },
+  "input_unique_hashes": {
+    "train": 100,
+    "validation": 100,
+    "test": 794
+  },
+  "identical_feature_cross_split": 0,
+  "total_evaluations": 108,
+  "completed_runtime_outputs_checked": 207,
+  "enumerated_ack_boundary_cases": 2346,
+  "recap_adaptive_identical_test_traces": 12,
+  "methods": {
+    "B1_layer": {
+      "chosen": {
+        "p8_co64_ci64_z0ps0": 2366,
+        "p5_co64_ci64_z0ps0": 155,
+        "p1_co12_ci64_z0ps0": 28
+      },
+      "completed": 28,
+      "losses": 3,
+      "selected_save_z_jobs": 0,
+      "selected_keep_ps_jobs": 0
+    },
+    "B2_fixed": {
+      "chosen": {
+        "p1_co16_ci64_z0ps0": 18873,
+        "p1_co12_ci64_z0ps0": 2
+      },
+      "completed": 2,
+      "losses": 14,
+      "selected_save_z_jobs": 0,
+      "selected_keep_ps_jobs": 0
+    },
+    "B3_adaptive": {
+      "chosen": {
+        "p8_co64_ci64_z0ps0": 2106,
+        "p1_co16_ci64_z0ps0": 172,
+        "p4_co64_ci64_z0ps0": 19,
+        "p5_co64_ci64_z0ps0": 99,
+        "p1_co12_ci64_z0ps0": 26,
+        "p1_co64_ci64_z0ps0": 8,
+        "p6_co64_ci64_z0ps0": 5,
+        "p4_co64_ci16_z0ps0": 71,
+        "p8_co64_ci16_z0ps0": 50,
+        "p1_co64_ci16_z0ps0": 77,
+        "p3_co64_ci64_z0ps0": 5,
+        "p7_co64_ci64_z0ps0": 3,
+        "p1_co16_ci16_z0ps0": 16,
+        "p5_co64_ci16_z0ps0": 1,
+        "p2_co64_ci64_z0ps0": 4,
+        "p3_co64_ci16_z0ps0": 1
+      },
+      "completed": 26,
+      "losses": 4,
+      "selected_save_z_jobs": 0,
+      "selected_keep_ps_jobs": 0
+    },
+    "RECAP": {
+      "chosen": {
+        "p8_co64_ci64_z0ps0": 2106,
+        "p1_co16_ci64_z0ps0": 172,
+        "p4_co64_ci64_z0ps0": 19,
+        "p5_co64_ci64_z0ps0": 99,
+        "p1_co12_ci64_z0ps0": 26,
+        "p1_co64_ci64_z0ps0": 8,
+        "p6_co64_ci64_z0ps0": 5,
+        "p4_co64_ci16_z0ps0": 71,
+        "p8_co64_ci16_z0ps0": 50,
+        "p1_co64_ci16_z0ps0": 77,
+        "p3_co64_ci64_z0ps0": 5,
+        "p7_co64_ci64_z0ps0": 3,
+        "p1_co16_ci16_z0ps0": 16,
+        "p5_co64_ci16_z0ps0": 1,
+        "p2_co64_ci64_z0ps0": 4,
+        "p3_co64_ci16_z0ps0": 1
+      },
+      "completed": 26,
+      "losses": 4,
+      "selected_save_z_jobs": 0,
+      "selected_keep_ps_jobs": 0
+    },
+    "RECAP_no_control": {
+      "chosen": {
+        "p8_co64_ci64_z0ps0": 2142,
+        "p1_co16_ci64_z0ps0": 190,
+        "p4_co64_ci64_z0ps0": 13,
+        "p5_co64_ci64_z0ps0": 93,
+        "p1_co12_ci64_z0ps0": 27,
+        "p1_co64_ci64_z0ps0": 14,
+        "p1_co64_ci16_z0ps0": 73,
+        "p8_co64_ci16_z0ps0": 51,
+        "p7_co64_ci64_z0ps0": 5,
+        "p4_co64_ci16_z0ps0": 64,
+        "p3_co64_ci16_z0ps0": 1,
+        "p1_co16_ci16_z0ps0": 18,
+        "p6_co64_ci64_z0ps0": 5,
+        "p2_co64_ci64_z0ps0": 3,
+        "p5_co64_ci16_z0ps0": 2,
+        "p3_co64_ci64_z0ps0": 3
+      },
+      "completed": 27,
+      "losses": 2,
+      "selected_save_z_jobs": 0,
+      "selected_keep_ps_jobs": 0
+    }
+  },
+  "host_profile": {
+    "scope": "host Python candidate enumeration only; not embedded CPU timing/energy or TFLite arena",
+    "measured_at_utc": "2026-10-15T09:16:21.471616+00:00",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+    "samples": 100,
+    "warmup": 10,
+    "median_us": 280.20000000000005,
+    "p95_us": 553.8
+  },
+  "frozen_policy_sha256": "2aba157ed0bb7d38d6ac592838097eff9862330fbfea5c64f777127febc0c901",
+  "analysis_scope": "post-run integrity/summary/profile only; no policy refitting, no new held-out inference claim"
+}

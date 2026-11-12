@@ -1,0 +1,134 @@
+[
+  {
+    "workload": "kws",
+    "variant": "full",
+    "completed": 1,
+    "energy_j": 0.0009038981599999996
+  },
+  {
+    "workload": "kws",
+    "variant": "ignore_reload_decision",
+    "completed": 1,
+    "energy_j": 0.0009038981599999996
+  },
+  {
+    "workload": "kws",
+    "variant": "always_save_dw",
+    "completed": 1,
+    "energy_j": 0.0009922955999999996
+  },
+  {
+    "workload": "kws",
+    "variant": "always_replay_dw",
+    "completed": 1,
+    "energy_j": 0.0009038981599999996
+  },
+  {
+    "workload": "kws",
+    "variant": "fixed_mapping_recovery",
+    "completed": 1,
+    "energy_j": 0.007562740159999994
+  },
+  {
+    "workload": "kws",
+    "variant": "adaptive_mapping_fixed_recovery",
+    "completed": 1,
+    "energy_j": 0.0009038981599999996
+  },
+  {
+    "workload": "kws",
+    "variant": "continuous_fusion",
+    "completed": 1,
+    "energy_j": 0.0009038981599999996
+  },
+  {
+    "workload": "kws",
+    "variant": "unfused",
+    "completed": 1,
+    "energy_j": 0.0010624678000000002
+  },
+  {
+    "workload": "kws",
+    "variant": "all_live",
+    "completed": 1,
+    "energy_j": 0.0030207513700000023
+  },
+  {
+    "workload": "kws",
+    "variant": "no_weight_reuse",
+    "completed": 1,
+    "energy_j": 0.0009038981599999996
+  },
+  {
+    "workload": "kws",
+    "variant": "no_control",
+    "completed": 1,
+    "energy_j": 0.0008825284
+  },
+  {
+    "workload": "vww",
+    "variant": "full",
+    "completed": 1,
+    "energy_j": 0.008889351249999816
+  },
+  {
+    "workload": "vww",
+    "variant": "ignore_reload_decision",
+    "completed": 1,
+    "energy_j": 0.008889351250000033
+  },
+  {
+    "workload": "vww",
+    "variant": "always_save_dw",
+    "completed": 1,
+    "energy_j": 0.009432786729999781
+  },
+  {
+    "workload": "vww",
+    "variant": "always_replay_dw",
+    "completed": 1,
+    "energy_j": 0.008889351249999816
+  },
+  {
+    "workload": "vww",
+    "variant": "fixed_mapping_recovery",
+    "completed": 1,
+    "energy_j": 0.02312878621000204
+  },
+  {
+    "workload": "vww",
+    "variant": "adaptive_mapping_fixed_recovery",
+    "completed": 1,
+    "energy_j": 0.008889351249999816
+  },
+  {
+    "workload": "vww",
+    "variant": "continuous_fusion",
+    "completed": 1,
+    "energy_j": 0.00888935124999984
+  },
+  {
+    "workload": "vww",
+    "variant": "unfused",
+    "completed": 1,
+    "energy_j": 0.008989741519999749
+  },
+  {
+    "workload": "vww",
+    "variant": "all_live",
+    "completed": 1,
+    "energy_j": 0.058699641279997224
+  },
+  {
+    "workload": "vww",
+    "variant": "no_weight_reuse",
+    "completed": 1,
+    "energy_j": 0.008974762449999814
+  },
+  {
+    "workload": "vww",
+    "variant": "no_control",
+    "completed": 1,
+    "energy_j": 0.008761189519999858
+  }
+]

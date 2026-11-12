@@ -1,0 +1,2 @@
+# Use the same interpreter/dependencies as frozen G6. No retraining required.
+-r requirements-g6.txt

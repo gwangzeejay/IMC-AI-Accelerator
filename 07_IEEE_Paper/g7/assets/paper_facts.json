@@ -1,0 +1,15 @@
+{
+  "kws_gain_pct": 1.3676827202831365,
+  "vww_gain_pct": 2.004203977223895e-05,
+  "g6_rows": {
+    "main": 448,
+    "ablations": 240,
+    "sensitivity": 576,
+    "backend_factorial": 96
+  },
+  "g6_main_commits": 481,
+  "g4_cases": 1882,
+  "scratch_fraction": 0.9776487919687379,
+  "calibrated": false,
+  "submission_ready": false
+}

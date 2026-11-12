@@ -1,0 +1,709 @@
+{
+  "status": "PASS_DEBUG_PROFILE",
+  "mode": "ASSUMED_DEBUG_ONLY",
+  "selected": {
+    "policy": "z0_ps0_ci64",
+    "energy_per_completed_j": 1.2257120000000001e-05,
+    "scope": "minimum only in supplied finite training-policy set"
+  },
+  "policy_count": 16,
+  "scenario_count": 3,
+  "evaluations": 48,
+  "distinct_behaviors": 13,
+  "distinct_behaviors_note": "Four ci64 save flags are equivalent because there is no intermediate checkpoint",
+  "elapsed_s": 4.5237928999999895,
+  "peak_python_traced_bytes": 1975531,
+  "memory_scope": "tracemalloc Python allocations; NOT process peak RSS or target-device SRAM",
+  "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+  "training_only": true,
+  "held_out_test_performed": false,
+  "ready_for_paper_energy_results": false,
+  "rows": [
+    {
+      "policy": "z0_ps0_ci8",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.0452400000000004e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 5
+    },
+    {
+      "policy": "z0_ps1_ci8",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.196640000000001e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 5
+    },
+    {
+      "policy": "z1_ps0_ci8",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.742368e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 6
+    },
+    {
+      "policy": "z1_ps1_ci8",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.927768e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 6
+    },
+    {
+      "policy": "z0_ps0_ci16",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.0455600000000004e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 5
+    },
+    {
+      "policy": "z0_ps1_ci16",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 4.9474640000000005e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 3
+    },
+    {
+      "policy": "z1_ps0_ci16",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.742752e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 6
+    },
+    {
+      "policy": "z1_ps1_ci16",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 4.6032320000000004e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 3
+    },
+    {
+      "policy": "z0_ps0_ci32",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.0462000000000005e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 5
+    },
+    {
+      "policy": "z0_ps1_ci32",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 2.466296e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 1
+    },
+    {
+      "policy": "z1_ps0_ci32",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 6.743520000000001e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 6
+    },
+    {
+      "policy": "z1_ps1_ci32",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 2.351552e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 1
+    },
+    {
+      "policy": "z0_ps0_ci64",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z0_ps1_ci64",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z1_ps0_ci64",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z1_ps1_ci64",
+      "scenario_id": "train0",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z0_ps0_ci8",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 8.463336e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z0_ps1_ci8",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 8.677936e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z1_ps0_ci8",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 7.836272e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z1_ps1_ci8",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 8.053672e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z0_ps0_ci16",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 8.463784e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z0_ps1_ci16",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 4.9474640000000005e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 3
+    },
+    {
+      "policy": "z1_ps0_ci16",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 7.83672e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z1_ps1_ci16",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 4.6032320000000004e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 3
+    },
+    {
+      "policy": "z0_ps0_ci32",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 8.46468e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z0_ps1_ci32",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 2.466296e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 1
+    },
+    {
+      "policy": "z1_ps0_ci32",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 7.837616000000001e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 7
+    },
+    {
+      "policy": "z1_ps1_ci32",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 2.351552e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 1
+    },
+    {
+      "policy": "z0_ps0_ci64",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z0_ps1_ci64",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z1_ps0_ci64",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z1_ps1_ci64",
+      "scenario_id": "train1",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z0_ps0_ci8",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 9.672384e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 8
+    },
+    {
+      "policy": "z0_ps1_ci8",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 9.9096e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 7
+    },
+    {
+      "policy": "z1_ps0_ci8",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 0.0001002408,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 9
+    },
+    {
+      "policy": "z1_ps1_ci8",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 9.106392e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 7
+    },
+    {
+      "policy": "z0_ps0_ci16",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 9.672896e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 8
+    },
+    {
+      "policy": "z0_ps1_ci16",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 4.9474640000000005e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 3
+    },
+    {
+      "policy": "z1_ps0_ci16",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 0.00010024656,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 9
+    },
+    {
+      "policy": "z1_ps1_ci16",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 4.6032320000000004e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 3
+    },
+    {
+      "policy": "z0_ps0_ci32",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 9.673920000000001e-05,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 8
+    },
+    {
+      "policy": "z0_ps1_ci32",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 2.466296e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 1
+    },
+    {
+      "policy": "z1_ps0_ci32",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 0.00010025808000000001,
+      "completed": 0,
+      "total_inputs": 1,
+      "on_time": 0,
+      "mismatches": null,
+      "power_losses": 9
+    },
+    {
+      "policy": "z1_ps1_ci32",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 2.351552e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 1
+    },
+    {
+      "policy": "z0_ps0_ci64",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z0_ps1_ci64",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z1_ps0_ci64",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    },
+    {
+      "policy": "z1_ps1_ci64",
+      "scenario_id": "train2",
+      "weight": 1,
+      "energy_j": 1.2257120000000001e-05,
+      "completed": 1,
+      "total_inputs": 1,
+      "on_time": 1,
+      "mismatches": 0,
+      "power_losses": 0
+    }
+  ],
+  "baselines": [
+    {
+      "baseline": "B1_microtile_prototype",
+      "scope": "one microtile; not full-network reproduced baseline",
+      "result": {
+        "policy": "z0_ps0_ci64",
+        "completed": true,
+        "mismatches": 0,
+        "power_losses": 0,
+        "unexpected_losses": 0,
+        "progress_v": 64,
+        "progress_d": 64,
+        "failure_reason": null,
+        "nvm_reserved_bytes": 10320,
+        "sram_reserved_bytes": 6512,
+        "ledger": {
+          "total_energy_j": null,
+          "calibrated": false,
+          "provenance": "uncalibrated",
+          "unknown_event_count": 350,
+          "breakdown": {
+            "BOOT_RECOVER": {
+              "events": 257,
+              "units": 8193.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "READ_INPUT": {
+              "events": 32,
+              "units": 1024.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "LOAD_WEIGHT": {
+              "events": 37,
+              "units": 2208.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "COMPUTE_DW": {
+              "events": 1,
+              "units": 2304.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "COMPUTE_PW": {
+              "events": 1,
+              "units": 1024.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "REQUANTIZE": {
+              "events": 1,
+              "units": 16.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "COMMIT_OUTPUT": {
+              "events": 21,
+              "units": 594.0,
+              "replay_units": 0,
+              "energy_j": null
+            }
+          }
+        },
+        "source_time_s": null,
+        "source_balance_error_j": null,
+        "events": 350
+      }
+    },
+    {
+      "baseline": "B2_microtile_prototype",
+      "scope": "one microtile; not full-network reproduced baseline",
+      "result": {
+        "policy": "z1_ps1_ci16",
+        "completed": true,
+        "mismatches": 0,
+        "power_losses": 0,
+        "unexpected_losses": 0,
+        "progress_v": 64,
+        "progress_d": 64,
+        "failure_reason": null,
+        "nvm_reserved_bytes": 10320,
+        "sram_reserved_bytes": 6512,
+        "ledger": {
+          "total_energy_j": null,
+          "calibrated": false,
+          "provenance": "uncalibrated",
+          "unknown_event_count": 449,
+          "breakdown": {
+            "BOOT_RECOVER": {
+              "events": 257,
+              "units": 8193.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "READ_INPUT": {
+              "events": 32,
+              "units": 1024.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "LOAD_WEIGHT": {
+              "events": 37,
+              "units": 2208.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "COMPUTE_DW": {
+              "events": 1,
+              "units": 2304.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "COMPUTE_PW": {
+              "events": 4,
+              "units": 1024.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "COMMIT_CHECKPOINT": {
+              "events": 66,
+              "units": 1920.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "SAVE_DW": {
+              "events": 24,
+              "units": 768.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "SAVE_PW_PS": {
+              "events": 6,
+              "units": 192.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "REQUANTIZE": {
+              "events": 1,
+              "units": 16.0,
+              "replay_units": 0,
+              "energy_j": null
+            },
+            "COMMIT_OUTPUT": {
+              "events": 21,
+              "units": 594.0,
+              "replay_units": 0,
+              "energy_j": null
+            }
+          }
+        },
+        "source_time_s": null,
+        "source_balance_error_j": null,
+        "events": 449
+      }
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "status": "MODEL_ONLY_G3_COMPLETED",
+  "decision": "CONTINUE_MODEL_VALIDATION_ONLY",
+  "protocol_hash": "3ab0e435145c3a3b80dc0e2f8601d5e35ed7f0ce2dd43f56654435ba4837d1c5",
+  "frozen_mapper_sha256": "56f87e60d535f5fba5e468dd171abdb1fd5ff7f0255434a98b30583c55803b58",
+  "ready_for_paper_energy_results": false,
+  "model_calibrated": false,
+  "cim_specific_benefit_established": false,
+  "held_out_test_used_for_tuning": false,
+  "policy_count": 64,
+  "descriptor_count": 75,
+  "split_sizes": {
+    "train": 6,
+    "validation": 6,
+    "test": 18
+  },
+  "evaluations": 901,
+  "selected_mapping": {
+    "h": 1,
+    "w": 2,
+    "co": 16,
+    "ci": 64,
+    "save_z": false,
+    "keep_ps": false
+  },
+  "fit_seconds": 34.02248939999981,
+  "fit_python_tracemalloc_peak_bytes": 3048869,
+  "methods": {
+    "B1_micro": {
+      "energy_j": 5.6865839999999996e-05,
+      "completed": 6,
+      "total_inputs": 18,
+      "completion_rate": 0.3333333333333333,
+      "on_time_rate": 0.3333333333333333,
+      "energy_per_completed_j": 9.47764e-06,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "B2_micro": {
+      "energy_j": 0.00037172,
+      "completed": 0,
+      "total_inputs": 18,
+      "completion_rate": 0.0,
+      "on_time_rate": 0.0,
+      "energy_per_completed_j": null,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "B3_micro": {
+      "energy_j": 0.00032289752000000003,
+      "completed": 8,
+      "total_inputs": 18,
+      "completion_rate": 0.4444444444444444,
+      "on_time_rate": 0.4444444444444444,
+      "energy_per_completed_j": 4.0362190000000004e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "RECAP_proto": {
+      "energy_j": 0.00028303008000000004,
+      "completed": 9,
+      "total_inputs": 18,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.144778666666667e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "fixed_mapping_joint_recovery": {
+      "energy_j": 0.00037172,
+      "completed": 0,
+      "total_inputs": 18,
+      "completion_rate": 0.0,
+      "on_time_rate": 0.0,
+      "energy_per_completed_j": null,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "no_weight_reuse": {
+      "energy_j": 0.00028303008000000004,
+      "completed": 9,
+      "total_inputs": 18,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.144778666666667e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "matched_SAVE": {
+      "energy_j": 0.00038756528,
+      "completed": 0,
+      "total_inputs": 18,
+      "completion_rate": 0.0,
+      "on_time_rate": 0.0,
+      "energy_per_completed_j": null,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "matched_REPLAY": {
+      "energy_j": 0.00038332040000000006,
+      "completed": 0,
+      "total_inputs": 18,
+      "completion_rate": 0.0,
+      "on_time_rate": 0.0,
+      "energy_per_completed_j": null,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    }
+  },
+  "primary_comparison": {
+    "a": {
+      "energy_j": 0.00028303008000000004,
+      "completed": 9,
+      "total_inputs": 18,
+      "completion_rate": 0.5,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 3.144778666666667e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "b": {
+      "energy_j": 0.00032289752000000003,
+      "completed": 8,
+      "total_inputs": 18,
+      "completion_rate": 0.4444444444444444,
+      "on_time_rate": 0.4444444444444444,
+      "energy_per_completed_j": 4.0362190000000004e-05,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "relative_energy_reduction": 0.2208602489937571,
+    "noninferior_point_estimate": true,
+    "meets_goal_point_estimate": true,
+    "latency_nonregression_finite_only": false,
+    "bootstrap": {
+      "unit": "independent trace seed, paired and stratified by capacitor/harvest family",
+      "replicates": 2000,
+      "seed": 61000,
+      "undefined_replicates": 0,
+      "energy_reduction_ci95": [
+        0.146534417483293,
+        0.3808190871937618
+      ],
+      "completion_difference_ci95": [
+        0.0,
+        0.16666666666666669
+      ]
+    }
+  },
+  "save_replay_comparison": {
+    "a": {
+      "energy_j": 0.00038756528,
+      "completed": 0,
+      "total_inputs": 18,
+      "completion_rate": 0.0,
+      "on_time_rate": 0.0,
+      "energy_per_completed_j": null,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "b": {
+      "energy_j": 0.00038332040000000006,
+      "completed": 0,
+      "total_inputs": 18,
+      "completion_rate": 0.0,
+      "on_time_rate": 0.0,
+      "energy_per_completed_j": null,
+      "p95_latency_s": null,
+      "p95_is_infinite": true
+    },
+    "relative_energy_reduction": null,
+    "noninferior_point_estimate": true,
+    "meets_goal_point_estimate": false,
+    "latency_nonregression_finite_only": false
+  },
+  "sensitivities": [
+    {
+      "dw_scale": 1.0,
+      "write_scale": 0.5,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00042335896,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.0004393678,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 1.0,
+      "write_scale": 1.0,
+      "comparison": {
+        "a": {
+          "energy_j": 0.0004038244,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.0003828039480000072,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 1.0,
+      "write_scale": 4.0,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00019715040000000002,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.00020085768000000003,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 0.5,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00042737112,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.00044425632,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 1.0,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00038756528,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.00038332040000000006,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 30.0,
+      "write_scale": 4.0,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00019915488,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.00019416288,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 0.5,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00023711224,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.00023964708,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 1.0,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00023028768000000002,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.00022173096000000392,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    },
+    {
+      "dw_scale": 300.0,
+      "write_scale": 4.0,
+      "comparison": {
+        "a": {
+          "energy_j": 0.00019394824,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "b": {
+          "energy_j": 0.00018287072,
+          "completed": 0,
+          "total_inputs": 18,
+          "completion_rate": 0.0,
+          "on_time_rate": 0.0,
+          "energy_per_completed_j": null,
+          "p95_latency_s": null,
+          "p95_is_infinite": true
+        },
+        "relative_energy_reduction": null,
+        "noninferior_point_estimate": true,
+        "meets_goal_point_estimate": false,
+        "latency_nonregression_finite_only": false
+      }
+    }
+  ],
+  "completed_mismatches": 0,
+  "unexpected_source_losses": 0,
+  "max_ledger_residual_j": 1.719341357654669e-16,
+  "max_source_residual_j": 1.4369913950169205e-18,
+  "coverage_scope": "one real-model DW-PW interior workload (8 pixels x 16 outputs); no full KWS accuracy or calibrated macro; B1/B2/B3 are project prototypes"
+}

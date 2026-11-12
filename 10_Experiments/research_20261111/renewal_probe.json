@@ -1,0 +1,138 @@
+{
+  "study": "Dimensionless interruptible-operation renewal probe",
+  "date": "2026-11-11",
+  "calibrated": false,
+  "scope": "Analytical diagnosis and Monte Carlo validation for proposed G9 model",
+  "assumptions": [
+    "Independent exponential reset times with a fixed rate",
+    "Piecewise constant phase power and deterministic phase duration",
+    "Successful segment boundaries remain persistent",
+    "Checkpoint publication is atomic only at segment completion",
+    "Reliable restart with fixed energy; its duration is excluded",
+    "No capacitor, recharge, finite horizon, deadlines, or memory corruption",
+    "Dimensionless coefficients selected for illustration, not fitted to RECAP results"
+  ],
+  "restart_energy": 0.2,
+  "monte_carlo_checks": [
+    {
+      "policy": "replay_whole",
+      "hazard": 0.1,
+      "checkpoint_duration": 0.01,
+      "analytic_energy": 1.115331424964923,
+      "simulated_mean": 1.1158174109353194,
+      "simulated_standard_error": 0.0008248922319856684,
+      "error_in_standard_errors": 0.5891508630484096,
+      "trials": 100000
+    },
+    {
+      "policy": "checkpoint_half",
+      "hazard": 0.1,
+      "checkpoint_duration": 0.01,
+      "analytic_energy": 1.1081511001320865,
+      "simulated_mean": 1.107930911888524,
+      "simulated_standard_error": 0.0005035327138994648,
+      "error_in_standard_errors": 0.437286868329205,
+      "trials": 100000
+    },
+    {
+      "policy": "replay_whole",
+      "hazard": 0.5,
+      "checkpoint_duration": 0.05,
+      "analytic_energy": 1.4837409630492862,
+      "simulated_mean": 1.484039961412507,
+      "simulated_standard_error": 0.0023496979758844063,
+      "error_in_standard_errors": 0.12724970029748275,
+      "trials": 100000
+    },
+    {
+      "policy": "checkpoint_half",
+      "hazard": 0.5,
+      "checkpoint_duration": 0.05,
+      "analytic_energy": 1.4203442505906594,
+      "simulated_mean": 1.4199405976235853,
+      "simulated_standard_error": 0.0013522280122821152,
+      "error_in_standard_errors": 0.29850954381050454,
+      "trials": 100000
+    },
+    {
+      "policy": "replay_whole",
+      "hazard": 1.0,
+      "checkpoint_duration": 0.1,
+      "analytic_energy": 2.1480350567839133,
+      "simulated_mean": 2.142232180387786,
+      "simulated_standard_error": 0.004551579438779055,
+      "error_in_standard_errors": 1.2749148892552145,
+      "trials": 100000
+    },
+    {
+      "policy": "checkpoint_half",
+      "hazard": 1.0,
+      "checkpoint_duration": 0.1,
+      "analytic_energy": 1.9303479982096778,
+      "simulated_mean": 1.931173149159225,
+      "simulated_standard_error": 0.0024537179088245883,
+      "error_in_standard_errors": 0.3362859873091257,
+      "trials": 100000
+    },
+    {
+      "policy": "replay_whole",
+      "hazard": 3.0,
+      "checkpoint_duration": 0.2,
+      "analytic_energy": 10.861976001929468,
+      "simulated_mean": 10.818464262093928,
+      "simulated_standard_error": 0.03189760611527084,
+      "error_in_standard_errors": 1.3641067507793272,
+      "trials": 100000
+    },
+    {
+      "policy": "checkpoint_half",
+      "hazard": 3.0,
+      "checkpoint_duration": 0.2,
+      "analytic_energy": 6.121313733088224,
+      "simulated_mean": 6.119694194704216,
+      "simulated_standard_error": 0.012177289125737225,
+      "error_in_standard_errors": 0.13299662735152185,
+      "trials": 100000
+    }
+  ],
+  "closed_form_and_zero_hazard_checks": "PASS",
+  "examples": [
+    {
+      "hazard": 0.01,
+      "checkpoint_duration": 0.05,
+      "replay_whole": 1.0472721715908304,
+      "checkpoint_half": 1.1450298647134032,
+      "relative_energy_reduction": -0.09334506900348227
+    },
+    {
+      "hazard": 0.1,
+      "checkpoint_duration": 0.05,
+      "replay_whole": 1.115331424964923,
+      "checkpoint_half": 1.1912920652603758,
+      "relative_energy_reduction": -0.06810589085467722
+    },
+    {
+      "hazard": 0.5,
+      "checkpoint_duration": 0.05,
+      "replay_whole": 1.4837409630492862,
+      "checkpoint_half": 1.4203442505906594,
+      "relative_energy_reduction": 0.04272761488524124
+    },
+    {
+      "hazard": 1.0,
+      "checkpoint_duration": 0.05,
+      "replay_whole": 2.1480350567839133,
+      "checkpoint_half": 1.769809237482318,
+      "relative_energy_reduction": 0.17607990991910694
+    },
+    {
+      "hazard": 3.0,
+      "checkpoint_duration": 0.05,
+      "replay_whole": 10.861976001929468,
+      "checkpoint_half": 4.322984168327324,
+      "relative_energy_reduction": 0.6020075750895224
+    }
+  ],
+  "code_sha256": "f156139058419f1f02f1ae36ce4346e8f49af0dfcb2f76432e4144a125b6aea1",
+  "figure_sha256": "d1a242b728001d4df32d96c3dc2bfa4139beb57001db2d94ce9968d61b75647e"
+}

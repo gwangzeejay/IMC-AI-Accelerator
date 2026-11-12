@@ -1,0 +1,141 @@
+{
+  "version": "G6_1.0",
+  "status": "DESIGN_FIXED_BEFORE_MAIN_RESULTS",
+  "calibrated": false,
+  "ready_for_paper_energy_results": false,
+  "workloads": [
+    "kws",
+    "vww"
+  ],
+  "sram_bytes": 65536,
+  "nvm_bytes": 2097152,
+  "original_sram_bytes": 16384,
+  "original_nvm_bytes": 262144,
+  "bank_bytes": 2048,
+  "scratch_slot_bytes": 8192,
+  "root_slot_bytes": 256,
+  "all_live_slot_bytes": 65536,
+  "tiles": [
+    [
+      1,
+      16
+    ],
+    [
+      1,
+      64
+    ],
+    [
+      4,
+      64
+    ],
+    [
+      8,
+      64
+    ]
+  ],
+  "ci_chunks": [
+    16,
+    64
+  ],
+  "save_z": [
+    false,
+    true
+  ],
+  "keep_ps": [
+    false,
+    true
+  ],
+  "reserve_fraction": 0.3,
+  "reserve_provenance": "Transferred unchanged from G5 train/validation for both methods and workloads; no G6 test fitting",
+  "admission_margin_fraction": 0.0,
+  "capacities_j": [
+    2.5e-05,
+    0.0001
+  ],
+  "horizon_s": 8.0,
+  "arrivals_s": [
+    0.0,
+    2.6,
+    5.2
+  ],
+  "deadline_interval_s": 2.6,
+  "source_mean_w": 0.002,
+  "synthetic_replicates_per_family": 10,
+  "test_seed_base": 331000,
+  "bootstrap_seed": 341000,
+  "bootstrap_replicates": 2000,
+  "completion_tolerance_absolute": 0.05,
+  "on_time_tolerance_absolute": 0.05,
+  "energy_reduction_goal": 0.2,
+  "base_dw_compute_scale": 30.0,
+  "controller_cycle_s": 1e-08,
+  "controller_cycle_j": 1e-11,
+  "decision_s": 1e-05,
+  "decision_j": 1e-09,
+  "retention_w": 1e-06,
+  "active_leakage_w": 0.0,
+  "initial_energy_fraction": 1.0,
+  "real_trace_horizon_s": 120.0,
+  "real_trace_arrivals_s": [
+    0.0,
+    40.0,
+    80.0
+  ],
+  "real_trace_efficiency": 0.7,
+  "real_trace_windows": 6,
+  "real_trace_window_selection": "Six equally spaced valid index windows over pos16; deterministic, no performance-based window selection; timestamps remain native",
+  "real_trace_resampling": "none; native approximately 1.00352 s samples, zero-order hold",
+  "sensitivity": {
+    "nvm_energy_scale": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "bandwidth_scale": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "compute_energy_scale": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "active_leakage_w": [
+      0.0,
+      1e-06,
+      1e-05
+    ],
+    "admission_margin_fraction": [
+      0.0,
+      0.05,
+      0.2
+    ],
+    "retention_w": [
+      0.0,
+      1e-06,
+      1e-05
+    ]
+  },
+  "sensitivity_trace_selection": "First two seeds of mild/severe at each capacitance; fixed before results; no parameter fitting",
+  "ablation_trace_selection": "First two seeds of mild/severe at each capacitance plus deterministic steady/zero conditions",
+  "ablations": [
+    "ignore_reload_decision",
+    "always_save_dw",
+    "always_replay_dw",
+    "fixed_mapping_recovery",
+    "adaptive_mapping_fixed_recovery",
+    "continuous_fusion",
+    "unfused",
+    "all_live",
+    "no_weight_reuse",
+    "no_control"
+  ],
+  "digital_pw_energy_scale": 10.0,
+  "digital_pw_time_scale": 4.0,
+  "backend_scope": "Assumed cost perturbation only; no calibrated CIM/digital superiority claims",
+  "input_capture_preprocessing_included": false,
+  "random_fault_schedules": 1000,
+  "fault_seed": 351000,
+  "test_policy": "Freeze code/model/data/scenarios/protocol before main evaluation; preserve G2-G5; do not tune after seeing G6"
+}

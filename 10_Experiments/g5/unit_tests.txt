@@ -1,0 +1,17 @@
+test_bootstrap_keeps_undefined_replicates (test_g5.StorageTests.test_bootstrap_keeps_undefined_replicates) ... ok
+test_capacity_and_full_layer_coverage (test_g5.StorageTests.test_capacity_and_full_layer_coverage) ... ok
+test_crc_and_identity_corruption_fail_closed (test_g5.StorageTests.test_crc_and_identity_corruption_fail_closed) ... ok
+test_layer_log_every_boundary (test_g5.StorageTests.test_layer_log_every_boundary) ... ok
+test_no_future_harvest_policy_input (test_g5.StorageTests.test_no_future_harvest_policy_input) ... ok
+test_output_every_boundary_never_publishes_torn_bytes (test_g5.StorageTests.test_output_every_boundary_never_publishes_torn_bytes) ... ok
+test_root_every_boundary (test_g5.StorageTests.test_root_every_boundary) ... ok
+test_same_feature_different_arrival_rejected (test_g5.StorageTests.test_same_feature_different_arrival_rejected) ... ok
+test_scratch_every_ack_boundary_preserves_old_or_new (test_g5.StorageTests.test_scratch_every_ack_boundary_preserves_old_or_new) ... ok
+test_source_integrity_checked_after_root (test_g5.StorageTests.test_source_integrity_checked_after_root) ... ok
+test_stale_input_rejected_without_erasing (test_g5.StorageTests.test_stale_input_rejected_without_erasing) ... ok
+test_zero_harvest_terminates_at_horizon (test_g5.StorageTests.test_zero_harvest_terminates_at_horizon) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.184s
+
+OK

@@ -1,0 +1,71 @@
+# Checkpoint Costs in Intermittent SRAM-CIM TinyML: A Simulation Study
+
+## Abstract
+
+Checkpoint and replay decisions can change the apparent benefit of fused depthwise-pointwise inference on intermittently powered volatile SRAM compute-in-memory (CIM). We study these decisions using RECAP-CIM, a byte-level checkpoint model integrated with a causal energy-reservoir simulator and pretrained INT8 keyword-spotting (KWS) and visual-wake-word (VWW) networks. All energy and timing coefficients are assumed; no physical CIM efficiency is established. On 40 held-out synthetic traces per workload, the energy-oriented policy reduces modeled energy per committed KWS inference by 1.368% relative to a time-oriented adaptive baseline, with a paired-bootstrap 95% interval of [0.126%, 3.504%], while completing 99 versus 98 of 120 arrivals. VWW completes 20 of 120 arrivals under either policy, with approximately zero energy reduction. Six measured solar windows produce 24 of 36 KWS and 4 of 36 VWW commits for both policies. Post-hoc analysis identifies a nominal objective that provides no expected-redo credit for saved state and duplicate durable-output traffic that explains most steady-KWS overhead against layer checkpointing. The findings motivate objective and publication-path corrections before a CIM-specific performance claim.
+
+## Index Terms
+
+Intermittent computing, compute-in-memory, checkpointing, TinyML, reproducibility.
+
+## Introduction
+
+Volatile SRAM-CIM loses resident weights and intermediate state after complete power loss. Fusing depthwise (DW) and pointwise (PW) convolution can avoid intermediate transfers during uninterrupted execution, but recovery may require reloading weights, replaying DW work, or restoring saved partial sums. Evaluating a mapping therefore requires the cost of durable progress, including unsuccessful work, rather than only multiply-accumulate energy.
+
+Checkpoint-versus-recomputation optimization already appears in Chime [1]. Viadotto combines adaptive computing with a nonvolatile CRAM platform [2], while CIM-Tuner characterizes weight-update and mapping trade-offs for SRAM-CIM [3]. FreeML addresses memory and energy adaptation, including early-exit inference [4], and CHRYSALIS explores energy/inference architecture co-design [5]. These precedents prevent treating checkpoint cost decomposition, adaptation, or CIM mapping alone as a new contribution. A complete state/action/objective comparison and a common-backend literature baseline remain outstanding.
+
+This study instead examines why an encouraging microbenchmark result does not persist in whole-network execution. Its concrete outputs are a scoped transaction-validation chain, paired two-workload simulations retaining failed arrivals, and diagnostics separating nominal mapping costs from recovery benefit. These are reproducible observations about the present implementation, not a claim of a novel optimal recovery algorithm or a negative result for all SRAM-CIM systems.
+
+## System Model and Policies
+
+Fig. 1 outlines the evaluation boundary. The simulator preserves original INT8 network outputs without early exits. DW and PW use bounded INT32 accumulation and reference-compatible requantization; the network head uses an isolated TensorFlow Lite reference CPU subgraph fed computed activations. A separate whole-model interpreter checks committed outputs. Thus, the evaluation is hybrid simulation, not a full integer accelerator implementation. Sensing, MFCC/image preprocessing, and the external arrival queue are outside the cost boundary.
+
+:::figure architecture
+
+Volatile weights use an explicit 2-KiB residency bank. Durable state contains input/model/invocation identities, geometry, progress, payload, and CRC32. Two copy-on-write slots publish a completed record only after payload and a 124-byte header are acknowledged. The assumed failure model makes a byte write old-or-new and preserves acknowledged writes without post-reset reordering. For payload length L and output flag o, a commit writes L+125+o bytes; the zero-stall controller takes 2L+246+o cycles. These protocol properties do not validate physical FRAM atomicity.
+
+The runtime admits bounded work from current capacitor energy and does not credit future harvest. The environment integrates harvested power causally; retention can cause a later outage. Common G6 memory budgets are 64 KiB SRAM and 2 MiB NVM. VWW is infeasible under the original 16-KiB/256-KiB budget. Maximum modeled allocation is 41,216 SRAM bytes and 1,158,122 NVM bytes, counting algorithm buffers rather than a compiled CPU arena.
+
+Four policies share workload arithmetic, costs, arrivals, and source traces. Layer (B1) checkpoints durable layer-log progress without the extra tile-output scratch publication. Fixed (B2) uses a conservative fixed tile/chunk and state policy. Adaptive (B3) minimizes nominal time per output among feasible candidates; RECAP minimizes nominal energy per output. The latter two share tile/chunk/state candidates and a 0.30 reserve fraction transferred unchanged from earlier KWS train/validation runs. B2 is an intentionally restricted control, not the strongest literature baseline.
+
+For action a producing n(a) outputs, the implemented RECAP ranking is nominal energy E_nom(a)/n(a), with time and chunk-size tie breaks. It accounts for modeled transfer, compute, and commit work, but does not reward saved state with an expected reduction in future redo. Candidate inclusion alone therefore does not establish effective joint optimization of SAVE_DW and replay. Any expected-redo term added later must affect planning without double-counting actual replay in the execution ledger.
+
+## Experimental Protocol
+
+KWS and VWW model files come from the pinned MLCommons Tiny repository [6]. KWS has four DW/PW pairs and a 53,936-byte model; VWW has thirteen pairs, stride-one/two layers, and a 333,288-byte model. KWS reference accuracy is 901/1000 on labeled EEMBC MFCC inputs [7]. VWW reference accuracy is 33/40 on a balanced COCO-image subset with research RGB/bilinear preprocessing. These pretrained-reference checks establish neither full-dataset VWW accuracy nor MLPerf compliance.
+
+G6 uses fresh source seeds and KWS feature hashes excluded from prior runtime checks. Each workload/policy sees 40 stochastic traces: ten per intermittency family and capacitor size (25 or 100 microjoules). Three arrivals occur at 0, 2.6, and 5.2 s in an 8-s horizon with 2.6-s deadlines. Mild and severe families have different zero-power fractions and different mean supply; they are not a matched-mean burstiness experiment. Two steady and two zero-source controls are retained separately.
+
+Measured-source experiments use six deterministically selected 120-s windows from one ETH indoor-solar location [8], at native approximately 1.00352-s sampling. Rail power is max(0,-I_in*V_in) times an assumed 70% conversion efficiency, without amplitude normalization or time compression. Both capacitors and three arrivals per window give 36 arrivals per method/workload. This is a measured-input-driven simulation, not a validated load-dependent harvester model or a subsecond trace measurement.
+
+All backend, NVM, controller, and CPU coefficients remain assumed, including a DW-energy scale of 30 inherited from the debug model. Stress tests vary six parameter axes; a digital-cost surrogate is also uncalibrated. Main, ablation, sensitivity, and backend matrices contain 448, 240, 576, and 96 rows, respectively, with 1,216 distinct cached executions. Host memoization preserves modeled costs.
+
+The energy metric is total consumed energy across all arrivals divided by the number of committed inferences; it is undefined when none commits. All consumed unfinished/replayed work stays in the numerator. Unfinished arrivals have infinite latency. Synthetic intervals use 2,000 paired trace-seed bootstrap replicates stratified by source/capacitor family. Measured intervals resample six day blocks, keeping both capacitors and all arrivals together. Replicates with zero commit denominators are retained as undefined, not discarded.
+
+## Results and Diagnostics
+
+:::table main
+
+Table I summarizes G6 outcomes. The primary stochastic KWS result is 0.970909 modeled mJ/commit for RECAP versus 0.984372 for Adaptive: a 1.368% reduction, with 95% interval [0.126%, 3.504%]. Completion increases from 98/120 to 99/120; on-time rates are 72.50% and 73.33%. Layer completes 100/120 at 0.878171 mJ/commit, making RECAP 10.56% more expensive by this metric. VWW completes 20/120 under Layer, Adaptive, and RECAP; the RECAP-versus-Adaptive interval is [-0.004184%, 0.003769%]. All primary stochastic p95 latencies are infinite. Neither workload establishes the original 20% improvement target or finite-latency nonregression.
+
+:::figure intervals
+
+Fig. 2 places the stage-scoped intervals in context. On measured-derived sources, Adaptive and RECAP both complete 24/36 KWS and 4/36 VWW arrivals. KWS point energy reduction is 0.0425%; VWW is numerically unchanged. Unconditional energy-reduction intervals are undefined because 3/2000 KWS and 178/2000 VWW bootstrap replicates have a zero denominator. VWW has no on-time commits in the main stochastic or measured domains. Sparse completions and a supply ceiling limit the interpretation of small energy differences.
+
+Two diagnostics explain the limited benefit. First, the nominal objective selects neither saved DW outputs nor saved partial sums in main tests. In 174 matched geometry/chunk diagnostic pairs (48 KWS, 126 VWW), saved-state choices cost more under that objective. This is an objective limitation, not evidence that saving state can never help. Second, steady KWS completes six arrivals under both Layer and RECAP. RECAP consumes 5.443539 mJ versus 4.759033 mJ; its 0.669207-mJ scratch-output publication accounts descriptively for 97.76% of the 0.684507-mJ difference. Direct layer-log publication is a proposed correction, not an evaluated improvement.
+
+Ten interventions per workload retain completion counts alongside energy ratios. Always saving DW adds 9.60% KWS energy at the same 26/36 commits; unfused execution changes KWS completion to 25/36 and raises energy/commit by 21.18%. Fixed mapping and full-live copying sharply reduce completions; the latter retains the minimal-state objective and is not an optimized full-state baseline. A VWW bandwidth-stress cell reports 33.51% improvement, but only 3 versus 2 commits out of 24 arrivals. It cannot replace the primary result. VWW consumes approximately 99.96% of available assumed source-plus-initial-capacitor energy, helping explain nearly equal aggregate consumption.
+
+## Validation, Limitations, and Next Study
+
+Finite RTL validation covers two microtiles and scalar arithmetic, not the whole-network runtime: 1,882 controller cases, 6,415,721 acknowledged byte transactions, 8,317 latency checks, 647 MAC cases, and 5,468 requantization cases. G6 checks 1,794,096 operator-output elements on 16 inputs with zero mismatch, plus all 481 main committed outputs. Its fault evidence includes eight full-network cases and 1,000 large-slot schedules; the latter are tile tests, not 1,000 full networks. None of these campaigns is a formal proof, and generic RTL processing does not establish area, frequency, or power.
+
+The absence of a calibrated SRAM-CIM macro, a physically validated NVM persistence model, a compiled runtime-memory measurement, and a nearest-work quantitative baseline prevents a hardware-efficiency or CIM-specific superiority claim. Literature coverage remains incomplete; energy-adaptive checkpoint-free inference is another relevant contract to inspect [9]. Future work should compare state/action/objective semantics, calibrate or explicitly narrow the backend model, evaluate a causal redo-aware objective and a common direct-publication primitive, then freeze new policies and collect fresh holdouts. The observed G6 tests must subsequently serve as development evidence.
+
+## Conclusion
+
+Byte-level recovery correctness and a microbenchmark gain do not by themselves establish whole-network benefit. Under the present assumed-cost model, RECAP yields a small KWS improvement against Adaptive, loses to Layer on KWS energy, and yields approximately no VWW improvement. The actionable findings are an objective that omits redo benefit and redundant durable-output traffic. A positive SRAM-CIM performance claim requires those issues and the missing baseline/calibration evidence to be resolved and independently assessed.
+
+## Acknowledgments
+
+OpenAI Codex was used to draft and revise all manuscript sections, prepare the plotting/table-generation code and submission documents, and assist with artifact checks. It also assisted with research implementation in this workspace. Plots and tables are programmatically derived from stored experiment artifacts. Human author review, reference checking, authorship attribution, and approval remain required before submission; this working draft is not approved for submission.

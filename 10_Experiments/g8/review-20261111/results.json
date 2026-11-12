@@ -1,0 +1,2077 @@
+{
+  "status": "G8_ENGINEERING_EVALUATION_EXECUTED",
+  "calibrated": false,
+  "submission_ready": false,
+  "test_count": 14,
+  "main_rows": 280,
+  "secondary_rows": 120,
+  "scenarios": 28,
+  "workloads": {
+    "kws": {
+      "stochastic": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.037221838399519126,
+            "completed": 43,
+            "total_inputs": 48,
+            "completion_rate": 0.8958333333333334,
+            "on_time_rate": 0.8541666666666666,
+            "energy_per_completed_j": 0.0008656241488260262,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 39,
+            "correct_committed_per_arrival": 0.8125,
+            "conditional_accuracy": 0.9069767441860465,
+            "losses": 18
+          },
+          "B3_adaptive": {
+            "energy_j": 0.03661310237237838,
+            "completed": 43,
+            "total_inputs": 48,
+            "completion_rate": 0.8958333333333334,
+            "on_time_rate": 0.8541666666666666,
+            "energy_per_completed_j": 0.0008514674970320553,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 39,
+            "correct_committed_per_arrival": 0.8125,
+            "conditional_accuracy": 0.9069767441860465,
+            "losses": 13
+          },
+          "B4_periodic": {
+            "energy_j": 0.036628300292683255,
+            "completed": 43,
+            "total_inputs": 48,
+            "completion_rate": 0.8958333333333334,
+            "on_time_rate": 0.8541666666666666,
+            "energy_per_completed_j": 0.0008518209370391455,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 39,
+            "correct_committed_per_arrival": 0.8125,
+            "conditional_accuracy": 0.9069767441860465,
+            "losses": 13
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.03661310237237838,
+            "completed": 43,
+            "total_inputs": 48,
+            "completion_rate": 0.8958333333333334,
+            "on_time_rate": 0.8541666666666666,
+            "energy_per_completed_j": 0.0008514674970320553,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 39,
+            "correct_committed_per_arrival": 0.8125,
+            "conditional_accuracy": 0.9069767441860465,
+            "losses": 13
+          },
+          "RECAP_redo": {
+            "energy_j": 0.03661310237237838,
+            "completed": 43,
+            "total_inputs": 48,
+            "completion_rate": 0.8958333333333334,
+            "on_time_rate": 0.8541666666666666,
+            "energy_per_completed_j": 0.0008514674970320553,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 39,
+            "correct_committed_per_arrival": 0.8125,
+            "conditional_accuracy": 0.9069767441860465,
+            "losses": 13
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.03661310237237838,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008514674970320553,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 13
+              },
+              "b": {
+                "energy_j": 0.037221838399519126,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008656241488260262,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 18
+              },
+              "relative_energy_reduction": 0.016354270861285936,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.003744650981490119,
+                0.030671003487835476
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.03661310237237838,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008514674970320553,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 13
+              },
+              "b": {
+                "energy_j": 0.03661310237237838,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008514674970320553,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 13
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.0,
+                0.0
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.03661310237237838,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008514674970320553,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 13
+              },
+              "b": {
+                "energy_j": 0.036628300292683255,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008518209370391455,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 13
+              },
+              "relative_energy_reduction": 0.000414922892502112,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.00013214714389442052,
+                0.0008352545256464422
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.03661310237237838,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008514674970320553,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 13
+              },
+              "b": {
+                "energy_j": 0.03661310237237838,
+                "completed": 43,
+                "total_inputs": 48,
+                "completion_rate": 0.8958333333333334,
+                "on_time_rate": 0.8541666666666666,
+                "energy_per_completed_j": 0.0008514674970320553,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 39,
+                "correct_committed_per_arrival": 0.8125,
+                "conditional_accuracy": 0.9069767441860465,
+                "losses": 13
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.0,
+                0.0
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      },
+      "external_reset": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.02098209451552891,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.000874253938147038,
+            "p95_latency_s": 0.5976589592910102,
+            "p95_is_infinite": false,
+            "correct_completed": 24,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 17
+          },
+          "B3_adaptive": {
+            "energy_j": 0.01956276614849696,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0008151152561873733,
+            "p95_latency_s": 0.422962710868058,
+            "p95_is_infinite": false,
+            "correct_completed": 24,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 16
+          },
+          "B4_periodic": {
+            "energy_j": 0.01956276614849696,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0008151152561873733,
+            "p95_latency_s": 0.422962710868058,
+            "p95_is_infinite": false,
+            "correct_completed": 24,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 16
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.01956276614849696,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0008151152561873733,
+            "p95_latency_s": 0.422962710868058,
+            "p95_is_infinite": false,
+            "correct_completed": 24,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 16
+          },
+          "RECAP_redo": {
+            "energy_j": 0.01956276614849696,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0008151152561873733,
+            "p95_latency_s": 0.422962710868058,
+            "p95_is_infinite": false,
+            "correct_completed": 24,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 16
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.01956276614849696,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0008151152561873733,
+                "p95_latency_s": 0.422962710868058,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 16
+              },
+              "b": {
+                "energy_j": 0.02098209451552891,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.000874253938147038,
+                "p95_latency_s": 0.5976589592910102,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 17
+              },
+              "relative_energy_reduction": 0.0676447418527022,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.02364480170061034,
+                0.10696180441565639
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.01956276614849696,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0008151152561873733,
+                "p95_latency_s": 0.422962710868058,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 16
+              },
+              "b": {
+                "energy_j": 0.01956276614849696,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0008151152561873733,
+                "p95_latency_s": 0.422962710868058,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 16
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.0,
+                0.0
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.01956276614849696,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0008151152561873733,
+                "p95_latency_s": 0.422962710868058,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 16
+              },
+              "b": {
+                "energy_j": 0.01956276614849696,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0008151152561873733,
+                "p95_latency_s": 0.422962710868058,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 16
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.0,
+                0.0
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.01956276614849696,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0008151152561873733,
+                "p95_latency_s": 0.422962710868058,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 16
+              },
+              "b": {
+                "energy_j": 0.01956276614849696,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0008151152561873733,
+                "p95_latency_s": 0.422962710868058,
+                "p95_is_infinite": false,
+                "correct_completed": 24,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 16
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.0,
+                0.0
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      },
+      "steady": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.004759032561043529,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0007931720935072549,
+            "p95_latency_s": 0.38561447694419115,
+            "p95_is_infinite": false,
+            "correct_completed": 6,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 0
+          },
+          "B3_adaptive": {
+            "energy_j": 0.004759032561043529,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0007931720935072549,
+            "p95_latency_s": 0.38561447694419115,
+            "p95_is_infinite": false,
+            "correct_completed": 6,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 0
+          },
+          "B4_periodic": {
+            "energy_j": 0.004759032561043529,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0007931720935072549,
+            "p95_latency_s": 0.38561447694419115,
+            "p95_is_infinite": false,
+            "correct_completed": 6,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 0
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.004759032561043529,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0007931720935072549,
+            "p95_latency_s": 0.38561447694419115,
+            "p95_is_infinite": false,
+            "correct_completed": 6,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 0
+          },
+          "RECAP_redo": {
+            "energy_j": 0.004759032561043529,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.0007931720935072549,
+            "p95_latency_s": 0.38561447694419115,
+            "p95_is_infinite": false,
+            "correct_completed": 6,
+            "correct_committed_per_arrival": 1.0,
+            "conditional_accuracy": 1.0,
+            "losses": 0
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.004759032561043529,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.0007931720935072549,
+                "p95_latency_s": 0.38561447694419115,
+                "p95_is_infinite": false,
+                "correct_completed": 6,
+                "correct_committed_per_arrival": 1.0,
+                "conditional_accuracy": 1.0,
+                "losses": 0
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          }
+        }
+      },
+      "zero": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.00012500000000000027,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "B3_adaptive": {
+            "energy_j": 0.0001250000000000003,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "B4_periodic": {
+            "energy_j": 0.0001250000000000003,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.0001250000000000003,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "RECAP_redo": {
+            "energy_j": 0.0001250000000000003,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000003,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.00012500000000000027,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000003,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.0001250000000000003,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000003,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.0001250000000000003,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000003,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.0001250000000000003,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          }
+        }
+      }
+    },
+    "vww": {
+      "stochastic": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.2618793436339665,
+            "completed": 24,
+            "total_inputs": 48,
+            "completion_rate": 0.5,
+            "on_time_rate": 0.5,
+            "energy_per_completed_j": 0.010911639318081937,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 16,
+            "correct_committed_per_arrival": 0.3333333333333333,
+            "conditional_accuracy": 0.6666666666666666,
+            "losses": 50
+          },
+          "B3_adaptive": {
+            "energy_j": 0.2563938565131364,
+            "completed": 27,
+            "total_inputs": 48,
+            "completion_rate": 0.5625,
+            "on_time_rate": 0.5,
+            "energy_per_completed_j": 0.009496068759745792,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 19,
+            "correct_committed_per_arrival": 0.3958333333333333,
+            "conditional_accuracy": 0.7037037037037037,
+            "losses": 53
+          },
+          "B4_periodic": {
+            "energy_j": 0.2664207724856779,
+            "completed": 27,
+            "total_inputs": 48,
+            "completion_rate": 0.5625,
+            "on_time_rate": 0.4791666666666667,
+            "energy_per_completed_j": 0.009867436017988071,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 19,
+            "correct_committed_per_arrival": 0.3958333333333333,
+            "conditional_accuracy": 0.7037037037037037,
+            "losses": 49
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.25639385651315,
+            "completed": 27,
+            "total_inputs": 48,
+            "completion_rate": 0.5625,
+            "on_time_rate": 0.5,
+            "energy_per_completed_j": 0.009496068759746297,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 19,
+            "correct_committed_per_arrival": 0.3958333333333333,
+            "conditional_accuracy": 0.7037037037037037,
+            "losses": 53
+          },
+          "RECAP_redo": {
+            "energy_j": 0.25639385651315,
+            "completed": 27,
+            "total_inputs": 48,
+            "completion_rate": 0.5625,
+            "on_time_rate": 0.5,
+            "energy_per_completed_j": 0.009496068759746297,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 19,
+            "correct_committed_per_arrival": 0.3958333333333333,
+            "conditional_accuracy": 0.7037037037037037,
+            "losses": 53
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.25639385651315,
+                "completed": 27,
+                "total_inputs": 48,
+                "completion_rate": 0.5625,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.009496068759746297,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 19,
+                "correct_committed_per_arrival": 0.3958333333333333,
+                "conditional_accuracy": 0.7037037037037037,
+                "losses": 53
+              },
+              "b": {
+                "energy_j": 0.2618793436339665,
+                "completed": 24,
+                "total_inputs": 48,
+                "completion_rate": 0.5,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.010911639318081937,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 16,
+                "correct_committed_per_arrival": 0.3333333333333333,
+                "conditional_accuracy": 0.6666666666666666,
+                "losses": 50
+              },
+              "relative_energy_reduction": 0.12973032896989767,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.05370117189674878,
+                0.21409536250242686
+              ],
+              "completion_difference_ci95": [
+                0.02083333333333337,
+                0.125
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.25639385651315,
+                "completed": 27,
+                "total_inputs": 48,
+                "completion_rate": 0.5625,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.009496068759746297,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 19,
+                "correct_committed_per_arrival": 0.3958333333333333,
+                "conditional_accuracy": 0.7037037037037037,
+                "losses": 53
+              },
+              "b": {
+                "energy_j": 0.2563938565131364,
+                "completed": 27,
+                "total_inputs": 48,
+                "completion_rate": 0.5625,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.009496068759745792,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 19,
+                "correct_committed_per_arrival": 0.3958333333333333,
+                "conditional_accuracy": 0.7037037037037037,
+                "losses": 53
+              },
+              "relative_energy_reduction": -5.306866057708248e-14,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                -7.172595850590823e-14,
+                -3.552713678800501e-14
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.25639385651315,
+                "completed": 27,
+                "total_inputs": 48,
+                "completion_rate": 0.5625,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.009496068759746297,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 19,
+                "correct_committed_per_arrival": 0.3958333333333333,
+                "conditional_accuracy": 0.7037037037037037,
+                "losses": 53
+              },
+              "b": {
+                "energy_j": 0.2664207724856779,
+                "completed": 27,
+                "total_inputs": 48,
+                "completion_rate": 0.5625,
+                "on_time_rate": 0.4791666666666667,
+                "energy_per_completed_j": 0.009867436017988071,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 19,
+                "correct_committed_per_arrival": 0.3958333333333333,
+                "conditional_accuracy": 0.7037037037037037,
+                "losses": 49
+              },
+              "relative_energy_reduction": 0.03763563883918597,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.035825835095813136,
+                0.039992044707707036
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0625
+              ]
+            }
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.25639385651315,
+                "completed": 27,
+                "total_inputs": 48,
+                "completion_rate": 0.5625,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.009496068759746297,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 19,
+                "correct_committed_per_arrival": 0.3958333333333333,
+                "conditional_accuracy": 0.7037037037037037,
+                "losses": 53
+              },
+              "b": {
+                "energy_j": 0.25639385651315,
+                "completed": 27,
+                "total_inputs": 48,
+                "completion_rate": 0.5625,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.009496068759746297,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 19,
+                "correct_committed_per_arrival": 0.3958333333333333,
+                "conditional_accuracy": 0.7037037037037037,
+                "losses": 53
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.0,
+                0.0
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      },
+      "external_reset": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.31378156961132675,
+            "completed": 19,
+            "total_inputs": 24,
+            "completion_rate": 0.7916666666666666,
+            "on_time_rate": 0.5,
+            "energy_per_completed_j": 0.016514819453227723,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 15,
+            "correct_committed_per_arrival": 0.625,
+            "conditional_accuracy": 0.7894736842105263,
+            "losses": 454
+          },
+          "B3_adaptive": {
+            "energy_j": 0.20981070058664913,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008742112524443714,
+            "p95_latency_s": 4.676030314341364,
+            "p95_is_infinite": false,
+            "correct_completed": 20,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 274
+          },
+          "B4_periodic": {
+            "energy_j": 0.21973521949332248,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.009155634145555104,
+            "p95_latency_s": 4.862646216029551,
+            "p95_is_infinite": false,
+            "correct_completed": 20,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 284
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.20981070058666065,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008742112524444194,
+            "p95_latency_s": 4.676030314341364,
+            "p95_is_infinite": false,
+            "correct_completed": 20,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 274
+          },
+          "RECAP_redo": {
+            "energy_j": 0.20981070058666065,
+            "completed": 24,
+            "total_inputs": 24,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008742112524444194,
+            "p95_latency_s": 4.676030314341364,
+            "p95_is_infinite": false,
+            "correct_completed": 20,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 274
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.20981070058666065,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008742112524444194,
+                "p95_latency_s": 4.676030314341364,
+                "p95_is_infinite": false,
+                "correct_completed": 20,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 274
+              },
+              "b": {
+                "energy_j": 0.31378156961132675,
+                "completed": 19,
+                "total_inputs": 24,
+                "completion_rate": 0.7916666666666666,
+                "on_time_rate": 0.5,
+                "energy_per_completed_j": 0.016514819453227723,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 15,
+                "correct_committed_per_arrival": 0.625,
+                "conditional_accuracy": 0.7894736842105263,
+                "losses": 454
+              },
+              "relative_energy_reduction": 0.4706504331335212,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": true,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.43852045132139883,
+                0.5022370889766855
+              ],
+              "completion_difference_ci95": [
+                0.16666666666666663,
+                0.25
+              ],
+              "on_time_difference_ci95": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.20981070058666065,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008742112524444194,
+                "p95_latency_s": 4.676030314341364,
+                "p95_is_infinite": false,
+                "correct_completed": 20,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 274
+              },
+              "b": {
+                "energy_j": 0.20981070058664913,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008742112524443714,
+                "p95_latency_s": 4.676030314341364,
+                "p95_is_infinite": false,
+                "correct_completed": 20,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 274
+              },
+              "relative_energy_reduction": -5.5067062021407764e-14,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                -3.1907809727727e-13,
+                2.128297538206425e-13
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.20981070058666065,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008742112524444194,
+                "p95_latency_s": 4.676030314341364,
+                "p95_is_infinite": false,
+                "correct_completed": 20,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 274
+              },
+              "b": {
+                "energy_j": 0.21973521949332248,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.009155634145555104,
+                "p95_latency_s": 4.862646216029551,
+                "p95_is_infinite": false,
+                "correct_completed": 20,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 284
+              },
+              "relative_energy_reduction": 0.04516580878361842,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.043454049960413244,
+                0.046684964905325
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.20981070058666065,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008742112524444194,
+                "p95_latency_s": 4.676030314341364,
+                "p95_is_infinite": false,
+                "correct_completed": 20,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 274
+              },
+              "b": {
+                "energy_j": 0.20981070058666065,
+                "completed": 24,
+                "total_inputs": 24,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008742112524444194,
+                "p95_latency_s": 4.676030314341364,
+                "p95_is_infinite": false,
+                "correct_completed": 20,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 274
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": {
+              "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+              "replicates": 2000,
+              "undefined_replicates": 0,
+              "energy_reduction_ci95": [
+                0.0,
+                0.0
+              ],
+              "completion_difference_ci95": [
+                0.0,
+                0.0
+              ],
+              "on_time_difference_ci95": [
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      },
+      "steady": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.049351959686109566,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008225326614351594,
+            "p95_latency_s": 4.101014327377857,
+            "p95_is_infinite": false,
+            "correct_completed": 5,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 0
+          },
+          "B3_adaptive": {
+            "energy_j": 0.049351959686109254,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008225326614351542,
+            "p95_latency_s": 4.101014327378497,
+            "p95_is_infinite": false,
+            "correct_completed": 5,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 0
+          },
+          "B4_periodic": {
+            "energy_j": 0.05189910871134219,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008649851451890365,
+            "p95_latency_s": 4.313276746151473,
+            "p95_is_infinite": false,
+            "correct_completed": 5,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 0
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.049351959686109566,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008225326614351594,
+            "p95_latency_s": 4.101014327377857,
+            "p95_is_infinite": false,
+            "correct_completed": 5,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 0
+          },
+          "RECAP_redo": {
+            "energy_j": 0.049351959686109566,
+            "completed": 6,
+            "total_inputs": 6,
+            "completion_rate": 1.0,
+            "on_time_rate": 1.0,
+            "energy_per_completed_j": 0.008225326614351594,
+            "p95_latency_s": 4.101014327377857,
+            "p95_is_infinite": false,
+            "correct_completed": 5,
+            "correct_committed_per_arrival": 0.8333333333333334,
+            "conditional_accuracy": 0.8333333333333334,
+            "losses": 0
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.049351959686109566,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008225326614351594,
+                "p95_latency_s": 4.101014327377857,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.049351959686109566,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008225326614351594,
+                "p95_latency_s": 4.101014327377857,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.049351959686109566,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008225326614351594,
+                "p95_latency_s": 4.101014327377857,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.049351959686109254,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008225326614351542,
+                "p95_latency_s": 4.101014327378497,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "relative_energy_reduction": -6.217248937900877e-15,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.049351959686109566,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008225326614351594,
+                "p95_latency_s": 4.101014327377857,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.05189910871134219,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008649851451890365,
+                "p95_latency_s": 4.313276746151473,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "relative_energy_reduction": 0.049078858741093745,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.049351959686109566,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008225326614351594,
+                "p95_latency_s": 4.101014327377857,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "b": {
+                "energy_j": 0.049351959686109566,
+                "completed": 6,
+                "total_inputs": 6,
+                "completion_rate": 1.0,
+                "on_time_rate": 1.0,
+                "energy_per_completed_j": 0.008225326614351594,
+                "p95_latency_s": 4.101014327377857,
+                "p95_is_infinite": false,
+                "correct_completed": 5,
+                "correct_committed_per_arrival": 0.8333333333333334,
+                "conditional_accuracy": 0.8333333333333334,
+                "losses": 0
+              },
+              "relative_energy_reduction": 0.0,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": true
+            },
+            "paired_bootstrap": null
+          }
+        }
+      },
+      "zero": {
+        "methods": {
+          "B1_layer": {
+            "energy_j": 0.0001250000000000014,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "B3_adaptive": {
+            "energy_j": 0.0001250000000000014,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "B4_periodic": {
+            "energy_j": 0.0001250000000000014,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "RECAP_nominal": {
+            "energy_j": 0.0001250000000000014,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          },
+          "RECAP_redo": {
+            "energy_j": 0.0001250000000000014,
+            "completed": 0,
+            "total_inputs": 6,
+            "completion_rate": 0.0,
+            "on_time_rate": 0.0,
+            "energy_per_completed_j": null,
+            "p95_latency_s": null,
+            "p95_is_infinite": true,
+            "correct_completed": 0,
+            "correct_committed_per_arrival": 0.0,
+            "conditional_accuracy": null,
+            "losses": 2
+          }
+        },
+        "comparisons": {
+          "B1_layer": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          },
+          "B3_adaptive": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          },
+          "B4_periodic": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          },
+          "RECAP_nominal": {
+            "comparison": {
+              "a": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "b": {
+                "energy_j": 0.0001250000000000014,
+                "completed": 0,
+                "total_inputs": 6,
+                "completion_rate": 0.0,
+                "on_time_rate": 0.0,
+                "energy_per_completed_j": null,
+                "p95_latency_s": null,
+                "p95_is_infinite": true,
+                "correct_completed": 0,
+                "correct_committed_per_arrival": 0.0,
+                "conditional_accuracy": null,
+                "losses": 2
+              },
+              "relative_energy_reduction": null,
+              "noninferior_point_estimate": true,
+              "meets_goal_point_estimate": false,
+              "latency_nonregression_finite_only": false
+            },
+            "paired_bootstrap": null
+          }
+        }
+      }
+    }
+  },
+  "direct_output_scratch_writes": 0,
+  "selected_save_dw_jobs": 0,
+  "selected_keep_ps_jobs": 0,
+  "main_completed": 642,
+  "elapsed_s": 545.6934338000001,
+  "limitations": [
+    "Assumed cost/hazard, not measured or calibrated; inherited DW x30 debug coefficient.",
+    "Renewal ranking is approximate: boundary losses, nominal residency and simplified boot/read costs; actual execution uses absolute-time disconnects.",
+    "B4_periodic is a local periodic-checkpoint adaptation inspired by checkpoint/recomputation literature, not Chime/CIM-Tuner reproduction.",
+    "Horizon/deadlines differ from G6; no before/after percentage may mix protocols.",
+    "Small VWW subset and same pretrained models; not a full benchmark accuracy claim.",
+    "The reserved G8 feature pool was used in an aborted G8_1.0 integration run; G8_1.1 uses new source/reset seeds after a fixed B1 geometry bug, without policy tuning.",
+    "No hardware, complete accelerator RTL, calibrated macro, formal proof or independent human novelty review."
+  ]
+}

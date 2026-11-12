@@ -1,0 +1,45 @@
+{
+  "status": "PASS_SAME_HOST_DIAGNOSTICS",
+  "recorded_at_utc": "2026-10-16T01:41:20.310698+00:00",
+  "new_arithmetic_checks": [
+    {
+      "workload": "kws",
+      "input_id": "tst_000208_Up_8.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0,
+      "host_elapsed_s": 0.19648469999992813
+    },
+    {
+      "workload": "vww",
+      "input_id": "000000165257",
+      "operator_outputs": 31,
+      "elements": 232068,
+      "mismatches": 0,
+      "host_elapsed_s": 0.6308033000004798
+    }
+  ],
+  "fresh_runtime_case": "g6_331000",
+  "runtime_repeats": [
+    {
+      "repeat": 1,
+      "energy_j": 0.0027310116857093567,
+      "completed": 3,
+      "host_elapsed_s": 1.1084928999998738,
+      "matches_frozen_full_case": true
+    },
+    {
+      "repeat": 2,
+      "energy_j": 0.0027310116857093567,
+      "completed": 3,
+      "host_elapsed_s": 0.23822220000056404,
+      "matches_frozen_full_case": true
+    }
+  ],
+  "energy_repeat_spread_j": 0.0,
+  "cross_host_validation": "NOT_RUN",
+  "hardware_timing_validation": "NOT_RUN",
+  "scope": "Two fresh uninterrupted inputs and two repeats of one existing steady KWS source case. Same host and frozen code; no new holdout claim, policy tuning, or target energy/timing validation.",
+  "elapsed_s": 11.575610900000356,
+  "submission_ready": false
+}

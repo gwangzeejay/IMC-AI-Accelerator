@@ -1,0 +1,48 @@
+{
+  "status": "PASS_FINITE_GRAPH_FAULTS",
+  "cases": [
+    {
+      "workload": "kws",
+      "action": "layer_log",
+      "completed": 1,
+      "fault_executed": true,
+      "losses": 1
+    },
+    {
+      "workload": "kws",
+      "action": "graph_root",
+      "completed": 1,
+      "fault_executed": true,
+      "losses": 1
+    },
+    {
+      "workload": "kws",
+      "action": "checkpoint_partial",
+      "completed": 1,
+      "fault_executed": true,
+      "losses": 1
+    },
+    {
+      "workload": "vww",
+      "action": "layer_log",
+      "completed": 1,
+      "fault_executed": true,
+      "losses": 1
+    },
+    {
+      "workload": "vww",
+      "action": "graph_root",
+      "completed": 1,
+      "fault_executed": true,
+      "losses": 1
+    },
+    {
+      "workload": "vww",
+      "action": "checkpoint_partial",
+      "completed": 1,
+      "fault_executed": true,
+      "losses": 1
+    }
+  ],
+  "scope": "6 full-network directed faults; byte-cut tests separately in unit_tests.txt"
+}

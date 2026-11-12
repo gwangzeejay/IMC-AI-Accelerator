@@ -1,0 +1,7 @@
+{
+  "energy_j_per_unit": {},
+  "seconds_per_unit": {},
+  "leakage_w": null,
+  "provenance": "functional_only; missing G1 calibration intentionally unknown",
+  "calibrated": false
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-15",
+  "sources": [
+    {
+      "id": "S1",
+      "file": "chime2016.pdf",
+      "url": "https://raw.githubusercontent.com/ACESLabUCSD/website-bib/refs/heads/main/Papers/2016/Chime_Checkpointing_Long_Computations_on_Interm_ittently_Energized_IoT_Devices.pdf",
+      "pages": 14,
+      "doi": "10.1109/TMSCS.2016.2550442",
+      "inspected_sections": [
+        "5.1",
+        "5.2",
+        "6",
+        "9.5"
+      ],
+      "sha256": "ce84c865ba6a580569821bcb205aee2c281056eb5ed25165753094d538469491",
+      "bytes": 1584097,
+      "retrieved_date": "2026-10-15"
+    },
+    {
+      "id": "S10",
+      "file": "fm25v20a_rev_j.pdf",
+      "url": "https://www.infineon.com/dgdl/Infineon-FM25V20A_2-Mbit_(256_K_X_8)_Serial_(SPI)_F-RAM-DataSheet-v10_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec93a4341a5",
+      "pages": 33,
+      "document_id": "001-90261 Rev. *J",
+      "revision_date": "2023-12-22",
+      "inspected_sections": [
+        "5.1",
+        "5.2",
+        "5.6",
+        "8 Table 11",
+        "14 Table 17"
+      ],
+      "sha256": "63c9dfae112445fc0c0b719184b29dbab0edea2f7ef47702cd6d0822ac59072d",
+      "bytes": 694716,
+      "retrieved_date": "2026-10-15"
+    }
+  ]
+}

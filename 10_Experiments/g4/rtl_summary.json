@@ -1,0 +1,52 @@
+{
+  "status": "PASS_RTL_TRANSACTION_REFINEMENT",
+  "scope": "two model-backed microtiles; finite faults and simulation assertions; binary-v1 metadata",
+  "configs": {
+    "g2_micro": {
+      "baseline_cases": 10,
+      "fault_cases": 910,
+      "directed_cases": 8,
+      "executed_losses": 1415,
+      "transactions": 3251945,
+      "cycle_checks": 4147,
+      "restored_bytes": 94048,
+      "fault_categories": {
+        "boot_or_restore_reinterruption": 12,
+        "internal_state_cut": 28,
+        "pending_write_new": 123,
+        "pending_write_old": 123,
+        "preserve_previous_nonzero_ps_prefix": 1,
+        "seeded_multi_loss": 500,
+        "write_boundary_after_ack": 123
+      },
+      "mismatches": 0
+    },
+    "g3_selected_tile": {
+      "baseline_cases": 10,
+      "fault_cases": 910,
+      "directed_cases": 8,
+      "executed_losses": 1419,
+      "transactions": 3122684,
+      "cycle_checks": 4150,
+      "restored_bytes": 75104,
+      "fault_categories": {
+        "boot_or_restore_reinterruption": 12,
+        "internal_state_cut": 28,
+        "pending_write_new": 123,
+        "pending_write_old": 123,
+        "preserve_previous_nonzero_ps_prefix": 1,
+        "seeded_multi_loss": 500,
+        "write_boundary_after_ack": 123
+      },
+      "mismatches": 0
+    }
+  },
+  "total_cases": 1856,
+  "fault_cases": 1820,
+  "executed_losses": 2834,
+  "checked_transactions": 6374629,
+  "cycle_checks": 8297,
+  "mismatches": 0,
+  "seed": 82500,
+  "formal_proof_performed": false
+}

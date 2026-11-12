@@ -1,0 +1,119 @@
+{
+  "workload": "vww",
+  "method": "B3_adaptive",
+  "variant": "full",
+  "backend": "cim",
+  "scenario_id": "g6_341106",
+  "family": "mild_cap1",
+  "seed": 341106,
+  "total_inputs": 3,
+  "energy_j": 0.011328625750362916,
+  "completed": 1,
+  "failed": 0,
+  "incomplete": 2,
+  "completion_rate": 0.3333333333333333,
+  "on_time_rate": 0.0,
+  "throughput_per_s": 0.125,
+  "energy_per_completed_j": 0.011328625750362916,
+  "p95_latency_s": null,
+  "p95_is_infinite": true,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 2.6,
+      "committed_s": 6.000333189999057
+    },
+    {
+      "arrival_s": 2.6,
+      "deadline_s": 5.2
+    },
+    {
+      "arrival_s": 5.2,
+      "deadline_s": 7.800000000000001
+    }
+  ],
+  "outputs": [
+    {
+      "input_id": "000000376442",
+      "label": 0,
+      "prediction": 0,
+      "correct": true,
+      "output": [
+        118,
+        -118
+      ]
+    }
+  ],
+  "breakdown_j": {
+    "boot": 1e-06,
+    "boot_root": 1.026e-06,
+    "load_feature": 5.5295999999999926e-05,
+    "scan_destination": 2.48e-07,
+    "boot_scratch": 3.277000000000002e-05,
+    "boot_parser_assumed": 5.12e-09,
+    "runtime_decision_assumed": 2.085000000000075e-06,
+    "weight_load": 0.006247744000000041,
+    "weight_bank_load": 0.0012495487999999888,
+    "activation_load": 0.00036437759999999027,
+    "first_conv": 4.976639999999966e-06,
+    "requant": 3.686399999999986e-07,
+    "checkpoint_output": 0.00104062799999995,
+    "checkpoint_output_controller": 0.0001091617399999983,
+    "layer_log": 0.0010364599999999745,
+    "layer_log_controller": 0.00010874493999999893,
+    "retention_wait": 6.2768203629758384e-06,
+    "load_next_anchor": 0.0005035499999999958,
+    "graph_root": 7.308000000000007e-06,
+    "graph_root_controller": 7.662900000000002e-07,
+    "dw_compute": 0.0005092416000000021,
+    "dw_requant": 1.8860800000000111e-06,
+    "pw_compute": 4.2659839999999875e-05,
+    "pw_requant": 2.208640000000015e-06,
+    "cpu_head_assumed": 2.88e-07
+  },
+  "units": {
+    "boot": 2.0,
+    "boot_root": 1026.0,
+    "load_feature": 55296.0,
+    "scan_destination": 248.0,
+    "boot_scratch": 32770.0,
+    "boot_parser_assumed": 512.0,
+    "runtime_decision_assumed": 2085.0,
+    "weight_load": 6247744.0,
+    "weight_bank_load": 6247744.0,
+    "activation_load": 1821888.0,
+    "first_conv": 995328.0,
+    "requant": 36864.0,
+    "checkpoint_output": 520314.0,
+    "layer_log": 518230.0,
+    "load_next_anchor": 503550.0,
+    "graph_root": 3654.0,
+    "dw_compute": 1697472.0,
+    "dw_requant": 188608.0,
+    "pw_compute": 8531968.0,
+    "pw_requant": 220864.0,
+    "cpu_head_assumed": 2880.0
+  },
+  "losses": 0,
+  "admitted_units": 10746,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 1.039104e-05,
+  "max_sram_algorithm_bytes": 41216,
+  "max_nvm_reserved_bytes": 1027050,
+  "chosen": {
+    "p8_co8_ci1_z0ps0": 576,
+    "p8_co16_ci8_z0ps0": 576,
+    "p8_co32_ci16_z0ps0": 288,
+    "p8_co64_ci16_z0ps0": 72,
+    "p1_co64_ci16_z0ps0": 140,
+    "p1_co64_ci64_z0ps0": 432,
+    "p1_co2_ci1_z0ps0": 1
+  },
+  "bank_hits": 574,
+  "bank_misses": 4228,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": -7.961686187716796e-16,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}

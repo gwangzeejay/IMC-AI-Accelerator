@@ -1,0 +1,19 @@
+test_active_leakage_charged_once (test_g6.G6Tests.test_active_leakage_charged_once) ... ok
+test_all_live_aux_capacity_and_crc (test_g6.G6Tests.test_all_live_aux_capacity_and_crc) ... ok
+test_event_wait_analytic_threshold (test_g6.G6Tests.test_event_wait_analytic_threshold) ... ok
+test_extended_bounds_and_256_channel_prefix (test_g6.G6Tests.test_extended_bounds_and_256_channel_prefix) ... ok
+test_full_arithmetic_matches_all_operators (test_g6.G6Tests.test_full_arithmetic_matches_all_operators) ... ok
+test_future_trace_not_used_by_policy (test_g6.G6Tests.test_future_trace_not_used_by_policy) ... ok
+test_ignore_reload_only_changes_decision (test_g6.G6Tests.test_ignore_reload_only_changes_decision) ... ok
+test_original_vww_infeasible (test_g6.G6Tests.test_original_vww_infeasible) ... ok
+test_repeated_input_identity_not_reused (test_g6.G6Tests.test_repeated_input_identity_not_reused) ... ok
+test_source_seeds_unique (test_g6.G6Tests.test_source_seeds_unique) ... ok
+test_unfused_arithmetic_identical (test_g6.G6Tests.test_unfused_arithmetic_identical) ... ok
+test_variable_tail_geometry_covers_output (test_g6.G6Tests.test_variable_tail_geometry_covers_output) ... ok
+test_weight_residency_real_load_ledger (test_g6.G6Tests.test_weight_residency_real_load_ledger) ... ok
+test_zero_harvest_no_zero_time_loop (test_g6.G6Tests.test_zero_harvest_no_zero_time_loop) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 12.354s
+
+OK

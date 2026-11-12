@@ -1,0 +1,101 @@
+{
+  "status": "G6_POST_HOC_MECHANISM_DIAGNOSTICS",
+  "recorded_at_utc": "2026-10-15T14:05:26.257520+00:00",
+  "policies_refitted": false,
+  "heldout_inference_rerun": false,
+  "primary_metrics_unchanged": true,
+  "material_loss_comparisons": 64,
+  "steady_checkpoint_ledger": {
+    "kws": {
+      "ledger": {
+        "RECAP": {
+          "total_j": 0.005443539416161085,
+          "scratch_j": 0.0006692072999999988,
+          "log_j": 0.0006681117000000008,
+          "weight_load_j": 0.002274384000000001
+        },
+        "B1_layer": {
+          "total_j": 0.004759032561043528,
+          "scratch_j": 0,
+          "log_j": 0.0006647971800000009,
+          "weight_load_j": 0.002265936000000001
+        }
+      },
+      "extra_recap_energy_j": 0.0006845068551175563,
+      "scratch_fraction_of_difference": 0.9776487919687379,
+      "scope": "same source/arrivals; interpret component difference only with completion counts and finite horizon"
+    },
+    "vww": {
+      "ledger": {
+        "RECAP": {
+          "total_j": 0.032113632209580016,
+          "scratch_j": 0.0025892759799999916,
+          "log_j": 0.002578588379999861,
+          "weight_load_j": 0.019425799048840887
+        },
+        "B1_layer": {
+          "total_j": 0.032115291783936864,
+          "scratch_j": 0,
+          "log_j": 0.002642488829999842,
+          "weight_load_j": 0.021394513234820903
+        }
+      },
+      "extra_recap_energy_j": -1.6595743568478816e-06,
+      "scratch_fraction_of_difference": null,
+      "scope": "same source/arrivals; interpret component difference only with completion counts and finite horizon"
+    }
+  },
+  "source_budget": [
+    {
+      "workload": "kws",
+      "domain": "stochastic",
+      "assumed_rail_supply_plus_initial_capacitor_j": 0.30187753628048,
+      "consumed_j": 0.09611998904865401,
+      "consumed_fraction": 0.3184072264302143,
+      "scope": "source-budget diagnostic only; energy/commit denominator remains all completed arrivals, not harvested energy"
+    },
+    {
+      "workload": "kws",
+      "domain": "measured",
+      "assumed_rail_supply_plus_initial_capacitor_j": 0.06757823299818143,
+      "consumed_j": 0.02296537908308177,
+      "consumed_fraction": 0.3398339681906123,
+      "scope": "source-budget diagnostic only; energy/commit denominator remains all completed arrivals, not harvested energy"
+    },
+    {
+      "workload": "vww",
+      "domain": "stochastic",
+      "assumed_rail_supply_plus_initial_capacitor_j": 0.30187753628048,
+      "consumed_j": 0.3017554206852155,
+      "consumed_fraction": 0.9995954796876604,
+      "scope": "source-budget diagnostic only; energy/commit denominator remains all completed arrivals, not harvested energy"
+    },
+    {
+      "workload": "vww",
+      "domain": "measured",
+      "assumed_rail_supply_plus_initial_capacitor_j": 0.06757823299818143,
+      "consumed_j": 0.06755340665351636,
+      "consumed_fraction": 0.9996326280880157,
+      "scope": "source-budget diagnostic only; energy/commit denominator remains all completed arrivals, not harvested energy"
+    }
+  ],
+  "state_objective_dominance": [
+    {
+      "workload": "kws",
+      "diagnostic_same_geometry_chunk_pairs": 48,
+      "save_state_strictly_costlier": 48,
+      "main_selected_save_dw_jobs": 0,
+      "main_selected_keep_ps_jobs": 0,
+      "interpretation": "Current nominal per-job objective lacks expected redo credit; saving state adds cost without modeled objective benefit. This is an algorithm limitation, not proof that saving is useless."
+    },
+    {
+      "workload": "vww",
+      "diagnostic_same_geometry_chunk_pairs": 126,
+      "save_state_strictly_costlier": 126,
+      "main_selected_save_dw_jobs": 0,
+      "main_selected_keep_ps_jobs": 0,
+      "interpretation": "Current nominal per-job objective lacks expected redo credit; saving state adds cost without modeled objective benefit. This is an algorithm limitation, not proof that saving is useless."
+    }
+  ],
+  "interpretation_scope": "descriptive diagnostics after primary test; no causal hardware validation or new confirmed improvement"
+}

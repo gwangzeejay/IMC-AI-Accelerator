@@ -1,0 +1,31 @@
+{
+  "frozen_at_utc": "2026-10-15T13:36:43.138855+00:00",
+  "source_sha256": {
+    "09_Simulation/g6_experiments.py": "15dbdbfaa710046945ae0315ad12053e15e55ec0dfea36505bcecdab66451a48",
+    "09_Simulation/g6_faults.py": "f791e92eccd6983580952a48434c05691e257ea9003e1e4f0785c010370c28d4",
+    "09_Simulation/g6_inputs.py": "78a5fad667b394757eb9dfcffd38d035c462b576a8fa85f561cfe9859705d392",
+    "09_Simulation/g6_model.py": "ab6e7fee654994f45275687fb58952d9d22027d657095bb7d9b497fd9e6bab37",
+    "09_Simulation/g6_plot.py": "d4cdf6cc5aa09da2292af6ab6ef02336fa21956e43346ba65e925399fab51170",
+    "09_Simulation/g6_runtime.py": "d93eea70925b1b54ce4a2208c1f032b30deeca2669baee2888da085967101955",
+    "09_Simulation/g6_storage.py": "0e0fbd7a53fcbb9bf650ae6a27fe8b38c6468c771c21798e3427bbcb6472c586",
+    "10_Experiments/run_g6.py": "0cb1d1bea6c4256dafc3c10db1fa7dd1be98bf36f932269d64bac0d987183a55",
+    "10_Experiments/setup_g6_sources.py": "b5a02e35a813b416c4261a83cb248c8a2d850128c59d6feb284e90b0dacb993b",
+    "09_Simulation/configs/g6_protocol.json": "6c9d8b45bcc5956247efad90ee272f69c9abcd937c13c6f0bb563f218d3a43ae",
+    "09_Simulation/tests_g6/test_g6.py": "62987a3ad42239c375ae1615cf27148268011057c74ebe094caabd88bfdfda2b"
+  },
+  "input_sha256": {
+    "05_Model_Training/reference_vww/source_manifest.json": "738e2112e135d2d050622b1da0dbc13761dd1d2478138ccbcc333e70de8769a8",
+    "05_Model_Training/reference_vww/coco_subset/manifest.json": "667999944711bebe5b1cc376a6111970fb86ecab735a23dd2fa5ec6b6dec14a1",
+    "05_Model_Training/reference_eembc/source_manifest.json": "96814e9887a8dccfb82f51b460af47b5df8cff9226c06b2a7514c38e2f83a71f",
+    "09_Simulation/traces/g6_eth/source_manifest.json": "29574d5c23fd3549c6530700620c37e6942485dc36bdb92c010cd4a4f762b678",
+    "10_Experiments/g6/scenarios.json": "981273079298b6e75300c6c4a5626da07422e7f027ddcdd1c26626b24a8d941a",
+    "10_Experiments/g6/input_pools.json": "26ceb463d2c2556cd6401434a4bf74a6dd6fc52a5e4254a8b8e636036c5d67c1"
+  },
+  "model_sha256": {
+    "kws": "aeea436800704fce17b17292e4412630ad856e9d777c044c64ef748a880bd0ae",
+    "vww": "597a384c8c2c8a1276f04702f25013b7838f2f814f1ca7c174d295b73e3d6b7b"
+  },
+  "reserve_fraction": 0.3,
+  "no_g6_tuning": true,
+  "design": "G5 policy transfer, extended common memory, fresh synthetic seeds and six deterministic native solar windows"
+}

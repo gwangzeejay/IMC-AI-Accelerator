@@ -1,0 +1,8 @@
+{
+  "command": "python 10_Experiments/audit_g5.py",
+  "sha256": {
+    "10_Experiments/audit_g5.py": "533c51a3ffabb5b6246673d44c4c4c1af02c167fa5e660e599cf3fcbbe2bb8b4",
+    "10_Experiments/g5_audit/audit.json": "34665a80f71a119f4dc607ae4fa55857fb1e34022fe1c5760fc727b01929eae8"
+  },
+  "g5_run_manifest_sha256": "085bfcb38b38df885b7393e8e115ffd490dda13ff183554cdd4f03cdf3536c62"
+}

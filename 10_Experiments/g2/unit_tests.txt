@@ -1,0 +1,27 @@
+test_activation_and_signedness (test_g2.IntegerTests.test_activation_and_signedness) ... ok
+test_gemmlowp_edges (test_g2.IntegerTests.test_gemmlowp_edges) ... ok
+test_padding_is_input_zero_point_and_stride (test_g2.IntegerTests.test_padding_is_input_zero_point_and_stride) ... ok
+test_reject_accumulator_overflow (test_g2.IntegerTests.test_reject_accumulator_overflow) ... ok
+test_fixed_horizon_undefined_energy_and_infinite_p95 (test_g2.MetricsMapperTests.test_fixed_horizon_undefined_energy_and_infinite_p95) ... ok
+test_mapper_ratio_of_sums_and_constraints (test_g2.MetricsMapperTests.test_mapper_ratio_of_sums_and_constraints) ... ok
+test_mapper_zero_completions_infeasible (test_g2.MetricsMapperTests.test_mapper_zero_completions_infeasible) ... ok
+test_completed_transfer_roundoff_never_tears_marker (test_g2.PowerCostTests.test_completed_transfer_roundoff_never_tears_marker) ... ok
+test_conservative_admission_and_spillage (test_g2.PowerCostTests.test_conservative_admission_and_spillage) ... ok
+test_coupled_ledgers_and_reserved_units (test_g2.PowerCostTests.test_coupled_ledgers_and_reserved_units) ... ok
+test_piecewise_boundary_and_partial_cost (test_g2.PowerCostTests.test_piecewise_boundary_and_partial_cost) ... ok
+test_same_harvest_different_load_different_failure (test_g2.PowerCostTests.test_same_harvest_different_load_different_failure) ... ok
+test_unknown_is_not_zero (test_g2.PowerCostTests.test_unknown_is_not_zero) ... ok
+test_capacity_rejected (test_g2.RecoveryTests.test_capacity_rejected) ... ok
+test_identity_mismatch_is_not_restored (test_g2.RecoveryTests.test_identity_mismatch_is_not_restored) ... ok
+test_payload_and_metadata_corruption_fall_back (test_g2.RecoveryTests.test_payload_and_metadata_corruption_fall_back) ... ok
+test_previous_nonzero_prefix_survives_keep_ps_false (test_g2.RecoveryTests.test_previous_nonzero_prefix_survives_keep_ps_false) ... ok
+test_publish_visibility_and_cold_state (test_g2.RecoveryTests.test_publish_visibility_and_cold_state) ... ok
+test_replay_is_accounted_not_added_twice (test_g2.RecoveryTests.test_replay_is_accounted_not_added_twice) ... ok
+test_restore_interrupted_repeatedly (test_g2.RecoveryTests.test_restore_interrupted_repeatedly) ... ok
+test_save_without_ps_never_promotes_offset (test_g2.RecoveryTests.test_save_without_ps_never_promotes_offset) ... ok
+test_underpowered_horizon_reports_incomplete (test_g2.RecoveryTests.test_underpowered_horizon_reports_incomplete) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.379s
+
+OK

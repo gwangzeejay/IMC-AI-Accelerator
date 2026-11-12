@@ -1,0 +1,14 @@
+localparam integer IH=3,IW=4,OH=1,OW=2,CI=64,CO=16,PIXELS=2;
+localparam integer ZB=128,PB=128,OB=32,SLOT=512;
+localparam [255:0] MODEL_ID=256'haed00b888a74ef644c047c779d6e85ad302641e49272b117ce4f70006843eaae;
+localparam [255:0] INPUT_ID=256'h3710d89ec3059b377add6923b4b14799c1635f7d8fd87871f5158c7b652cd83d;
+localparam [255:0] DESCRIPTOR_ID=256'hb45d2c659aca40094f7b487e512d62e9fab1e4f1f4672cdd4c6b8aaa1f0a076d;
+localparam integer DW_INPUT_ZERO_POINT=-128;
+localparam integer DW_OUTPUT_ZERO_POINT=-128;
+localparam integer DW_ACTIVATION_MIN=-128;
+localparam integer DW_ACTIVATION_MAX=127;
+localparam integer PW_INPUT_ZERO_POINT=-128;
+localparam integer PW_OUTPUT_ZERO_POINT=-128;
+localparam integer PW_ACTIVATION_MIN=-128;
+localparam integer PW_ACTIVATION_MAX=127;
+localparam VECTOR_DIR="10_Experiments/g4/vectors/g3_selected_tile/";

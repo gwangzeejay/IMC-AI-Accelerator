@@ -1,0 +1,44 @@
+{
+  "cases": 1,
+  "transactions": 1545,
+  "restored_bytes": 64,
+  "cycle_checks": 3,
+  "mismatches": 0,
+  "results": [
+    {
+      "case_id": 0,
+      "reads": 1025,
+      "writes": 520,
+      "restores": 64,
+      "losses": 0,
+      "cycles": 5877,
+      "passed": true
+    }
+  ],
+  "cycle_measurements": [
+    {
+      "case_id": 0,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 396,
+      "rtl_cycles": 770,
+      "reference_cycles": 770
+    },
+    {
+      "case_id": 0,
+      "payload_bytes": 64,
+      "final": 0,
+      "stall_cycles": 388,
+      "rtl_cycles": 762,
+      "reference_cycles": 762
+    },
+    {
+      "case_id": 0,
+      "payload_bytes": 16,
+      "final": 1,
+      "stall_cycles": 265,
+      "rtl_cycles": 544,
+      "reference_cycles": 544
+    }
+  ]
+}

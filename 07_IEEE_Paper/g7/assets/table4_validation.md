@@ -1,0 +1,10 @@
+| Level | Evidence | Boundary |
+| --- | --- | --- |
+| G4 controller | 1882 cases; 6415721 byte ACKs | Two microtiles; finite simulation |
+| G4 arithmetic | 647 MAC; 5468 requantization cases | Scalar units, not full accelerator |
+| G5 model | 901/1000 reference labels; 0 own arithmetic mismatches | MFCC input; reference CPU head |
+| G6 model | 1794096 tensor elements; 0 mismatches | 16 inputs; reference CPU head |
+| G6 fault | 8 full networks + 1000 large-slot schedules | Large-slot campaign is not 1000 full networks |
+| G6 main | 481 committed outputs checked | Hybrid event simulation; assumed costs |
+
+No silicon energy, full-network RTL, formal proof, PPA, or compiled CPU arena is established.

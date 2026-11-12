@@ -1,0 +1,11 @@
+{
+  "simulation_run": "20261023-v2",
+  "rtl_run": "rtl-20261023-v3",
+  "protocol": "G8_1.1",
+  "scope": "Laptop simulation plus standalone RTL; no calibrated physical results",
+  "excluded": {
+    "20261023-v1": "Aborted G8_1.0; B1 VWW geometry bug; no valid final manifest",
+    "rtl-20261023-v1": "Failed compiler invocation with absolute Unicode paths",
+    "rtl-20261023-v2": "Earlier passing simulation superseded by rerun with generic synthesis and artifact hashes"
+  }
+}

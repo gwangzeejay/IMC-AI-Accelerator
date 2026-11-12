@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-23",
+  "scope": "Explicit engineering-deliverable rubric; not a measured fraction of research novelty, silicon completion, or publication readiness",
+  "achieved_points": 80,
+  "total_points": 100,
+  "submission_ready": false,
+  "calibrated": false,
+  "gates": [
+    {
+      "name": "Scope and current documentation",
+      "points": 10,
+      "passed": true,
+      "evidence": "README.md; 06_FPGA/HARDWARE_ROADMAP.md"
+    },
+    {
+      "name": "Reference arithmetic and operator checks",
+      "points": 10,
+      "passed": true,
+      "evidence": "G2-G6 tests; G8 equivalence.json"
+    },
+    {
+      "name": "Durable recovery and fault checks",
+      "points": 10,
+      "passed": true,
+      "evidence": "G8 unit tests; six full-network directed faults"
+    },
+    {
+      "name": "Implemented redo-aware ranking with independent oracle",
+      "points": 10,
+      "passed": true,
+      "evidence": "g8_runtime.py; linear-system and causality tests; no superiority claim"
+    },
+    {
+      "name": "Common direct-publication primitive and RTL",
+      "points": 10,
+      "passed": true,
+      "evidence": "284 RTL ACK-cut cases; 2 invalid commands; generic synthesis"
+    },
+    {
+      "name": "Runnable common-backend controls",
+      "points": 10,
+      "passed": true,
+      "evidence": "5 local policies; B4 interval development-selected; not literature reproduction"
+    },
+    {
+      "name": "Locked evaluation, raw data and stress interventions",
+      "points": 10,
+      "passed": true,
+      "evidence": "G8_1.1 freeze; 280 main and 120 secondary rows; abort disclosed"
+    },
+    {
+      "name": "Reproduction commands and independent audit",
+      "points": 10,
+      "passed": true,
+      "evidence": "89 Python tests executed; check_project.py; 2769 preserved legacy hash entries"
+    },
+    {
+      "name": "Scientific contribution and strong optimized prior-art comparison",
+      "points": 10,
+      "passed": false,
+      "evidence": "No main advantage over B3; nearest optimized literature baseline and independent review remain open"
+    },
+    {
+      "name": "Source-backed/physical backend validation and deployment",
+      "points": 10,
+      "passed": false,
+      "evidence": "No board/lab/PDK; cost calibration, full-runtime memory and physical persistence unverified"
+    }
+  ]
+}

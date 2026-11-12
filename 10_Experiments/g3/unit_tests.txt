@@ -1,0 +1,49 @@
+test_activation_and_signedness (test_g2.IntegerTests.test_activation_and_signedness) ... ok
+test_gemmlowp_edges (test_g2.IntegerTests.test_gemmlowp_edges) ... ok
+test_padding_is_input_zero_point_and_stride (test_g2.IntegerTests.test_padding_is_input_zero_point_and_stride) ... ok
+test_reject_accumulator_overflow (test_g2.IntegerTests.test_reject_accumulator_overflow) ... ok
+test_fixed_horizon_undefined_energy_and_infinite_p95 (test_g2.MetricsMapperTests.test_fixed_horizon_undefined_energy_and_infinite_p95) ... ok
+test_mapper_ratio_of_sums_and_constraints (test_g2.MetricsMapperTests.test_mapper_ratio_of_sums_and_constraints) ... ok
+test_mapper_zero_completions_infeasible (test_g2.MetricsMapperTests.test_mapper_zero_completions_infeasible) ... ok
+test_completed_transfer_roundoff_never_tears_marker (test_g2.PowerCostTests.test_completed_transfer_roundoff_never_tears_marker) ... ok
+test_conservative_admission_and_spillage (test_g2.PowerCostTests.test_conservative_admission_and_spillage) ... ok
+test_coupled_ledgers_and_reserved_units (test_g2.PowerCostTests.test_coupled_ledgers_and_reserved_units) ... ok
+test_piecewise_boundary_and_partial_cost (test_g2.PowerCostTests.test_piecewise_boundary_and_partial_cost) ... ok
+test_same_harvest_different_load_different_failure (test_g2.PowerCostTests.test_same_harvest_different_load_different_failure) ... ok
+test_unknown_is_not_zero (test_g2.PowerCostTests.test_unknown_is_not_zero) ... ok
+test_capacity_rejected (test_g2.RecoveryTests.test_capacity_rejected) ... ok
+test_identity_mismatch_is_not_restored (test_g2.RecoveryTests.test_identity_mismatch_is_not_restored) ... ok
+test_payload_and_metadata_corruption_fall_back (test_g2.RecoveryTests.test_payload_and_metadata_corruption_fall_back) ... ok
+test_previous_nonzero_prefix_survives_keep_ps_false (test_g2.RecoveryTests.test_previous_nonzero_prefix_survives_keep_ps_false) ... ok
+test_publish_visibility_and_cold_state (test_g2.RecoveryTests.test_publish_visibility_and_cold_state) ... ok
+test_replay_is_accounted_not_added_twice (test_g2.RecoveryTests.test_replay_is_accounted_not_added_twice) ... ok
+test_restore_interrupted_repeatedly (test_g2.RecoveryTests.test_restore_interrupted_repeatedly) ... ok
+test_save_without_ps_never_promotes_offset (test_g2.RecoveryTests.test_save_without_ps_never_promotes_offset) ... ok
+test_underpowered_horizon_reports_incomplete (test_g2.RecoveryTests.test_underpowered_horizon_reports_incomplete) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.197s
+
+OK
+test_all_four_flags_with_actual_chunked_progress (test_g3.DescriptorTests.test_all_four_flags_with_actual_chunked_progress) ... ok
+test_capacity_infeasible_never_becomes_completed (test_g3.DescriptorTests.test_capacity_infeasible_never_becomes_completed) ... ok
+test_fixed_output_all_eight_spatial_co_partitions (test_g3.DescriptorTests.test_fixed_output_all_eight_spatial_co_partitions) ... ok
+test_nvm_capacity_includes_retained_outputs_and_copies (test_g3.DescriptorTests.test_nvm_capacity_includes_retained_outputs_and_copies) ... ok
+test_weight_cache_reuse_changes_traffic_not_output (test_g3.DescriptorTests.test_weight_cache_reuse_changes_traffic_not_output) ... ok
+test_bootstrap_does_not_hide_zero_denominators (test_g3.EvaluationTests.test_bootstrap_does_not_hide_zero_denominators) ... ok
+test_bootstrap_reproducible_and_paired (test_g3.EvaluationTests.test_bootstrap_reproducible_and_paired) ... ok
+test_completion_constraint_beats_apparently_low_energy (test_g3.EvaluationTests.test_completion_constraint_beats_apparently_low_energy) ... ok
+test_cost_profile_not_calibration (test_g3.EvaluationTests.test_cost_profile_not_calibration) ... ok
+test_disjoint_fixed_split_seeds (test_g3.EvaluationTests.test_disjoint_fixed_split_seeds) ... ok
+test_no_energy_claim_at_lower_completion (test_g3.EvaluationTests.test_no_energy_claim_at_lower_completion) ... ok
+test_protocol_goal_frozen (test_g3.EvaluationTests.test_protocol_goal_frozen) ... ok
+test_reject_incomplete_scenario_grid (test_g3.EvaluationTests.test_reject_incomplete_scenario_grid) ... ok
+test_checkpoint_publish_crash (test_g3.G3RecoveryTests.test_checkpoint_publish_crash) ... ok
+test_final_output_and_frontier_crash_order (test_g3.G3RecoveryTests.test_final_output_and_frontier_crash_order) ... ok
+test_nonprefix_frontier_rejected (test_g3.G3RecoveryTests.test_nonprefix_frontier_rejected) ... ok
+test_weight_tag_uses_payload_not_just_shape (test_g3.G3RecoveryTests.test_weight_tag_uses_payload_not_just_shape) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.956s
+
+OK

@@ -1,0 +1,333 @@
+{
+  "status": "SMOKE_ONLY_DEVELOPMENT_INPUTS",
+  "rows": [
+    {
+      "workload": "kws",
+      "policy": "B1_layer",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0028672900267083393,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci64_z0ps0": 215,
+        "p5_co64_ci64_z0ps0": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "B3_adaptive",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci64_z0ps0": 185,
+        "p5_co64_ci64_z0ps0": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "B4_ci16",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.005454661967554243,
+      "losses": 12,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci16_z0ps1": 182,
+        "p5_co64_ci16_z0ps1": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "B4_ci64",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci64_z0ps0": 185,
+        "p5_co64_ci64_z0ps0": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "B5a_inas",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci64_z0ps0": 185,
+        "p5_co64_ci64_z0ps0": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "B5b_chime_dp",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci16_z0ps1": 185,
+        "p5_co64_ci16_z0ps1": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "RECAP_nominal",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci64_z0ps0": 185,
+        "p5_co64_ci64_z0ps0": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "RECAP_redo",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci64_z0ps0": 185,
+        "p5_co64_ci64_z0ps0": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "RECAP_redo@matched",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci64_z0ps0": 185,
+        "p5_co64_ci64_z0ps0": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "kws",
+      "policy": "B5b_chime_dp@matched",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0025873967421559596,
+      "losses": 6,
+      "chosen": {
+        "p8_co64_ci1_z0ps0": 45,
+        "p5_co64_ci1_z0ps0": 3,
+        "p8_co64_ci16_z0ps1": 185,
+        "p5_co64_ci16_z0ps1": 12,
+        "p1_co12_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "B1_layer",
+      "completed": 1,
+      "total": 3,
+      "energy_j": 0.04783812466145154,
+      "losses": 88,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 770,
+        "p8_co16_ci8_z0ps0": 1216,
+        "p8_co32_ci16_z0ps0": 144,
+        "p8_co32_ci32_z0ps0": 144,
+        "p8_co64_ci32_z0ps0": 36,
+        "p8_co64_ci64_z0ps0": 64,
+        "p1_co64_ci64_z0ps0": 3085,
+        "p1_co2_ci1_z0ps0": 1
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "B3_adaptive",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.027289285014498073,
+      "losses": 50,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 435,
+        "p8_co64_ci32_z0ps0": 54,
+        "p8_co64_ci64_z0ps0": 56,
+        "p1_co64_ci64_z0ps0": 1550,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "B4_ci16",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.03826394414245197,
+      "losses": 75,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci16_z0ps1": 217,
+        "p8_co64_ci16_z0ps1": 109,
+        "p1_co64_ci16_z0ps1": 1525,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "B4_ci64",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.028594645304684103,
+      "losses": 53,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci32_z0ps0": 217,
+        "p8_co64_ci32_z0ps0": 54,
+        "p8_co64_ci64_z0ps0": 56,
+        "p1_co64_ci64_z0ps0": 217,
+        "p1_co64_ci64_z0ps1": 1321,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "B5a_inas",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.028594645304684103,
+      "losses": 53,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci32_z0ps0": 217,
+        "p8_co64_ci32_z0ps0": 54,
+        "p8_co64_ci64_z0ps0": 56,
+        "p1_co64_ci64_z0ps0": 217,
+        "p1_co64_ci64_z0ps1": 1321,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "B5b_chime_dp",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.027210594347312253,
+      "losses": 50,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci16_z0ps1": 217,
+        "p8_co64_ci16_z0ps1": 110,
+        "p1_co64_ci16_z0ps1": 1551,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "RECAP_nominal",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0272892850144992,
+      "losses": 50,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci32_z0ps0": 217,
+        "p8_co64_ci32_z0ps0": 54,
+        "p8_co64_ci64_z0ps0": 56,
+        "p1_co64_ci64_z0ps0": 1550,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "RECAP_redo",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0272892850144992,
+      "losses": 50,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci32_z0ps0": 217,
+        "p8_co64_ci32_z0ps0": 54,
+        "p8_co64_ci64_z0ps0": 56,
+        "p1_co64_ci64_z0ps0": 1550,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "RECAP_redo@matched",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.0272892850144992,
+      "losses": 50,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci32_z0ps0": 217,
+        "p8_co64_ci32_z0ps0": 54,
+        "p8_co64_ci64_z0ps0": 56,
+        "p1_co64_ci64_z0ps0": 1550,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    },
+    {
+      "workload": "vww",
+      "policy": "B5b_chime_dp@matched",
+      "completed": 3,
+      "total": 3,
+      "energy_j": 0.027210594347312253,
+      "losses": 50,
+      "chosen": {
+        "p8_co8_ci1_z0ps0": 864,
+        "p8_co16_ci8_z0ps0": 868,
+        "p8_co32_ci16_z0ps0": 218,
+        "p8_co32_ci16_z0ps1": 217,
+        "p8_co64_ci16_z0ps1": 110,
+        "p1_co64_ci16_z0ps1": 1551,
+        "p1_co2_ci1_z0ps0": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+
+-- Running command `read_verilog -sv 04_RTL/g4/recap_int8_mac.sv; hierarchy -check -top recap_int8_mac; proc; opt; memory_collect; check -assert; tee -o 10_Experiments/g4/recap_int8_mac_generic.json stat -json' --
+
+1. Executing Verilog-2005 frontend: 04_RTL/g4/recap_int8_mac.sv
+Parsing SystemVerilog input from `04_RTL/g4/recap_int8_mac.sv' to AST representation.
+Generating RTLIL representation for module `\recap_int8_mac'.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Analyzing design hierarchy..
+Top module:  \recap_int8_mac
+
+2.2. Analyzing design hierarchy..
+Top module:  \recap_int8_mac
+Removed 0 unused modules.
+
+3. Executing PROC pass (convert processes to netlists).
+
+3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 4 switch rules as full_case in process $proc$04_RTL/g4/recap_int8_mac.sv:16$6 in module recap_int8_mac.
+Removed a total of 0 dead cases.
+
+3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 1 redundant assignment.
+Promoted 0 assignments to connections.
+
+3.4. Executing PROC_INIT pass (extract init attributes).
+
+3.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst_n in `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+
+3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~5 debug messages>
+
+3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+     1/6: $0\done[0:0]
+     2/6: $0\limit[8:0]
+     3/6: $0\busy[0:0]
+     4/6: $0\count[8:0]
+     5/6: $0\error[0:0]
+     6/6: $0\accumulator[31:0]
+
+3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\recap_int8_mac.\accumulator' using process `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+  created $adff cell `$procdff$84' with positive edge clock and positive level reset.
+Creating register for signal `\recap_int8_mac.\done' using process `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+  created $adff cell `$procdff$89' with positive edge clock and positive level reset.
+Creating register for signal `\recap_int8_mac.\error' using process `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+  created $adff cell `$procdff$94' with positive edge clock and positive level reset.
+Creating register for signal `\recap_int8_mac.\count' using process `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+  created $adff cell `$procdff$99' with positive edge clock and positive level reset.
+Creating register for signal `\recap_int8_mac.\busy' using process `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+  created $adff cell `$procdff$104' with positive edge clock and positive level reset.
+Creating register for signal `\recap_int8_mac.\limit' using process `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+  created $adff cell `$procdff$109' with positive edge clock and positive level reset.
+
+3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 5 empty switches in `\recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+Removing empty process `recap_int8_mac.$proc$04_RTL/g4/recap_int8_mac.sv:16$6'.
+Cleaned up 5 empty switches.
+
+3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_int8_mac.
+<suppressed ~13 debug messages>
+
+4. Executing OPT pass (performing simple optimizations).
+
+4.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_int8_mac.
+
+4.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_int8_mac'.
+Computing hashes of 51 cells of `\recap_int8_mac'.
+Finding duplicate cells in `\recap_int8_mac'.
+Computing hashes of 45 cells of `\recap_int8_mac'.
+Finding duplicate cells in `\recap_int8_mac'.
+<suppressed ~18 debug messages>
+Removed a total of 6 cells.
+
+4.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \recap_int8_mac..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~29 debug messages>
+
+4.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \recap_int8_mac.
+Performed a total of 0 changes.
+
+4.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_int8_mac'.
+Computing hashes of 45 cells of `\recap_int8_mac'.
+Finding duplicate cells in `\recap_int8_mac'.
+Removed a total of 0 cells.
+
+4.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $procdff$104 ($adff) from module recap_int8_mac (D = $procmux$45_Y, Q = \busy).
+Adding EN signal on $procdff$94 ($adff) from module recap_int8_mac (D = $procmux$67_Y, Q = \error).
+Adding EN signal on $procdff$84 ($adff) from module recap_int8_mac (D = $procmux$78_Y, Q = \accumulator).
+Adding EN signal on $procdff$99 ($adff) from module recap_int8_mac (D = $procmux$56_Y, Q = \count).
+Adding EN signal on $procdff$109 ($adff) from module recap_int8_mac (D = \terms, Q = \limit).
+
+4.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \recap_int8_mac..
+Removed 4 unused cells and 49 unused wires.
+<suppressed ~5 debug messages>
+
+4.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_int8_mac.
+<suppressed ~6 debug messages>
+
+4.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \recap_int8_mac..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~26 debug messages>
+
+4.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \recap_int8_mac.
+Performed a total of 0 changes.
+
+4.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_int8_mac'.
+Computing hashes of 58 cells of `\recap_int8_mac'.
+Finding duplicate cells in `\recap_int8_mac'.
+Computing hashes of 52 cells of `\recap_int8_mac'.
+Finding duplicate cells in `\recap_int8_mac'.
+Computing hashes of 51 cells of `\recap_int8_mac'.
+Finding duplicate cells in `\recap_int8_mac'.
+<suppressed ~21 debug messages>
+Removed a total of 7 cells.
+
+4.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \recap_int8_mac..
+Removed 0 unused cells and 7 unused wires.
+<suppressed ~1 debug messages>
+
+4.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_int8_mac.
+
+4.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \recap_int8_mac..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~26 debug messages>
+
+4.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \recap_int8_mac.
+Performed a total of 0 changes.
+
+4.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\recap_int8_mac'.
+Computing hashes of 51 cells of `\recap_int8_mac'.
+Finding duplicate cells in `\recap_int8_mac'.
+Removed a total of 0 cells.
+
+4.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \recap_int8_mac..
+
+4.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module recap_int8_mac.
+
+4.23. Finished fast OPT passes. (There is nothing left to do.)
+
+5. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+6. Executing CHECK pass (checking for obvious problems).
+Checking module recap_int8_mac...
+Found and reported 0 problems.
+{
+   "creator": "Yosys 0.70+16 (git sha1 3bb533450, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)",
+   "invocation": "stat -json ",
+   "modules": {
+      "\\recap_int8_mac": {
+         "num_wires":         60,
+         "num_wire_bits":     410,
+         "num_pub_wires":     19,
+         "num_pub_wire_bits": 182,
+         "num_ports":         14,
+         "num_port_bits":     113,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         51,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$add": 2,
+            "$adff": 1,
+            "$adffe": 5,
+            "$eq": 1,
+            "$gt": 1,
+            "$logic_and": 3,
+            "$logic_not": 3,
+            "$logic_or": 1,
+            "$mul": 1,
+            "$mux": 21,
+            "$ne": 3,
+            "$not": 1,
+            "$reduce_and": 4,
+            "$reduce_bool": 3,
+            "$sub": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         60,
+         "num_wire_bits":     410,
+         "num_pub_wires":     19,
+         "num_pub_wire_bits": 182,
+         "num_ports":         14,
+         "num_port_bits":     113,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         51,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$add": 2,
+            "$adff": 1,
+            "$adffe": 5,
+            "$eq": 1,
+            "$gt": 1,
+            "$logic_and": 3,
+            "$logic_not": 3,
+            "$logic_or": 1,
+            "$mul": 1,
+            "$mux": 21,
+            "$ne": 3,
+            "$not": 1,
+            "$reduce_and": 4,
+            "$reduce_bool": 3,
+            "$sub": 1
+         }
+      }
+}
+
+End of script. Logfile hash: e19d32ce8b
+Yosys 0.70+16 (git sha1 3bb533450, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 15.2.1)
+Time spent: 4% 5x opt_expr (0 sec), 4% 4x opt_merge (0 sec), ...

@@ -1,0 +1,18 @@
+{
+  "status": "G8_ENGINEERING_EVALUATION_EXECUTED",
+  "sha256": {
+    "10_Experiments/g8/review-20261111/development.json": "72fabeab4f418996aa8d02b357235bd3c6ef01eae3ba302cbc11c24c1b9296eb",
+    "10_Experiments/g8/review-20261111/equivalence.json": "ecf68d958d705f04aab7eec9acef592026eb909bee0967d98b5098d5c048d02a",
+    "10_Experiments/g8/review-20261111/faults.json": "0043a61e92251182c630729a35b320f34a2cedde1462e4d86696bd211514ad28",
+    "10_Experiments/g8/review-20261111/freeze.json": "72958b5aba707ced03932c2c7e96e04e8a1a1e435415bc24de68075651d50b3b",
+    "10_Experiments/g8/review-20261111/input_splits.json": "4d27713a73ce6a16fe0f4b349017c4ccd311c9dcbd82b69634f16da98061f6d1",
+    "10_Experiments/g8/review-20261111/main.jsonl": "c1add6e1b67d581afb0316621aa47550a18e232263454c0aab18147933dfaa95",
+    "10_Experiments/g8/review-20261111/protocol.json": "fee4e052670b5b1c2aae4b00ce487e7e700b1a98c141a00a80abd7d7c9f6b8f6",
+    "10_Experiments/g8/review-20261111/results.json": "bc2780429c13969ebcd0640c270a6632ae4164979b5364b2339e0b6f639e03ab",
+    "10_Experiments/g8/review-20261111/scenarios.json": "3c1b1eafda967971476c1553824c527c58c5f5f54ebee2a1de7b5bd3bd63f486",
+    "10_Experiments/g8/review-20261111/secondary.jsonl": "ba83ce65035a7597f06f74062fbf6c59cc318a4fac6e4487b6e559cad3e7323a",
+    "10_Experiments/g8/review-20261111/unit_tests.txt": "a7a6770864a0814597f7b41da3fe57cb0a164dd5f552fac07b44a27ca66bb6d0"
+  },
+  "command": "python 10_Experiments/run_g8.py --run-id review-20261111",
+  "calibrated": false
+}

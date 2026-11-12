@@ -1,0 +1,70 @@
+{
+  "started_utc": "2026-10-16T01:01:45.581905+00:00",
+  "finished_utc": "2026-10-16T01:03:55.404799+00:00",
+  "total_duration_s": 129.83005409999987,
+  "stages": [
+    {
+      "stage": "G2",
+      "returncode": 0,
+      "duration_s": 27.421794399999953
+    },
+    {
+      "stage": "G3",
+      "returncode": 0,
+      "duration_s": 102.37178299999982
+    },
+    {
+      "stage": "G4",
+      "skipped": true
+    },
+    {
+      "stage": "G5",
+      "skipped": true
+    },
+    {
+      "stage": "G6",
+      "skipped": true
+    }
+  ],
+  "manifests": [
+    {
+      "stage": "G2",
+      "present": true,
+      "frozen_at_utc": null,
+      "python": null,
+      "numpy": null
+    },
+    {
+      "stage": "G3",
+      "present": true,
+      "frozen_at_utc": null,
+      "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+      "numpy": null
+    },
+    {
+      "stage": "G4",
+      "present": true,
+      "frozen_at_utc": null,
+      "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+      "numpy": null
+    },
+    {
+      "stage": "G5",
+      "present": true,
+      "frozen_at_utc": null,
+      "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+      "numpy": null
+    },
+    {
+      "stage": "G6",
+      "present": true,
+      "frozen_at_utc": null,
+      "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+      "numpy": null
+    }
+  ],
+  "frozen_protocol_preserved": null,
+  "all_passed": false,
+  "review_status": "SUPERSEDED_UNVERIFIED_REPLAY_REPORT",
+  "review_note": "Old script only checked manifest existence; this did not establish preservation or full G2-G6 replay. Only G2/G3 were executed in that report. Use the G7 evidence audit; old report is backed up."
+}

@@ -1,0 +1,201 @@
+{
+  "status": "G5_HYBRID_SIMULATION_EXECUTED",
+  "calibrated": false,
+  "ready_for_paper_energy_results": false,
+  "evaluations": 108,
+  "test_traces": 12,
+  "arrivals_per_method": 36,
+  "frozen_mapper_reserve": 0.3,
+  "frozen_adaptive_baseline_reserve": 0.3,
+  "mapper_feasible_train_validation": true,
+  "methods": {
+    "B1_layer": {
+      "energy_j": 0.02218515241832799,
+      "completed": 28,
+      "total_inputs": 36,
+      "completion_rate": 0.7777777777777778,
+      "on_time_rate": 0.5277777777777778,
+      "energy_per_completed_j": 0.0007923268720831425,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 24,
+      "correct_committed_per_arrival": 0.6666666666666666,
+      "conditional_accuracy": 0.8571428571428571,
+      "losses": 3
+    },
+    "B2_fixed": {
+      "energy_j": 0.04817066731911,
+      "completed": 2,
+      "total_inputs": 36,
+      "completion_rate": 0.05555555555555555,
+      "on_time_rate": 0.0,
+      "energy_per_completed_j": 0.024085333659555,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 2,
+      "correct_committed_per_arrival": 0.05555555555555555,
+      "conditional_accuracy": 1.0,
+      "losses": 14
+    },
+    "B3_adaptive": {
+      "energy_j": 0.02501908533479752,
+      "completed": 26,
+      "total_inputs": 36,
+      "completion_rate": 0.7222222222222222,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 0.0009622725128768277,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 22,
+      "correct_committed_per_arrival": 0.6111111111111112,
+      "conditional_accuracy": 0.8461538461538461,
+      "losses": 4
+    },
+    "RECAP": {
+      "energy_j": 0.02501908533479752,
+      "completed": 26,
+      "total_inputs": 36,
+      "completion_rate": 0.7222222222222222,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 0.0009622725128768277,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 22,
+      "correct_committed_per_arrival": 0.6111111111111112,
+      "conditional_accuracy": 0.8461538461538461,
+      "losses": 4
+    },
+    "RECAP_no_control": {
+      "energy_j": 0.024595836109696016,
+      "completed": 27,
+      "total_inputs": 36,
+      "completion_rate": 0.75,
+      "on_time_rate": 0.5277777777777778,
+      "energy_per_completed_j": 0.0009109568929517043,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 23,
+      "correct_committed_per_arrival": 0.6388888888888888,
+      "conditional_accuracy": 0.8518518518518519,
+      "losses": 2
+    }
+  },
+  "comparison_vs_adaptive": {
+    "a": {
+      "energy_j": 0.02501908533479752,
+      "completed": 26,
+      "total_inputs": 36,
+      "completion_rate": 0.7222222222222222,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 0.0009622725128768277,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 22,
+      "correct_committed_per_arrival": 0.6111111111111112,
+      "conditional_accuracy": 0.8461538461538461,
+      "losses": 4
+    },
+    "b": {
+      "energy_j": 0.02501908533479752,
+      "completed": 26,
+      "total_inputs": 36,
+      "completion_rate": 0.7222222222222222,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 0.0009622725128768277,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 22,
+      "correct_committed_per_arrival": 0.6111111111111112,
+      "conditional_accuracy": 0.8461538461538461,
+      "losses": 4
+    },
+    "relative_energy_reduction": 0.0,
+    "noninferior_point_estimate": true,
+    "meets_goal_point_estimate": false,
+    "latency_nonregression_finite_only": false
+  },
+  "paired_bootstrap": {
+    "unit": "paired independent trace seed, stratified by source/capacitor family; all arrivals in a trace remain together",
+    "replicates": 2000,
+    "undefined_replicates": 0,
+    "energy_reduction_ci95": [
+      0.0,
+      0.0
+    ],
+    "completion_difference_ci95": [
+      0.0,
+      0.0
+    ],
+    "on_time_difference_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "meets_20pct_with_ci": false,
+  "assumed_control_energy_fraction": 0.025571859699849292,
+  "checkpoint_path_energy_fraction": 0.2821240379312661,
+  "no_control_ablation": {
+    "a": {
+      "energy_j": 0.024595836109696016,
+      "completed": 27,
+      "total_inputs": 36,
+      "completion_rate": 0.75,
+      "on_time_rate": 0.5277777777777778,
+      "energy_per_completed_j": 0.0009109568929517043,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 23,
+      "correct_committed_per_arrival": 0.6388888888888888,
+      "conditional_accuracy": 0.8518518518518519,
+      "losses": 2
+    },
+    "b": {
+      "energy_j": 0.02501908533479752,
+      "completed": 26,
+      "total_inputs": 36,
+      "completion_rate": 0.7222222222222222,
+      "on_time_rate": 0.5,
+      "energy_per_completed_j": 0.0009622725128768277,
+      "p95_latency_s": null,
+      "p95_is_infinite": true,
+      "correct_completed": 22,
+      "correct_committed_per_arrival": 0.6111111111111112,
+      "conditional_accuracy": 0.8461538461538461,
+      "losses": 4
+    },
+    "relative_energy_reduction": 0.05332753376869226,
+    "noninferior_point_estimate": true,
+    "meets_goal_point_estimate": false,
+    "latency_nonregression_finite_only": false
+  },
+  "max_sram_algorithm_bytes": 14016,
+  "max_nvm_reserved_bytes": 207228,
+  "full_embedded_runtime_arena_verified": false,
+  "physical_macro_validated": false,
+  "admitted_unit_depletions": 0,
+  "notes": [
+    "Binary G4 codec reused; graph log/root protocol is new software simulation, not full-network RTL verification.",
+    "Control ablation preserves metadata/traffic and frozen policies; changes both assumed control energy and time, and therefore may alter causal schedules.",
+    "Finite horizon includes all partial/replayed/unfinished consumption; undefined energy denominators and infinite p95 retained.",
+    "Capacitor source couples to policy load; loss during retention wait is separate from admitted work. No future harvest credited.",
+    "All cost coefficients remain explicitly assumed. Host mathematical memoization never reduces simulated cost."
+  ],
+  "accuracy": {
+    "reference_inputs": 1000,
+    "reference_correct": 901,
+    "reference_accuracy": 0.901,
+    "own_arithmetic_inputs": 39,
+    "own_operator_outputs": 507,
+    "own_verified_elements": 2813928,
+    "own_mismatches": 0,
+    "scope": "1000-input reference accuracy; own arithmetic checked on 36 labeled class/split examples + 3 stress fixtures and every completed runtime inference",
+    "input_scope": "490 precomputed INT8 MFCC values; excludes audio/preprocessing",
+    "cpu_head_verified_inputs": 1000,
+    "fc_requantization": "float64 scale and ties-away rounding matching TF 2.21 BUILTIN_REF; not an integer accelerator kernel",
+    "softmax": "isolated TFLite BUILTIN_REF CPU op fed computed logits"
+  },
+  "fault_cases": 16,
+  "executed_diagnostic_losses": 16,
+  "python_tests": 12,
+  "elapsed_s": 117.59616349999487
+}

@@ -1,0 +1,11 @@
+{
+  "04_RTL/g4/recap_checkpoint_ctrl.sv": "3ef6cd69052b1e115f80bbc317698196cf67162a84593bc1f72a639f9836fc5a",
+  "04_RTL/g4/recap_int8_mac.sv": "ed1474f01b3a557c3e44d338085b6ff17ec95873d0170faf6feb143ad1ca216b",
+  "04_RTL/g4/recap_requantize.sv": "fc696d77d7122dde2b2eb293dc74c522d1093cbfa4794337ffaadd32cf7ede42",
+  "09_Simulation/g4/tb_arithmetic.sv": "f2a0fc8b48c48980230a2960b18677eab1df2495b7e0e4ce01dde30b17f2d745",
+  "09_Simulation/g4/tb_checkpoint.sv": "74377bf7d1127e873d59826ba9516dbfec657091d62593222bc213b0c6106d87",
+  "09_Simulation/g4_reference.py": "583e3d125432f56a197f0f5489542aed23eb817c06a1d1ef44fecc43c1008928",
+  "09_Simulation/g4_trace_check.py": "cb28707386a61db5a3f21887f7c0ac11eae3275b43a47290c7ee129b696c9c9f",
+  "09_Simulation/g4_vectors.py": "d5390a491bfdcd33f68bc076802f9cb3efe723dfcb31d072bb2707129788053c",
+  "09_Simulation/g4_campaign.py": "951e9ce4a4186ae5675d587cc54bfdfb2167f6b56eadbc3e82e4f2c56c76e8aa"
+}

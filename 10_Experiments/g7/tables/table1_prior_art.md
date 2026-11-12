@@ -1,0 +1,16 @@
+# Table 1: Prior art comparison
+
+| Work | Year | Backend | Volatile SRAM | NVM checkpoint | DW-PW joint mapping | Boot cost model | Two-bank residency | Power-aware mapper | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chime [R1] | 2016 | MCU + NVM | N/A | Yes (fixed NVM cost) | No | Partial | No | No | Cost decomposition save vs recompute |
+| Viadotto [R3] | 2025 | CRAM (NVM) | No (NVM) | No (data in-place) | Yes | No | No | Yes (source) | CRAM non-volatile |
+| CHRYSALIS [R4] | 2024 | MCU + DSP | N/A | N/A | No | No | No | Yes | Energy-inference co-design |
+| CIM-Tuner [R5] | 2026 | SRAM-CIM digital | Yes | N/A (no intermittent) | Yes (mapping) | No | Yes (update) | No | Mapping + weight update co-exploration |
+| TDC-CiM [R6] | 2026 | SRAM-CIM TDC | Yes | N/A | No (layer-level) | No | No | No | Mixed-signal INT8 |
+| FreeML [R7] | 2024 | MCU + NVM | N/A | Yes | No | No | No | Yes (energy) | Memory-efficient + early exit |
+| FERMI-ML [R8] | 2025 | SRAM digital | Yes | N/A | No | No | No | No | Multi-precision, not intermittent |
+| RECAP-CIM (this) | 2026 | SRAM-CIM digital (assumed) | Yes | Yes (two-slot) | Yes | Yes (boot scan) | Yes (2 KiB bank) | Yes (reservoir) | Joint cost in one decision space |
+
+- Volatile SRAM = SRAM mất dữ liệu sau power loss; NVM checkpoint = sử dụng NVM riêng cho checkpoint
+- RECAP-CIM row mô tả thiết kế đề xuất, không phải silicon; chi phí còn là assumed model coefficients
+- Chime, Viadotto, FreeML dùng NVM với cost cố định; RECAP phân biệt volatile SRAM vs NVM khác nhau

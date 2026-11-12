@@ -1,0 +1,33 @@
+{
+  "status": "PASS_ARTIFACT_AUDIT",
+  "execution_scope": "Hash verification and independent raw-row aggregation; no inference rerun, fitting, physical calibration, or cross-host validation.",
+  "files_checked": 2769,
+  "manifests": {
+    "g2": {
+      "files": 45,
+      "manifest_sha256": "abea9b3bdc19c42a205ee54772621fcd6aacfe9f20ebd7fa310c16822be5fe97"
+    },
+    "g3": {
+      "files": 204,
+      "manifest_sha256": "93a8c37faa7a6810948bcf99a1b3bc0e96c2023875fda751028367548c5cf4d1"
+    },
+    "g4": {
+      "files": 184,
+      "manifest_sha256": "dd0c38936e61faf628e708eb7f46ba9f36c03a0fdec0c96c3c01ebc54d8acd2e"
+    },
+    "g5": {
+      "files": 1028,
+      "manifest_sha256": "085bfcb38b38df885b7393e8e115ffd490dda13ff183554cdd4f03cdf3536c62"
+    },
+    "g6": {
+      "files": 1308,
+      "manifest_sha256": "94c57f63478c9d131eff8b58f5fd0359161039f0b5429c095660bfe56d279003"
+    }
+  },
+  "aggregate_cells_checked": 32,
+  "main_rows": 448,
+  "main_committed_outputs": 481,
+  "frozen_policy_preserved": true,
+  "submission_ready": false,
+  "elapsed_s": 2.4098354999996445
+}

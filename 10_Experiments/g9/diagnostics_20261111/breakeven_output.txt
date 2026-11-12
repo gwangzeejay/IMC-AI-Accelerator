@@ -1,0 +1,11 @@
+﻿tile: unchunked 10.11 uJ 1.36 ms ; z1ps1 29.32 uJ 3.18 ms ; ps1 24.51 uJ
+write overhead of z1ps1 vs unchunked: +190%
+lam     2 Hz  P(outage in tile)=0.003  E_unchunked=10.12 uJ  E_z1ps1=29.34 uJ  E_ps1=24.53 uJ
+lam    16 Hz  P(outage in tile)=0.021  E_unchunked=10.22 uJ  E_z1ps1=29.50 uJ  E_ps1=24.65 uJ
+lam   100 Hz  P(outage in tile)=0.127  E_unchunked=10.82 uJ  E_z1ps1=30.51 uJ  E_ps1=25.37 uJ
+lam   300 Hz  P(outage in tile)=0.335  E_unchunked=12.47 uJ  E_z1ps1=33.11 uJ  E_ps1=27.20 uJ
+lam   500 Hz  P(outage in tile)=0.493  E_unchunked=14.46 uJ  E_z1ps1=36.00 uJ  E_ps1=29.21 uJ
+lam  1000 Hz  P(outage in tile)=0.743  E_unchunked=21.49 uJ  E_z1ps1=44.80 uJ  E_ps1=35.14 uJ
+lam  2000 Hz  P(outage in tile)=0.934  E_unchunked=52.50 uJ  E_z1ps1=72.04 uJ  E_ps1=52.30 uJ
+lam  5000 Hz  P(outage in tile)=0.999  E_unchunked=1318.86 uJ  E_z1ps1=386.34 uJ  E_ps1=210.07 uJ
+break-even hazard (ps1 vs unchunked), full-exposure model: ~1993 Hz

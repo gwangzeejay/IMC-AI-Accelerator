@@ -1,0 +1,27 @@
+{
+  "energy_j_per_unit": {
+    "read_byte": 1e-9,
+    "write_byte": 2e-9,
+    "bank_byte": 2e-10,
+    "dw_mac": 1e-11,
+    "pw_mac": 5e-12,
+    "requant": 1e-11,
+    "boot": 5e-7,
+    "control": 0.0,
+    "wait_s": 0.0
+  },
+  "seconds_per_unit": {
+    "read_byte": 2e-7,
+    "write_byte": 2e-7,
+    "bank_byte": 1e-8,
+    "dw_mac": 1e-8,
+    "pw_mac": 1e-9,
+    "requant": 1e-8,
+    "boot": 0.001,
+    "control": 0.0,
+    "wait_s": 1.0
+  },
+  "leakage_w": 0.0,
+  "provenance": "ASSUMED_DEBUG_ONLY: arbitrary capacitor-rail coefficients for software tests; NOT macro/FRAM calibration, measurement or paper energy results; off-state load assumed zero",
+  "calibrated": false
+}

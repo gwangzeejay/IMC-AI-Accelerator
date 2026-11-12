@@ -1,0 +1,193 @@
+# ============================================================================
+# IMC-TinyML Project Makefile
+# Build automation for RTL, simulation, and FPGA
+# ============================================================================
+
+.PHONY: all sim verilator vivado fpga model help
+
+# ============================================================================
+# Variables
+# ============================================================================
+
+PROJECT_NAME = imc_tinyml_accelerator
+RTL_DIR = 04_RTL
+MODEL_DIR = 05_Model_Training
+FPGA_DIR = 06_FPGA
+
+# Source files
+RTL_SOURCES = $(RTL_DIR)/tinyml_accelerator.v \
+              $(RTL_DIR)/imc_array.v \
+              $(RTL_DIR)/imc_activation.v \
+              $(RTL_DIR)/imc_apb_if.v
+
+# Testbench
+TB_NAME = tb_imc_accelerator
+TB_SOURCE = $(RTL_DIR)/$(TB_NAME).v
+
+# Output directories
+OUTPUT_DIR = output
+SIM_DIR = $(OUTPUT_DIR)/sim
+MODEL_OUTPUT = $(OUTPUT_DIR)/model
+
+# ============================================================================
+# Targets
+# ============================================================================
+
+all: sim
+
+# ============================================================================
+# Simulation with Verilator
+# ============================================================================
+
+sim: verilator
+	@echo "Running simulation..."
+	mkdir -p $(SIM_DIR)
+	cd $(SIM_DIR) && ../obj_dir/V$(TB_NAME) || echo "Run 'make verilator' first"
+
+verilator: $(RTL_SOURCES) $(TB_SOURCE)
+	@echo "Compiling with Verilator..."
+	mkdir -p $(OUTPUT_DIR)/obj_dir
+	verilator -Wall --trace --cc \
+		$(RTL_SOURCES) \
+		$(TB_SOURCE) \
+		-CFLAGS "-O2 -Wall" \
+		-LDFLAGS "-lstdc++" \
+		--exe \
+		-o $(OUTPUT_DIR)/obj_dir/V$(TB_NAME) \
+		-CFLAGS "-I$(RTL_DIR)"
+	@echo "Verilator compilation complete"
+
+verilator_clean:
+	rm -rf $(OUTPUT_DIR)/obj_dir
+	rm -rf $(SIM_DIR)
+
+# ============================================================================
+# GTKWave
+# ============================================================================
+
+wave: $(OUTPUT_DIR)/obj_dir/V$(TB_NAME)
+	@echo "Opening waveform viewer..."
+	@if command -v gtkwave >/dev/null 2>&1; then \
+		gtkwave $(SIM_DIR)/$(TB_NAME).vcd; \
+	else \
+		echo "GTKWave not found. Install with: apt-get install gtkwave"; \
+	fi
+
+# ============================================================================
+# Model Training
+# ============================================================================
+
+model:
+	@echo "Training IMC model..."
+	@mkdir -p $(MODEL_OUTPUT)
+	python3 $(MODEL_DIR)/train_imc_model.py \
+		--epochs 100 \
+		--batch_size 32 \
+		--output_dir $(MODEL_OUTPUT) \
+		--quantize
+
+model_quick:
+	@echo "Quick model training (10 epochs)..."
+	@mkdir -p $(MODEL_OUTPUT)
+	python3 $(MODEL_DIR)/train_imc_model.py \
+		--epochs 10 \
+		--batch_size 32 \
+		--output_dir $(MODEL_OUTPUT)
+
+model_clean:
+	rm -rf $(MODEL_OUTPUT)
+	rm -rf $(MODEL_DIR)/__pycache__
+	rm -rf $(MODEL_DIR)/*.pyc
+	rm -rf $(MODEL_DIR)/models/*.h5
+	rm -rf $(MODEL_DIR)/logs/*
+
+# ============================================================================
+# FPGA Implementation
+# ============================================================================
+
+fpga:
+	@echo "FPGA implementation requires Vivado"
+	@echo "Run: vivado -mode batch -source $(FPGA_DIR)/synthesis/compile.tcl"
+	@echo ""
+	@echo "Or manually:"
+	@echo "  1. Open Vivado"
+	@echo "  2. Source $(FPGA_DIR)/synthesis/compile.tcl"
+	@echo "  3. Run implementation"
+
+# ============================================================================
+# Documentation
+# ============================================================================
+
+docs:
+	@echo "Documentation files:"
+	@find . -name "*.md" -type f | grep -v node_modules | head -20
+
+# ============================================================================
+# Clean
+# ============================================================================
+
+clean: verilator_clean model_clean
+	rm -rf $(OUTPUT_DIR)
+	rm -rf $(FPGA_DIR)/vivado_proj
+	rm -rf $(FPGA_DIR)/reports
+
+dist_clean: clean
+	rm -rf $(PROJECT_NAME).zip
+	find . -name "*.vcd" -delete
+	find . -name "*.log" -delete
+	find . -name "*~" -delete
+
+# ============================================================================
+# Test
+# ============================================================================
+
+test: sim
+	@echo "Running tests..."
+	@if [ -f $(SIM_DIR)/test_results.txt ]; then \
+		cat $(SIM_DIR)/test_results.txt; \
+	else \
+		echo "No test results found"; \
+	fi
+
+# ============================================================================
+# Help
+# ============================================================================
+
+help:
+	@echo "IMC-TinyML Accelerator Build System"
+	@echo "===================================="
+	@echo ""
+	@echo "Targets:"
+	@echo "  make sim          - Compile with Verilator and run simulation"
+	@echo "  make verilator   - Compile RTL with Verilator only"
+	@echo "  make wave         - Open GTKWave with simulation results"
+	@echo "  make model        - Train IMC model (full training)"
+	@echo "  make model_quick  - Train IMC model (quick training)"
+	@echo "  make fpga         - Show FPGA implementation instructions"
+	@echo "  make clean        - Clean simulation and model outputs"
+	@echo "  make dist_clean   - Clean everything"
+	@echo "  make test         - Run tests"
+	@echo "  make help         - Show this help"
+	@echo ""
+	@echo "Directories:"
+	@echo "  $(RTL_DIR)       - RTL source files"
+	@echo "  $(MODEL_DIR)     - Model training scripts"
+	@echo "  $(FPGA_DIR)      - FPGA implementation"
+	@echo "  $(OUTPUT_DIR)    - Build outputs"
+	@echo ""
+	@echo "Prerequisites:"
+	@echo "  - Verilator:     https://verilator.org"
+	@echo "  - GTKWave:       http://gtkwave.sourceforge.net"
+	@echo "  - Python 3.7+:   https://python.org"
+	@echo "  - TensorFlow 2:  pip install tensorflow"
+	@echo ""
+
+# ============================================================================
+# Dependencies check
+# ============================================================================
+
+check:
+	@echo "Checking dependencies..."
+	@command -v verilator >/dev/null 2>&1 && echo "✓ Verilator found" || echo "✗ Verilator not found"
+	@command -v python3 >/dev/null 2>&1 && echo "✓ Python3 found" || echo "✗ Python3 not found"
+	@command -v vivado >/dev/null 2>&1 && echo "✓ Vivado found" || echo "✗ Vivado not found (FPGA only)"

@@ -1,0 +1,14 @@
+[
+  {
+    "workload": "kws",
+    "input_id": "tst_000237_Down_0.bin",
+    "elements": 72152,
+    "mismatches": 0
+  },
+  {
+    "workload": "vww",
+    "input_id": "000000429281",
+    "elements": 232068,
+    "mismatches": 0
+  }
+]

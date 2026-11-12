@@ -1,0 +1,1 @@
+Diagnostic run only. Harness mistakenly constrained completion against B2 instead of the intended stronger adaptive B3. Corrected before final study. Test seed base 51000 retired; final independent test base 71000. Energy coefficients, thresholds and candidate grid unchanged.

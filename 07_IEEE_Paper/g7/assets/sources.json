@@ -1,0 +1,11 @@
+{
+  "10_Experiments/g3/summary.json": "507e98c9a2b8bf399eeed8c86c3caa479f2a69e2fa357132aa662a0fd7b0c0b4",
+  "10_Experiments/g4/summary.json": "a8306fbc306268f925b16441707427bc773d1c4ce5250afe05f2023d871c36c5",
+  "10_Experiments/g5/summary.json": "eae3d84eabdbd1f6c432af0b250965b3da15550afa7938de2e5fce456194662d",
+  "10_Experiments/g6/results.json": "efd8f84577966a40df5e05da0a617199ba65b68eb68df689a6058aa04d212fdf",
+  "10_Experiments/g6_analysis/analysis.json": "8a93e505f7058d3f316c086feed72ce04c1fe0b187795289e60b1519fa6c538d",
+  "10_Experiments/g6/accuracy.json": "d809041d5abeef4a71051ff02998419b4d08c44d8b2aa444bbc74a8299608dc9",
+  "10_Experiments/g6/protocol_snapshot.json": "a21188ca64677804a6d9da13a9ff5703f5db8ae28cde4b238857cd16d5f51437",
+  "02_Research/novelty_matrix.md": "c16de596d599e8644f2e7085997733f849522b99b7fe27e2d60bf993e7aa72f3",
+  "07_IEEE_Paper/g7/build_assets.py": "62698d5a48b87a80d1327a8e94186cf59fc3b2064227e0e66ed17d99257ba693"
+}

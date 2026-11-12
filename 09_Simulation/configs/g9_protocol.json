@@ -1,0 +1,77 @@
+{
+  "version": "G9_1.0",
+  "design_date": "2026-11-11",
+  "status": "DESIGN_FIXED_BEFORE_MAIN_RESULTS",
+  "scope": "Crossover map of state-saving (SAVE_DW/KEEP_PS) versus literature-adapted controls on assumed-cost SRAM-CIM; laptop-only; calibrated=false; no novelty or hardware claim",
+  "merge_order": ["g6_protocol.json", "g8_protocol.json", "g9_protocol.json"],
+  "workloads": ["kws", "vww"],
+  "policies": {
+    "B1_layer": {"method": "B1_layer"},
+    "B3_adaptive": {"method": "B3_adaptive"},
+    "B4_ci16": {"method": "B4_periodic", "periodic_ci": 16},
+    "B4_ci64": {"method": "B4_periodic", "periodic_ci": 64},
+    "B5a_inas": {"method": "B5a_inas"},
+    "B5b_chime_dp": {"method": "B5b_chime_dp"},
+    "RECAP_nominal": {"method": "RECAP_nominal"},
+    "RECAP_redo": {"method": "RECAP_redo"}
+  },
+  "policy_notes": {
+    "B6_loopindex": "Not run: identical to B4_ci16 in this backend (tests_g9::test_b6_is_periodic_limit). Never counted twice.",
+    "B1_layer": "Reported, but NOT a strong control (fixed contract, no preservation).",
+    "B4_ci16/B4_ci64": "Both intervals are run as separate controls; no interval is selected, so no tuning.",
+    "B5a_inas": "iNAS-style adaptation from public code; objective is nominal energy as a recharge-dominated stand-in for latency.",
+    "B5b_chime_dp": "Chime-style DP adaptation; exponential-hazard planning model is an assumption."
+  },
+  "strong_controls": ["B3_adaptive", "B4_ci16", "B4_ci64", "B5a_inas", "B5b_chime_dp"],
+  "recap_primary": "RECAP_redo",
+  "recap_secondary": ["RECAP_nominal"],
+  "grid": {
+    "nvm_energy_scale": [0.25, 1.0, 4.0, 16.0],
+    "reset_rates_hz": [1.0, 4.0, 16.0],
+    "capacities_j": [0.000025, 0.0001],
+    "replicates_per_cell": 6,
+    "scale_semantics": "Relative to the inherited G6 assumed NVM read/write energy; mapping to physical technologies is G9 stage 3 and does not change the grid."
+  },
+  "source": {"kind": "external_reset", "source_mean_w": 0.002, "horizon_s": 24.0, "arrivals_s": [0.0, 8.0, 16.0], "deadline_interval_s": 8.0},
+  "planning_outage_rate_hz": 2.0,
+  "planning_hazard_provenance": "Fixed before results; deliberately not equal to the actual reset rate (policies do not know it). Not fitted.",
+  "seeds": {"reset_seed_base": 960000, "bootstrap_seed": 970000, "input_assignment": "assign_inputs: seed + 0 (kws) / +1 (vww), as G6/G8"},
+  "inputs": {
+    "kws": "Per class, index 4..9 of the G8 'available' pool (hash-deduplicated, excluding all G5/G6 runtime use). G8 used indices 0..3. 72 inputs.",
+    "vww": "The 20 G8 holdout images (no additional images exist). DISCLOSED REUSE: same images as G8 main; new reset/trace seeds and new policies. 4 G8 development images used for smoke only.",
+    "development_use": "Smoke/fault checks only. No parameter is tuned on any split."
+  },
+  "primary_endpoint": "Energy per completed inference (model J), summed over the replicates of a cell, RECAP_redo versus each strong control, paired by scenario.",
+  "decision_rule": {
+    "delta_min_relative_reduction": 0.02,
+    "ci_level": 0.95,
+    "bootstrap_replicates": 2000,
+    "noninferiority": "completion rate and on-time rate not worse than the control by more than 0.05 absolute (g5_experiments.comparison tolerances)",
+    "cell_win_vs_control": "noninferior AND reduction >= delta_min AND bootstrap CI95 lower bound > 0 (undefined CI counts as not a win)",
+    "cell_loss_vs_control": "control noninferior to RECAP AND reduction <= -delta_min AND bootstrap CI95 upper bound < 0",
+    "cell_win": "wins versus ALL strong controls",
+    "mechanism_check": "RECAP_redo selected state-saving (a z=1 or ps=1 plan) for >= 10% of its tile decisions in the cell; otherwise the cell is 'win_without_state_saving' and is not counted toward a crossover region",
+    "region": "Two grid cells of one workload that are neighbours (indices differ by exactly one step along exactly one axis) and are both cell_win with mechanism.",
+    "verdicts": {
+      "REGION_BOTH_WORKLOADS": "a region exists for kws and vww",
+      "REGION_ONE_WORKLOAD": "a region exists for exactly one workload; report as workload-specific only",
+      "NO_REGION": "negative result (stop criterion 2)"
+    },
+    "primary_verdict_scope": "cells whose nvm_energy_scale lies inside the grounded range declared in stage 3; full-grid verdict reported separately"
+  },
+  "grounded_nvm_scale_range": [0.627, 8.91],
+  "grounded_range_derivation": {"file": "02_Research/hardware_selection/nvm_scale_range.json", "sha256": "c125b9fa757f040872c81384fc07a87a7666587333a87493a45e176dc4d7552a", "script": "10_Experiments/g9/derive_nvm_scale_range.py", "declared": "2026-11-11, before any main result"},
+  "grounded_range_rule": "Must be set (with its sources) and the protocol re-locked BEFORE the main run. The main stage refuses to run while null. It selects which cells carry the primary verdict; it never changes the grid or the rule.",
+  "secondary_analyses": {
+    "matched_hazard": "RECAP_redo and B5b_chime_dp with planning_outage_rate_hz equal to the actual reset rate (oracle-informed upper bound; labelled, not part of the verdict).",
+    "stochastic_sources": "G8-style synthetic source families at nvm_energy_scale 1.0, new test_seed_base 980000; reported only.",
+    "versus_B1": "Reduction versus B1_layer reported, never used for the verdict."
+  },
+  "stochastic_secondary": {"test_seed_base": 980000, "synthetic_replicates_per_family": 4},
+  "reporting_obligations": [
+    "Report every cell, including losses and ties, ordered by the grid; keep undefined ratios and infinite p95.",
+    "No parameter, seed, cell or rule may change after the lock; any change is a new protocol version with a new lock.",
+    "State that all costs and the planning hazard are assumptions and that results are model energy, not measurements.",
+    "State that B5a/B5b/B6 are adaptations (B5a from public code only) and that INTERCEPT/iNAS papers were not available."
+  ]
+}

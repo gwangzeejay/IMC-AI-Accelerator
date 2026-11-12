@@ -1,0 +1,21 @@
+Workload,Intervention,Commits,Full commits,Model mJ/commit,Energy change vs full (%)
+KWS,ignore_reload_decision,26/36,26/36,0.941715,-0.000000
+KWS,always_save_dw,26/36,26/36,1.032126,9.600607
+KWS,always_replay_dw,26/36,26/36,0.941715,-0.000000
+KWS,fixed_mapping_recovery,8/36,26/36,11.364975,1106.837543
+KWS,adaptive_mapping_fixed_recovery,26/36,26/36,0.941715,-0.000000
+KWS,continuous_fusion,26/36,26/36,0.939469,-0.238577
+KWS,unfused,25/36,26/36,1.141195,21.182603
+KWS,all_live,10/36,26/36,3.495905,271.227376
+KWS,no_weight_reuse,26/36,26/36,0.941715,-0.000000
+KWS,no_control,26/36,26/36,0.920560,-2.246437
+VWW,ignore_reload_decision,6/36,6/36,15.152688,0.000000
+VWW,always_save_dw,6/36,6/36,15.153389,0.004623
+VWW,always_replay_dw,6/36,6/36,15.152688,-0.000000
+VWW,fixed_mapping_recovery,0/36,6/36,undefined,undefined
+VWW,adaptive_mapping_fixed_recovery,6/36,6/36,15.152688,-0.000000
+VWW,continuous_fusion,6/36,6/36,15.152688,-0.000000
+VWW,unfused,6/36,6/36,15.153532,0.005565
+VWW,all_live,0/36,6/36,undefined,undefined
+VWW,no_weight_reuse,6/36,6/36,15.151554,-0.007483
+VWW,no_control,6/36,6/36,15.149302,-0.022348

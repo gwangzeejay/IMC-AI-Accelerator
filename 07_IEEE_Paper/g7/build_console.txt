@@ -1,0 +1,26 @@
+note: Running TeX ...
+note: Rerunning TeX because "imc_tinyml_ieee_paper.aux" changed ...
+note: Running xdvipdfmx ...
+note: Writing `D:\Học tập\Claude_project\Vi mạch project demo\In_Memory_Computing_AI_Accelerator\tmp\pdfs\imc_tinyml_ieee_paper.aux` (2.525390625 KiB)
+note: Writing `D:\Học tập\Claude_project\Vi mạch project demo\In_Memory_Computing_AI_Accelerator\tmp\pdfs\imc_tinyml_ieee_paper.out` (1.0078125 KiB)
+note: Writing `D:\Học tập\Claude_project\Vi mạch project demo\In_Memory_Computing_AI_Accelerator\tmp\pdfs\imc_tinyml_ieee_paper.log` (20.0224609375 KiB)
+note: Writing `D:\Học tập\Claude_project\Vi mạch project demo\In_Memory_Computing_AI_Accelerator\tmp\pdfs\imc_tinyml_ieee_paper.pdf` (55.923828125 KiB)
+warning: g7/manuscript.tex:23: Underfull \hbox (badness 3168) in paragraph at lines 22--23
+warning: g7/manuscript.tex:68: Underfull \hbox (badness 1521) in paragraph at lines 67--68
+warning: g7/manuscript.tex:80: Underfull \hbox (badness 5726) in paragraph at lines 79--80
+warning: g7/manuscript.tex:80: Underfull \hbox (badness 10000) in paragraph at lines 79--80
+warning: g7/manuscript.tex:82: Underfull \hbox (badness 10000) in paragraph at lines 81--82
+warning: g7/manuscript.tex:82: Underfull \hbox (badness 2970) in paragraph at lines 81--82
+warning: g7/manuscript.tex:83: Underfull \hbox (badness 10000) in paragraph at lines 82--83
+warning: g7/manuscript.tex:83: Underfull \hbox (badness 5563) in paragraph at lines 82--83
+warning: g7/manuscript.tex:85: Underfull \hbox (badness 1552) in paragraph at lines 84--85
+warning: g7/manuscript.tex:23: Underfull \hbox (badness 3168) in paragraph at lines 22--23
+warning: g7/manuscript.tex:68: Underfull \hbox (badness 1521) in paragraph at lines 67--68
+warning: g7/manuscript.tex:80: Underfull \hbox (badness 5726) in paragraph at lines 79--80
+warning: g7/manuscript.tex:80: Underfull \hbox (badness 10000) in paragraph at lines 79--80
+warning: g7/manuscript.tex:82: Underfull \hbox (badness 10000) in paragraph at lines 81--82
+warning: g7/manuscript.tex:82: Underfull \hbox (badness 2970) in paragraph at lines 81--82
+warning: g7/manuscript.tex:83: Underfull \hbox (badness 10000) in paragraph at lines 82--83
+warning: g7/manuscript.tex:83: Underfull \hbox (badness 5563) in paragraph at lines 82--83
+warning: g7/manuscript.tex:85: Underfull \hbox (badness 1552) in paragraph at lines 84--85
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.

@@ -1,0 +1,14 @@
+{
+  "verdict_primary": "NO_REGION",
+  "verdict_full_grid": "NO_REGION",
+  "labels": {
+    "win": 0,
+    "win_without_state_saving": 0,
+    "loss_to_some_control": 0,
+    "tie_or_inconclusive": 48
+  },
+  "cells_all_controls_undefined": 11,
+  "cells_exact_zero_vs_B3": 21,
+  "main_rows": 2304,
+  "secondary_rows": 896
+}

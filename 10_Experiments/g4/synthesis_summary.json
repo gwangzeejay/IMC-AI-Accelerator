@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "top": "recap_int8_mac",
+      "status": "PASS_GENERIC_PROC_CHECK",
+      "parameters": "default",
+      "technology_mapped": false
+    },
+    {
+      "top": "recap_requantize",
+      "status": "PASS_GENERIC_PROC_CHECK",
+      "parameters": "default",
+      "technology_mapped": false
+    },
+    {
+      "top": "recap_checkpoint_ctrl",
+      "status": "PASS_GENERIC_PROC_CHECK",
+      "parameters": "reduced controller Z4/PS4/OUT1/C4/SLOT160",
+      "technology_mapped": false
+    }
+  ],
+  "full_controller_attempt": "TIMEOUT_180S_NOT_PASSED",
+  "area_mm2": null,
+  "power_w": null,
+  "frequency_hz": null
+}

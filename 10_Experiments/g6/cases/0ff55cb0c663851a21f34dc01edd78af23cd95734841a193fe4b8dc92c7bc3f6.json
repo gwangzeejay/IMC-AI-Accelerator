@@ -1,0 +1,60 @@
+{
+  "workload": "vww",
+  "method": "RECAP",
+  "variant": "full",
+  "backend": "digital",
+  "scenario_id": "g6_331300",
+  "family": "zero_cap0",
+  "seed": 331300,
+  "total_inputs": 3,
+  "energy_j": 2.5000000000000066e-05,
+  "completed": 0,
+  "failed": 0,
+  "incomplete": 3,
+  "completion_rate": 0.0,
+  "on_time_rate": 0.0,
+  "throughput_per_s": 0.0,
+  "energy_per_completed_j": null,
+  "p95_latency_s": null,
+  "p95_is_infinite": true,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 2.6
+    },
+    {
+      "arrival_s": 2.6,
+      "deadline_s": 5.2
+    },
+    {
+      "arrival_s": 5.2,
+      "deadline_s": 7.800000000000001
+    }
+  ],
+  "outputs": [],
+  "breakdown_j": {
+    "boot": 5e-07,
+    "boot_root": 5.13e-07,
+    "load_feature": 2.3552000000000014e-05,
+    "retention_wait": 4.350000000000528e-07
+  },
+  "units": {
+    "boot": 1.0,
+    "boot_root": 513.0,
+    "load_feature": 23552.0
+  },
+  "losses": 1,
+  "admitted_units": 49,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 5.12e-07,
+  "max_sram_algorithm_bytes": 0,
+  "max_nvm_reserved_bytes": 1027050,
+  "chosen": {},
+  "bank_hits": 0,
+  "bank_misses": 0,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": -3.3881317890172014e-21,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}

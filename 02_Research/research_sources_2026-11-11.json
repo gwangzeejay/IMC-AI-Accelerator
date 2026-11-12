@@ -1,0 +1,330 @@
+{
+  "review_date": "2026-11-11",
+  "scope": "Targeted primary-source research for RECAP-CIM development, not a complete systematic review",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Key Questions on Energy and AI",
+      "year": 2026,
+      "access": "official_report",
+      "locator": "Executive summary",
+      "finding": "Data-centre demand projection of roughly 485 TWh in 2025 and 950 TWh in 2030 motivates careful energy accounting.",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "limits": "Macro-level context, not an estimate of TinyML climate savings."
+    },
+    {
+      "id": "S02",
+      "title": "The Global E-waste Monitor 2024",
+      "year": 2024,
+      "access": "official_report",
+      "locator": "Key Findings & Statistics",
+      "finding": "62 million tonnes of e-waste in 2022 and 22.3% formally collected/recycled.",
+      "url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-Waste-Monitor-2024.aspx",
+      "limits": "Total electronics waste. Batteryless device lifetime benefits require separate lifecycle evidence."
+    },
+    {
+      "id": "S03",
+      "title": "3GPP TS 38.291 NR Ambient IoT Physical layer",
+      "year": 2026,
+      "access": "official_specification_metadata",
+      "locator": "Release 19; version list",
+      "finding": "Ambient IoT has a Release 19 physical-layer specification, with version 19.3.0 uploaded 2026-03-20.",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=4393",
+      "limits": "Standards signal. No inference compute budget or CNN capability inferred from the specification listing."
+    },
+    {
+      "id": "S04",
+      "title": "MLPerf Tiny: Benchmarking AI at the Edge",
+      "year": 2026,
+      "access": "official_benchmark_release",
+      "locator": "Five benchmarks; streaming wake word",
+      "finding": "v1.4 release covers five tasks; streaming wake word includes idle/listening behaviour.",
+      "url": "https://mlcommons.org/2026/07/mlperf-tiny-v1-4-results/",
+      "limits": "Benchmark scope verified. No MLPerf compliance claim for the current research preprocessing."
+    },
+    {
+      "id": "S05",
+      "title": "STM32N6 series",
+      "year": 2026,
+      "access": "vendor_documentation",
+      "locator": "Series overview",
+      "finding": "Commercial MCU-integrated NPU and deployment toolchain provide a reference for modern edge AI.",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32n6-series.html",
+      "limits": "Vendor peak performance is separate from batteryless operation and full-system measurements."
+    },
+    {
+      "id": "S06",
+      "title": "TinyML Hits the Memory Wall: A Benchmark of Ten Sub-Watt Edge Devices",
+      "year": 2026,
+      "access": "preprint_full_text",
+      "locator": "Sections 3.2, 3.3, 5 and conclusion",
+      "finding": "Authors report memory-traffic correlation on four accelerator systems and a small CNN suite.",
+      "url": "https://arxiv.org/html/2611.03392v1",
+      "limits": "Submitted 2026-11-02. Small-model correlation and energy above idle limit generalization."
+    },
+    {
+      "id": "S07",
+      "title": "Special Session - Intermittent TinyML: Powering Sustainable Deep Intelligence Without Batteries",
+      "year": 2025,
+      "access": "author_pdf_selected_sections",
+      "locator": "Runtime/communication/sustainability discussion",
+      "finding": "Research agenda includes intermittent inference, communication, CIM and lifecycle effects.",
+      "url": "https://mottola.neslab.it/wp-content/uploads/2025/10/mendis25intermittent.pdf",
+      "limits": "Full PDF opened. Repeated PDF find operations timed out. No systematic-review completeness claim."
+    },
+    {
+      "id": "S08",
+      "title": "Chime: Checkpointing Long Computations on Intermittently Energized IoT Devices",
+      "year": 2016,
+      "access": "author_publication_page_and_prior_local_source",
+      "locator": "Checkpoint placement and recomputation objective",
+      "finding": "Optimized checkpoint placement and adaptive checkpoint rates precede RECAP.",
+      "url": "https://www.microsoft.com/en-us/research/?p=549888",
+      "limits": "A periodic control is insufficient to represent the optimized algorithm."
+    },
+    {
+      "id": "S09",
+      "title": "A Tale of Two Domains: Exploring Efficient Architecture Design for Truly Autonomous Things (CHRYSALIS)",
+      "year": 2024,
+      "access": "author_pdf_selected_sections",
+      "locator": "Section IV and intermittent mapping description",
+      "finding": "Co-explores energy-harvesting hardware, inference hardware and dataflow/tiling with checkpoint costs.",
+      "url": "https://researchportal.hkust.edu.hk/en/publications/a-tale-of-two-domains-exploring-efficient-architecture-design-for/",
+      "author_pdf_url": "https://www.cs.sjtu.edu.cn/~lichao/publications/A_Tale_ISCA-2024-Hou.pdf",
+      "limits": "PDF sections were retrieved earlier in the session; author PDF access became intermittent on recheck. A common-backend adaptation needs an explicit state/action/objective mapping."
+    },
+    {
+      "id": "S10",
+      "title": "Intermittent-Aware Neural Architecture Search (iNAS)",
+      "year": 2021,
+      "access": "author_repository_readme",
+      "locator": "README",
+      "finding": "Co-explores model architecture, execution design and preservation design.",
+      "url": "https://github.com/EMCLab-Sinica/Intermittent-aware-NAS",
+      "limits": "Repository availability verified, executable baseline not reproduced in this review."
+    },
+    {
+      "id": "S11",
+      "title": "Everything Leaves Footprints: Hardware Accelerated Intermittent Deep Inference (HAWAII)",
+      "year": 2020,
+      "access": "author_project_and_repository",
+      "locator": "Project overview and implementation",
+      "finding": "Inference progress footprinting and recovery on an MSP430FR5994 with LEA.",
+      "url": "https://github.com/EMCLab-Sinica/HAWAII_Project",
+      "limits": "MCU/accelerator state contract differs from a volatile SRAM-CIM bank."
+    },
+    {
+      "id": "S12",
+      "title": "Memory-efficient Energy-adaptive Inference of Pre-Trained Models on Batteryless Embedded Systems (FreeML)",
+      "year": 2024,
+      "access": "preprint_full_text",
+      "locator": "Sections 2 and 3",
+      "finding": "Compression plus a shared early-exit branch supports memory-efficient energy adaptation.",
+      "url": "https://arxiv.org/html/2405.10426v1",
+      "limits": "Accuracy-adaptive comparison needs a different output contract from exact INT8 completion."
+    },
+    {
+      "id": "S13",
+      "title": "Exploring fine to medium granularity checkpointing for CNNs inferences in intermittent systems with Circadia",
+      "year": 2026,
+      "access": "publisher_abstract_and_section_previews",
+      "locator": "Abstract; Circadia; compilation chain; experiments previews",
+      "finding": "CNN-static dataflow and live-state analysis support linear-complexity checkpoint placement and granularity exploration.",
+      "url": "https://doi.org/10.1016/j.micpro.2026.105322",
+      "limits": "Full method and code not retrieved. Publisher access intermittently 403; Inria artifact denied."
+    },
+    {
+      "id": "S14",
+      "title": "Adaptive Computing in Memory Meets Conventional Batteryless Platforms (Viadotto)",
+      "year": 2025,
+      "access": "author_institution_pdf_selected_sections",
+      "locator": "Abstract and architecture sections",
+      "finding": "Adaptive CRAM-based CIM integration with MCU batteryless platforms and compiler/controller support.",
+      "url": "https://imec-publications.be/server/api/core/bitstreams/d647c609-d6f6-4f7f-b851-f19a1cc1a2ff/content",
+      "limits": "Nonvolatile CRAM changes recovery costs. Full PDF opened; later find calls timed out."
+    },
+    {
+      "id": "S15",
+      "title": "Energy-Adaptive Checkpoint-Free Intermittent Inference for Low Power Energy Harvesting Systems",
+      "year": 2025,
+      "access": "conference_full_text",
+      "locator": "Sections on loop indices and consistency-aware idempotent execution",
+      "finding": "Progress variables and durable intermediate data support a checkpoint-free-labelled execution mechanism.",
+      "url": "https://www.isqed.org/English/Proceedings/pdf/6C-2-173.pdf",
+      "limits": "The label does not imply zero persistence. Compare actual writes, atomic regions and pruning-induced accuracy effects."
+    },
+    {
+      "id": "S16",
+      "title": "Power- and Deadline-Aware Dynamic Inference on Intermittent Computing Systems (DualAdaptNet)",
+      "year": 2025,
+      "access": "institutional_abstract_only",
+      "locator": "Abstract and publication metadata",
+      "finding": "Width/depth adaptation and runtime scheduling jointly address power and deadlines.",
+      "url": "https://eprints.soton.ac.uk/497948/",
+      "limits": "Accepted manuscript restricted until 2026-11-19 per repository. Detailed algorithm not verified."
+    },
+    {
+      "id": "S17",
+      "title": "Catch Non-determinism If You Can: Intermittent Inference of Dynamic Neural Networks (NodPA)",
+      "year": 2025,
+      "access": "publisher_indexed_full_text_excerpts",
+      "locator": "Sections 2 and 3 and indicator methodology",
+      "finding": "Dynamic execution requires indicators capturing nondeterministic progress and storage locations.",
+      "url": "https://doi.org/10.1145/3757917",
+      "limits": "Direct DOI access 403; substantial publisher-indexed excerpts available. No code reproduction."
+    },
+    {
+      "id": "S18",
+      "title": "BISen: A Robust Framework for Efficient CNN Inference on Battery-Free Intelligent Sensory Nodes",
+      "year": 2026,
+      "access": "publisher_indexed_full_text_excerpts",
+      "locator": "Introduction; requirements; reactive execution",
+      "finding": "Energy-aware safe-stop and selective CNN state preservation constitute a strong reactive comparison family.",
+      "url": "https://ieeexplore.ieee.org/document/11421036",
+      "limits": "Publisher direct access requires JavaScript; staging excerpts retrieved. Linked code identity/access not verified."
+    },
+    {
+      "id": "S19",
+      "title": "Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9x Throughput Speedup (INTERCEPT)",
+      "year": 2024,
+      "access": "author_pdf_selected_sections",
+      "locator": "Abstract and STT-MRAM mechanism",
+      "finding": "Compile-time persistence placement/configuration trades STT-MRAM write energy against inference accuracy.",
+      "url": "https://www.diva-portal.org/smash/get/diva2%3A1963403/FULLTEXT01.pdf",
+      "limits": "Requires a technology-specific write-error model. Exact-output contract differs."
+    },
+    {
+      "id": "S20",
+      "title": "Forget Failure: Exploiting SRAM Data Remanence for Low-overhead Intermittent Computation (TotalRecall)",
+      "year": 2020,
+      "access": "author_full_pdf_selected_sections",
+      "locator": "Sections 3.1 and 3.2",
+      "finding": "Residual charge can preserve MCU SRAM during some off intervals, with NVM fallback.",
+      "url": "https://harriswms.github.io/files/ForgetFailure.pdf",
+      "limits": "ASPLOS 2020 publication date verified from PDF. MCU SRAM result is not calibration of a CIM macro."
+    },
+    {
+      "id": "S21",
+      "title": "Efficient task-based intermittent computing leveraging SRAM data retention (RIPPLE)",
+      "year": 2026,
+      "access": "publisher_abstract_and_code_listing",
+      "locator": "Abstract; data availability notes",
+      "finding": "Energy-aware backups and validation of retained SRAM state reduce persistence overhead.",
+      "url": "https://link.springer.com/article/10.1007/s11227-025-08205-7",
+      "limits": "Published 2026-02-06. Full text paywalled. Listed GitHub repository was empty on inspection."
+    },
+    {
+      "id": "S22",
+      "title": "CIM-Tuner: Balancing the Compute and Storage Capacity of SRAM-CIM Accelerator via Hardware-mapping Co-exploration",
+      "year": 2026,
+      "access": "preprint_full_text",
+      "locator": "Sections III-B, III-C and IV",
+      "finding": "ICW/WUW and two-level tiling expose compute and weight-update costs.",
+      "url": "https://arxiv.org/html/2601.18070v1",
+      "limits": "Treat as preprint for this review. Framework abstraction is not measured system calibration."
+    },
+    {
+      "id": "S23",
+      "title": "AccelCIM: Systematic Dataflow Exploration for SRAM Compute-in-Memory Accelerator",
+      "year": 2026,
+      "access": "preprint_full_text",
+      "locator": "Sections 3.2, 3.3 and 4.3",
+      "finding": "Dataflow, macro/array costs and compute-I/O overlap must be evaluated together.",
+      "url": "https://arxiv.org/html/2604.17692v1",
+      "limits": "Preprint version used. Reported layout/simulation costs belong to the authors' backend."
+    },
+    {
+      "id": "S24",
+      "title": "FERMI-ML: A Flexible and Resource-Efficient Memory-In-Situ SRAM Macro for TinyML acceleration",
+      "year": 2025,
+      "access": "preprint_full_text",
+      "locator": "Accumulator approximation; performance evaluation",
+      "finding": "Flexible digital SRAM macro uses approximate arithmetic and reports post-layout results.",
+      "url": "https://arxiv.org/html/2511.12544v1",
+      "limits": "Digital implementation alone does not establish exact INT8 compatibility."
+    },
+    {
+      "id": "S25",
+      "title": "SLICE-CiM: Selective Layer-wise Inference Control Engine with Confidence-Based Early Exit for SRAM based Digital Compute-in-Memory",
+      "year": 2026,
+      "access": "preprint_full_text",
+      "locator": "Sections II through V",
+      "finding": "Precision/control and early termination already form an active SRAM-CIM research direction.",
+      "url": "https://arxiv.org/html/2610.37601v1",
+      "limits": "Submitted 2026-10-27. Claims are author-reported synthesis/PnR/system estimates. Early exit is within accumulation and must be distinguished from network branch exits."
+    },
+    {
+      "id": "S26",
+      "title": "ZigZag-IMC",
+      "year": 2026,
+      "access": "author_repository_readme",
+      "locator": "Important Notice; hardware cost model limitations",
+      "finding": "SRAM digital/analog architecture models with explicit integer/adder/cell constraints and validation references.",
+      "url": "https://github.com/KULeuven-MICAS/zigzag-imc",
+      "limits": "No setup or integration performed. CACTI platform limitation and model scope require attention.",
+      "observed_head_commit": "df34a6f07d59cca4aceb8f7cd36b221c983a90ee"
+    },
+    {
+      "id": "S27",
+      "title": "CiMLoop project maintenance notice",
+      "year": 2026,
+      "access": "author_repository_readme",
+      "locator": "Maintenance warning",
+      "finding": "Repository directs new architecture work to AccelForge and component models to HWComponents.",
+      "url": "https://github.com/mit-emze/cimloop",
+      "limits": "Keep original paper citation and pin the implementation version chosen."
+    },
+    {
+      "id": "S28",
+      "title": "AccelForge and HWComponents",
+      "year": 2026,
+      "access": "official_project_repositories",
+      "locator": "README installation/features",
+      "finding": "Maintained tensor-accelerator mapping and hardware-component cost tools are potential offline backends.",
+      "url": "https://github.com/Accelergy-Project/accelforge",
+      "limits": "Integration and cost validation remain future work.",
+      "observed_head_commit": "df6a79f41610b5b7cc51236c82303511b35b9195"
+    },
+    {
+      "id": "S29",
+      "title": "FM25V20A-G F-RAM",
+      "year": 2026,
+      "access": "manufacturer_product_page_and_existing_local_datasheet_audit",
+      "locator": "Capacity; existing hardware-selection derivation",
+      "finding": "2-Mbit serial FRAM provides a concrete transaction-cost reference.",
+      "url": "https://www.infineon.com/part/FM25V20A-G",
+      "limits": "2 Mbit equals 256 KiB. Full board energy and G8's 2 MiB store need an explicit implementation."
+    },
+    {
+      "id": "S30",
+      "title": "IEEE Embedded Systems Letters author instructions",
+      "year": 2026,
+      "access": "official_author_guidance",
+      "locator": "Publication Style; Manuscript Preparation",
+      "finding": "Novel technical depth and a submission length of four pages including references.",
+      "url": "https://ieee-ceda.org/publication/esl/esl-author-instructions",
+      "limits": "Venue fit is conditional on the scientific result."
+    },
+    {
+      "id": "S31",
+      "title": "IEEE TCAD paper submission instructions",
+      "year": 2026,
+      "access": "official_author_guidance",
+      "locator": "Scope; Style for Submission",
+      "finding": "Algorithms/tools for automated circuit and system design fit TCAD; regular submissions up to 14 pages.",
+      "url": "https://ieee-ceda.org/publications/tcad/tcad-paper-submissions",
+      "limits": "A longer submission requires a correspondingly substantial research contribution."
+    }
+  ],
+  "extra_repository_pins": {
+    "hwcomponents": {
+      "url": "https://github.com/Accelergy-Project/hwcomponents",
+      "commit": "e67d7f10ee7210d265300d092d25e1b5f82dafba"
+    },
+    "mlcommons_tiny": {
+      "url": "https://github.com/mlcommons/tiny",
+      "commit": "4addd0fa08d216e20637637874e084895f289da4"
+    }
+  },
+  "status": "Literature review and diagnostic complete; proposed G9 experiment remains a draft"
+}

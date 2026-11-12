@@ -1,0 +1,8 @@
+{
+  "sha256": {
+    "10_Experiments/g9/20261111-m2/main.jsonl": "7878de690a9794d8e0a951198184c5b582ca7baf97529df138b77928bfa31e90",
+    "10_Experiments/g9/20261111-m2/results.json": "fbebbd01ee70edb7b4117566ddf19de26841bc13d6cf9f334dd1b62dee1d22d0",
+    "10_Experiments/g9/20261111-m2/secondary.jsonl": "865843ccd1db1e93e94773a3da6c78c58966f5bee6115c099e9888a3005c9206"
+  },
+  "command": "python 10_Experiments/run_g9.py --stage main --run-id 20261111-m2"
+}

@@ -1,0 +1,11 @@
+09_Simulation/g4/tb_checkpoint.sv:22: warning: implicit definition of wire 'restore_valid'.
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module recap_checkpoint_ctrl declared here: 04_RTL/g4/recap_checkpoint_ctrl.sv:4
+04_RTL/g4/recap_checkpoint_ctrl.sv:105: warning: @* is sensitive to all 336 words in array 'staged'.
+04_RTL/g4/recap_checkpoint_ctrl.sv:106: warning: @* is sensitive to all 124 words in array 'header'.
+04_RTL/g4/recap_checkpoint_ctrl.sv:113: warning: @* is sensitive to all 1025 words in array 'scan'.
+09_Simulation/g4/tb_checkpoint.sv:92: warning: @* is sensitive to all 256 words in array 'z'.
+09_Simulation/g4/tb_checkpoint.sv:93: warning: @* is sensitive to all 16 words in array 'sums'.
+09_Simulation/g4/tb_checkpoint.sv:94: warning: @* is sensitive to all 16 words in array 'out_data'.

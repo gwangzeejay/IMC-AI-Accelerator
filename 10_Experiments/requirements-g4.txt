@@ -1,0 +1,2 @@
+# RTL verification uses cached G2/G3 model tensors; TensorFlow is not imported.
+numpy==2.2.4

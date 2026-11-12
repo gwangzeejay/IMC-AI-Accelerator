@@ -1,0 +1,8 @@
+{
+  "mac_cases": 647,
+  "requant_cases": 5468,
+  "seed": 82400,
+  "includes_real_model_dot_products": true,
+  "includes_256_terms": true,
+  "includes_overflow_and_invalid_length": true
+}

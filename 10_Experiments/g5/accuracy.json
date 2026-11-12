@@ -1,0 +1,459 @@
+{
+  "reference_inputs": 1000,
+  "reference_correct": 901,
+  "reference_accuracy": 0.901,
+  "confusion_matrix": [
+    [
+      78,
+      3,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ],
+    [
+      0,
+      76,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      75,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ],
+    [
+      2,
+      4,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      6
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      64,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      2,
+      73,
+      0,
+      0,
+      1,
+      0,
+      0,
+      7
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      66,
+      0,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      74,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5,
+      1,
+      0,
+      0,
+      72,
+      0,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      83,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      80,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      84
+    ]
+  ],
+  "own_arithmetic_inputs": 39,
+  "own_operator_outputs": 507,
+  "own_verified_elements": 2813928,
+  "own_mismatches": 0,
+  "checks": [
+    {
+      "split": "train",
+      "input_id": "tst_000005_Down_0.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000012_Go_1.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000001_Left_2.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000009_No_3.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000008_Off_4.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000004_On_5.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000002_Right_6.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000000_Stop_7.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000003_Up_8.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000007_Yes_9.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000014_Silence_10.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "train",
+      "input_id": "tst_000010_Unknown_11.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000117_Down_0.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000112_Go_1.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000116_Left_2.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000108_No_3.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000102_Off_4.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000103_On_5.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000107_Right_6.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000105_Stop_7.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000133_Up_8.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000115_Yes_9.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000100_Silence_10.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "validation",
+      "input_id": "tst_000120_Unknown_11.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000209_Down_0.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000225_Go_1.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000207_Left_2.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000205_No_3.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000217_Off_4.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000200_On_5.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000201_Right_6.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000202_Stop_7.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000204_Up_8.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000203_Yes_9.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000214_Silence_10.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "test",
+      "input_id": "tst_000206_Unknown_11.bin",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "arithmetic_stress_only",
+      "input_id": "unit_min",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "arithmetic_stress_only",
+      "input_id": "unit_max",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    },
+    {
+      "split": "arithmetic_stress_only",
+      "input_id": "unit_seed20261015",
+      "operator_outputs": 13,
+      "elements": 72152,
+      "mismatches": 0
+    }
+  ],
+  "scope": "1000-input reference accuracy; own arithmetic checked on 36 labeled class/split examples + 3 stress fixtures and every completed runtime inference",
+  "input_scope": "490 precomputed INT8 MFCC values; excludes audio/preprocessing",
+  "cpu_head_verified_inputs": 1000,
+  "fc_requantization": "float64 scale and ties-away rounding matching TF 2.21 BUILTIN_REF; not an integer accelerator kernel",
+  "softmax": "isolated TFLite BUILTIN_REF CPU op fed computed logits"
+}

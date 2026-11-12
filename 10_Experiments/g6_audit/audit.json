@@ -1,0 +1,55 @@
+{
+  "status": "PASS_G6_POST_RUN_AUDIT",
+  "provenance": {
+    "g2": {
+      "files": 45,
+      "manifest_sha256": "abea9b3bdc19c42a205ee54772621fcd6aacfe9f20ebd7fa310c16822be5fe97"
+    },
+    "g3": {
+      "files": 204,
+      "manifest_sha256": "93a8c37faa7a6810948bcf99a1b3bc0e96c2023875fda751028367548c5cf4d1"
+    },
+    "g4": {
+      "files": 184,
+      "manifest_sha256": "dd0c38936e61faf628e708eb7f46ba9f36c03a0fdec0c96c3c01ebc54d8acd2e"
+    },
+    "g5": {
+      "files": 1028,
+      "manifest_sha256": "085bfcb38b38df885b7393e8e115ffd490dda13ff183554cdd4f03cdf3536c62"
+    },
+    "g6": {
+      "files": 1308,
+      "manifest_sha256": "94c57f63478c9d131eff8b58f5fd0359161039f0b5429c095660bfe56d279003"
+    }
+  },
+  "logical_rows": 1360,
+  "case_files": 1216,
+  "main_scenarios_per_workload_method": 56,
+  "source_domains": {
+    "steady": 2,
+    "mild": 20,
+    "severe": 20,
+    "zero": 2,
+    "eth_measured_derived_rail": 12
+  },
+  "completed_outputs_in_main": 481,
+  "max_sram_algorithm_bytes": 41216,
+  "max_nvm_reserved_bytes": 1158122,
+  "source_seed_reuse_with_g5": 0,
+  "input_hash_reuse_with_g5_runtime": 0,
+  "ablations_per_workload": 10,
+  "sensitivity_axes": 6,
+  "losing_trace_comparisons": 98,
+  "frozen_protocol_sha256": "b6d82022ba670ef260102f267f404491762e520ee223e16bf775dd4a78d7f150",
+  "scope": "artifact/coverage/paired-statistic audit only; no new inference, fitting, calibration or physical validation",
+  "parallel_workers": {
+    "kws": {
+      "published": 264,
+      "worker_manifest_sha256": "7d6758348f4ba7d16303a91604d002a75b20e0851c385d855b34ce8903d70d1d"
+    },
+    "vww": {
+      "published": 264,
+      "worker_manifest_sha256": "015ef89538b0479766f8136ca98539e244999af7aba29ef915c385bcabe6ed18"
+    }
+  }
+}

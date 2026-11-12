@@ -1,0 +1,1345 @@
+{
+  "workload": {
+    "pair": 0,
+    "y": [
+      1,
+      5
+    ],
+    "x": [
+      1,
+      3
+    ],
+    "co": [
+      0,
+      16
+    ]
+  },
+  "model_hash": "aeea436800704fce17b17292e4412630ad856e9d777c044c64ef748a880bd0ae",
+  "expected_output_sha256": "bc8148b44a4854a5f9a6e60737e603ce3df9eb45c336a29908c18329c7388ddc",
+  "catalog": {
+    "h1w1_co4": {
+      "jobs": [
+        {
+          "path": "991ec2766242efab75dfc783deb145d820390f5a33cee97ae481b15246d30a3e.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "d964bd833bba104a76108fe8b7e0395d61b7b9ea2dd585cc9df4ef98607ea1eb"
+        },
+        {
+          "path": "987535f6d4707204a851c9d99b90e4c6d6c7a107f45a641cc58718fcf957860f.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "d964bd833bba104a76108fe8b7e0395d61b7b9ea2dd585cc9df4ef98607ea1eb"
+        },
+        {
+          "path": "0f4fb117873bb1d2b6f82a38dee8bab95f01501662d64e928e3885580ec8adbb.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "d964bd833bba104a76108fe8b7e0395d61b7b9ea2dd585cc9df4ef98607ea1eb"
+        },
+        {
+          "path": "8d310c993780ae9daa54a75d33f6d98ffdfb3c26f03531ba8f83ac44a7338830.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "d964bd833bba104a76108fe8b7e0395d61b7b9ea2dd585cc9df4ef98607ea1eb"
+        },
+        {
+          "path": "7576c493a2b184afb32d22b45687638ce775b0250b421bfabd61c9f39a487516.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "a9474d5771815be86ad2e76c8949f35f20fc2363f8cb95a2f00b38dc8f18bfdd"
+        },
+        {
+          "path": "e88d15f369dcbe1340a7eb2fa60b33c35ef92e633554e7c45746ed09ef23408d.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "a9474d5771815be86ad2e76c8949f35f20fc2363f8cb95a2f00b38dc8f18bfdd"
+        },
+        {
+          "path": "09d9e3d44ac1e14d5c98edbb4de60508bc4855846f091660cddfe6f033c28702.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "a9474d5771815be86ad2e76c8949f35f20fc2363f8cb95a2f00b38dc8f18bfdd"
+        },
+        {
+          "path": "db3b609513bccf4ff6a707321484e30aa8357f1284fc5cd190e3fa28dbd7c252.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "a9474d5771815be86ad2e76c8949f35f20fc2363f8cb95a2f00b38dc8f18bfdd"
+        },
+        {
+          "path": "ae34850d7f7ac3c47615202ab1dc58cd5ce1ec6eaace51e0c24a56b3194c34b2.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "fd0222c9c172dfe87c554adba51d0eb4498d07cd2fb610ebe43ca729b12b80e6"
+        },
+        {
+          "path": "71335bb87bda03dadffea0f797bef3523f149bfceede6d162721b54c04ac3b61.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "fd0222c9c172dfe87c554adba51d0eb4498d07cd2fb610ebe43ca729b12b80e6"
+        },
+        {
+          "path": "9d8027faa82333a984e9ed15b087266e37ef68c9015fb81a87554ac46be01722.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "fd0222c9c172dfe87c554adba51d0eb4498d07cd2fb610ebe43ca729b12b80e6"
+        },
+        {
+          "path": "793efaef9464b98ea4e89608a3a23e91ea09dbef342569d6133517e2d4ca7ccd.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "fd0222c9c172dfe87c554adba51d0eb4498d07cd2fb610ebe43ca729b12b80e6"
+        },
+        {
+          "path": "121dc9fd67202ab7b3388110a011e4e0201d0075cb542d619be00eded2b3f806.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "9b5888fa021d465aa8d748cb5f1734e4f8b8c165267b200f2a4dcf19b9af37dc"
+        },
+        {
+          "path": "64ed9ceba3ef32fd128ac406919ab9af032edeb0bfdcfbaa7b946cdd6cda6cdf.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "9b5888fa021d465aa8d748cb5f1734e4f8b8c165267b200f2a4dcf19b9af37dc"
+        },
+        {
+          "path": "8149d419edf06bf7a79259c39a11015bd35c2ee83e3ecc4e036a715161e71883.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "9b5888fa021d465aa8d748cb5f1734e4f8b8c165267b200f2a4dcf19b9af37dc"
+        },
+        {
+          "path": "18771e36e744995026a07f05b5a52fff08230f3038174ba44ab68c6c872162f3.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "9b5888fa021d465aa8d748cb5f1734e4f8b8c165267b200f2a4dcf19b9af37dc"
+        },
+        {
+          "path": "89b3cfe5d7451b87aa7f49ffc230447b59bd43bfe4ca729e1de955b7a8ac853e.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "1e10ce787723be723028f1ff43811cf0be1841d3ccdce22387af242edc4c4f5b"
+        },
+        {
+          "path": "ca0349642b6728caef48f16ac42298fb2e8107581400e4c1d3070380ba19f834.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "1e10ce787723be723028f1ff43811cf0be1841d3ccdce22387af242edc4c4f5b"
+        },
+        {
+          "path": "e42b90436cf4dfd3d4bd7649b85447ef04e1a4650c0d73f4575610ef664a84be.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "1e10ce787723be723028f1ff43811cf0be1841d3ccdce22387af242edc4c4f5b"
+        },
+        {
+          "path": "3fdcf9ffc53706358c31ac1628668af174c099d451c035a4114fe5b0b32716c3.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "1e10ce787723be723028f1ff43811cf0be1841d3ccdce22387af242edc4c4f5b"
+        },
+        {
+          "path": "96870bafcaa6928bd434935d3e3ea9f624299366fec9c5df85ae9bcf09727610.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "6f4bf74cfea6bb51010e613a3fb8b70392c7793d4e0eba15f3271b6c0464dbd6"
+        },
+        {
+          "path": "f19b381e343424804d2d0dd015dba7ab7eb819a9d425bcddb0d449a3aaed4b3b.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "6f4bf74cfea6bb51010e613a3fb8b70392c7793d4e0eba15f3271b6c0464dbd6"
+        },
+        {
+          "path": "47ff2a05be00202aad8a7a403389dad801ad5fbfca4aec657b18b94cf5635518.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "6f4bf74cfea6bb51010e613a3fb8b70392c7793d4e0eba15f3271b6c0464dbd6"
+        },
+        {
+          "path": "213175254db9b32f793075b607ef94fc6bd54576eda9d9b5adb4ee641a785745.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "6f4bf74cfea6bb51010e613a3fb8b70392c7793d4e0eba15f3271b6c0464dbd6"
+        },
+        {
+          "path": "2bb7035b2be768d92ba025ba60f2cdca9563ed79a8f0532489ed19267482e953.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "0670061b1c1151c3bcedabd066eb7dc3f6ea19c3215b9215602d5ab7b52a509a"
+        },
+        {
+          "path": "23a1a85d2caf8c3cdbf0eff020f10b21d3b836f6bc5ea9b7d32f5737e75aca59.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "0670061b1c1151c3bcedabd066eb7dc3f6ea19c3215b9215602d5ab7b52a509a"
+        },
+        {
+          "path": "3591e98a46dc9633ff2f2c63634350b9e993359d3e18fd95ad3231b2933293e3.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "0670061b1c1151c3bcedabd066eb7dc3f6ea19c3215b9215602d5ab7b52a509a"
+        },
+        {
+          "path": "789333c3c5cda8a7e4298ebc5bcf708013819dc8c93ab5730871e2668192fdf4.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "0670061b1c1151c3bcedabd066eb7dc3f6ea19c3215b9215602d5ab7b52a509a"
+        },
+        {
+          "path": "51b18879832252eda22e4bd0dde382a3b54f49bd2651072d1369c2142ed0d2b6.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "8e24772be6906dcf327d7dad0d1e3ed58e87c3f6af2a82010e40b1f55fff6a9c"
+        },
+        {
+          "path": "c310edc807ee2bb6aa90e2cc752ac5d28227958629e0e4ecb9a7bcbc2166f47c.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "8e24772be6906dcf327d7dad0d1e3ed58e87c3f6af2a82010e40b1f55fff6a9c"
+        },
+        {
+          "path": "21e0d18d45ff578263be7ae1cd91c7daae11c7248e91df85a02102861e268f81.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "8e24772be6906dcf327d7dad0d1e3ed58e87c3f6af2a82010e40b1f55fff6a9c"
+        },
+        {
+          "path": "8b18e8c07ff73f12819282c9802e2270a4ef441647c19982acb40081b9b523bf.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1680,
+          "spatial_key": "8e24772be6906dcf327d7dad0d1e3ed58e87c3f6af2a82010e40b1f55fff6a9c"
+        }
+      ],
+      "nvm_reserved_bytes": 193744,
+      "output_elements": 128
+    },
+    "h1w1_co16": {
+      "jobs": [
+        {
+          "path": "1394b04fa50444ffb7a8e2ae4e65b12cb2c97c3ed08fa1033f357f4453015ad5.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "d964bd833bba104a76108fe8b7e0395d61b7b9ea2dd585cc9df4ef98607ea1eb"
+        },
+        {
+          "path": "cfe772539df926bb0e3b290c5f11897aba20890bce5c400517cbe3783c2e844a.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "a9474d5771815be86ad2e76c8949f35f20fc2363f8cb95a2f00b38dc8f18bfdd"
+        },
+        {
+          "path": "a87949fc4dfe89b8e934ab9b46a2961c66d4e5fbedfc9215bb1f8e173d91fb54.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "fd0222c9c172dfe87c554adba51d0eb4498d07cd2fb610ebe43ca729b12b80e6"
+        },
+        {
+          "path": "9205abba610e2d13eb29bd127bb17add21127a405a956e6174b61bd27b9d4a1f.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "9b5888fa021d465aa8d748cb5f1734e4f8b8c165267b200f2a4dcf19b9af37dc"
+        },
+        {
+          "path": "5e700ccae3a21e36b047f170e637deaf6d12e039c84311a9f80b040178b0cc46.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "1e10ce787723be723028f1ff43811cf0be1841d3ccdce22387af242edc4c4f5b"
+        },
+        {
+          "path": "15531bfb7bc46f7a93e22db03cbb70dbac3e943769ce6a927d88cd1660f54c3a.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "6f4bf74cfea6bb51010e613a3fb8b70392c7793d4e0eba15f3271b6c0464dbd6"
+        },
+        {
+          "path": "41346ca6071721de07dce31454ce2f4c2d6abf2b4a07a9722cb052830da6a578.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "0670061b1c1151c3bcedabd066eb7dc3f6ea19c3215b9215602d5ab7b52a509a"
+        },
+        {
+          "path": "fe46ad4e7c0139bc126696c260d57cf9e406da3ce0fcd541a739004819020c10.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 2,
+            "h": 1,
+            "w": 1,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 2496,
+          "spatial_key": "8e24772be6906dcf327d7dad0d1e3ed58e87c3f6af2a82010e40b1f55fff6a9c"
+        }
+      ],
+      "nvm_reserved_bytes": 95416,
+      "output_elements": 128
+    },
+    "h1w2_co4": {
+      "jobs": [
+        {
+          "path": "66b64f888dfe225aa0ff21b094c60ff2fe7ccadd1e4a0ea23269bcbbb1b467e5.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "17ea06e4b4d9d81228ee3fcec482b624a14838e8d13aec3261e82e8f689aef02"
+        },
+        {
+          "path": "7260622c7dc80ec3eb2ad2a7c15eeab191101d103e2cb011ccc8303e7d1cd68c.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "17ea06e4b4d9d81228ee3fcec482b624a14838e8d13aec3261e82e8f689aef02"
+        },
+        {
+          "path": "55311d46139b93637fd1666d84016c4ce890d2915ce6f886237a5d4780ccb9bc.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "17ea06e4b4d9d81228ee3fcec482b624a14838e8d13aec3261e82e8f689aef02"
+        },
+        {
+          "path": "f368ed94abde3a630376bd804b37c17fd3aafc7cbe9f181a2cbf7e6e0eb0fce4.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "17ea06e4b4d9d81228ee3fcec482b624a14838e8d13aec3261e82e8f689aef02"
+        },
+        {
+          "path": "ec84e8381d24a61f5844df16ffae1220b91c5c8556c6c86bcd5a5cc4f84cb0b5.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "574e71348f6a1b40b8ffadeb6e672adaa074382168d405506b391c1138cf468f"
+        },
+        {
+          "path": "22d6793919fc81c01b40f6dc8b4fde022f5b52cdc24bc8d3b855d8b69dfecd9b.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "574e71348f6a1b40b8ffadeb6e672adaa074382168d405506b391c1138cf468f"
+        },
+        {
+          "path": "4976f071b74e7227a03cd47e1242d9ecf07726d0ae7ea39b3866e6cdd8fffe40.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "574e71348f6a1b40b8ffadeb6e672adaa074382168d405506b391c1138cf468f"
+        },
+        {
+          "path": "ecd39f12a574172dbf93625e078cdd6512d9a6a3d884789c0de23a0c88a1169d.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "574e71348f6a1b40b8ffadeb6e672adaa074382168d405506b391c1138cf468f"
+        },
+        {
+          "path": "ffed3189e777fae50ac485848649b1e7894a658d6581079a775758a97beb6aee.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "52a90d9f7f837441168dbdc42e9d49bd52c0ca66689f961f8be1356c33bf145a"
+        },
+        {
+          "path": "778cece2add740de14249adae7fac0705fa5ce13c39a53a39d07205ed2a88129.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "52a90d9f7f837441168dbdc42e9d49bd52c0ca66689f961f8be1356c33bf145a"
+        },
+        {
+          "path": "62ac0f82c5e4bcf97858a56f27a5a3455ea84d16d1a48bf37fac7653bea640cb.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "52a90d9f7f837441168dbdc42e9d49bd52c0ca66689f961f8be1356c33bf145a"
+        },
+        {
+          "path": "152a1183be0533716307caed2e798492469d8aa67f59c49c45f9a97c2a5bb65c.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "52a90d9f7f837441168dbdc42e9d49bd52c0ca66689f961f8be1356c33bf145a"
+        },
+        {
+          "path": "abd9b055151fb2fbd96e951f369b92f171c039659cf9dbd9f7432e304e4a7ee6.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "0e13f658487bc06c4a79f0784c56957d2ed512de4bca173b1db048146a9bf086"
+        },
+        {
+          "path": "c9c8902957ad89c79484480e72b7e3f4f9412c87b1e4f15a2f0bc06e8869950b.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "0e13f658487bc06c4a79f0784c56957d2ed512de4bca173b1db048146a9bf086"
+        },
+        {
+          "path": "23c3ee79f9fed104d9a96e50a5d92c50858718574fed5392c58accbe2bf04124.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "0e13f658487bc06c4a79f0784c56957d2ed512de4bca173b1db048146a9bf086"
+        },
+        {
+          "path": "809bf55939e3a956dbaae242db2127cfe086c972e6765063c828c9d78c053279.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1280,
+          "immutable_bytes": 1872,
+          "spatial_key": "0e13f658487bc06c4a79f0784c56957d2ed512de4bca173b1db048146a9bf086"
+        }
+      ],
+      "nvm_reserved_bytes": 126912,
+      "output_elements": 128
+    },
+    "h1w2_co16": {
+      "jobs": [
+        {
+          "path": "824f7f4e458f661a56a70687ad40e45a152e2eb6886aaa3f805cca97df989470.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2688,
+          "spatial_key": "17ea06e4b4d9d81228ee3fcec482b624a14838e8d13aec3261e82e8f689aef02"
+        },
+        {
+          "path": "b5517fd6abe0f05072407d0f6ea92f9d870698148ddcd16c030eac7e262a4544.npz",
+          "descriptor": {
+            "y": 2,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2688,
+          "spatial_key": "574e71348f6a1b40b8ffadeb6e672adaa074382168d405506b391c1138cf468f"
+        },
+        {
+          "path": "029a9a3f3bdb32539c6ff31643f1e037a3f206bd1562aae203786290f4c592f6.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2688,
+          "spatial_key": "52a90d9f7f837441168dbdc42e9d49bd52c0ca66689f961f8be1356c33bf145a"
+        },
+        {
+          "path": "b0a821216637990605f4c54d4bff6d9d5e6e83ee11b5db98926ea331a20bf97e.npz",
+          "descriptor": {
+            "y": 4,
+            "x": 1,
+            "h": 1,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2688,
+          "spatial_key": "0e13f658487bc06c4a79f0784c56957d2ed512de4bca173b1db048146a9bf086"
+        }
+      ],
+      "nvm_reserved_bytes": 77492,
+      "output_elements": 128
+    },
+    "h2w2_co4": {
+      "jobs": [
+        {
+          "path": "4864b0869acb58e2a7f76b3d5ad842246444237dba6fa29d714bd12bd33aac2a.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "79805a12e681797066d0cb0a492c0334fb2fc125f0fc49ed33a6c8a5843906cb"
+        },
+        {
+          "path": "2b8cccd590cc8d8ef2e81578b16840286826f34603c7398bc62ba4008bca0d91.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "79805a12e681797066d0cb0a492c0334fb2fc125f0fc49ed33a6c8a5843906cb"
+        },
+        {
+          "path": "945d7d2bc517c4d72b6546b62093f337d1584b50c7c75dff90c9cf7b8d201e68.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "79805a12e681797066d0cb0a492c0334fb2fc125f0fc49ed33a6c8a5843906cb"
+        },
+        {
+          "path": "f32db7b8ec495fbcdea3cfa46eb1f73d3d94e34c713d5aa3c755b01071fde502.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "79805a12e681797066d0cb0a492c0334fb2fc125f0fc49ed33a6c8a5843906cb"
+        },
+        {
+          "path": "2a5ecaf016059f1dfab189d8d67abfe17609bb49673744b5ee2b0e0ac81fcea7.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "3c075ce5e0cb7855f7a45ecaccc9a14d62e7c5a46f6e5f819c258578391dcd76"
+        },
+        {
+          "path": "60fe83f6adf7d74dcfb125316d37d31a25fb0889894290f8e7e143665ca2de89.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "3c075ce5e0cb7855f7a45ecaccc9a14d62e7c5a46f6e5f819c258578391dcd76"
+        },
+        {
+          "path": "741b890846f50fafa26427ee760ac05262709e684f4664ef551c4b13f5875bb9.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "3c075ce5e0cb7855f7a45ecaccc9a14d62e7c5a46f6e5f819c258578391dcd76"
+        },
+        {
+          "path": "5b46dad19be80f89d3f62bbecc46ec11a31886a323e8a45f2bd8508163cb32e5.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1536,
+          "immutable_bytes": 2128,
+          "spatial_key": "3c075ce5e0cb7855f7a45ecaccc9a14d62e7c5a46f6e5f819c258578391dcd76"
+        }
+      ],
+      "nvm_reserved_bytes": 96568,
+      "output_elements": 128
+    },
+    "h2w2_co16": {
+      "jobs": [
+        {
+          "path": "bbae53d01e9ab42fb7b5e4c821e5378baed5d3e5fdbc4977f2b32c74b0e65722.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1792,
+          "immutable_bytes": 2944,
+          "spatial_key": "79805a12e681797066d0cb0a492c0334fb2fc125f0fc49ed33a6c8a5843906cb"
+        },
+        {
+          "path": "fc0f89e3f0227e8828ed27917af3aa723abada5b191cba45c5daf0a0783fcbb0.npz",
+          "descriptor": {
+            "y": 3,
+            "x": 1,
+            "h": 2,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1792,
+          "immutable_bytes": 2944,
+          "spatial_key": "3c075ce5e0cb7855f7a45ecaccc9a14d62e7c5a46f6e5f819c258578391dcd76"
+        }
+      ],
+      "nvm_reserved_bytes": 67250,
+      "output_elements": 128
+    },
+    "h4w2_co4": {
+      "jobs": [
+        {
+          "path": "e9775db8e3ee15211fdb8b622701a13236cbd9f12ce18904d96eda499c4d9ef8.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 4,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1792,
+          "immutable_bytes": 2640,
+          "spatial_key": "b4e0d0e39fe00258aca2057752cfd29053aee510d4d21f815718eaa183c1fa37"
+        },
+        {
+          "path": "d135ae6a9fd4390d0597d9eed7b514c4cdb6ebfd40bdcca2e3eb4c38caf73cf5.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 4,
+            "w": 2,
+            "co_start": 4,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1792,
+          "immutable_bytes": 2640,
+          "spatial_key": "b4e0d0e39fe00258aca2057752cfd29053aee510d4d21f815718eaa183c1fa37"
+        },
+        {
+          "path": "eb39c090b97d6958bd79f106fcc8c0f9c604e95a3726a87664959eec478bd811.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 4,
+            "w": 2,
+            "co_start": 8,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1792,
+          "immutable_bytes": 2640,
+          "spatial_key": "b4e0d0e39fe00258aca2057752cfd29053aee510d4d21f815718eaa183c1fa37"
+        },
+        {
+          "path": "0b13f7be13a7139e1f1931cdcb38e05c3da8df3cb2e163e9a6a2b34a177eec7c.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 4,
+            "w": 2,
+            "co_start": 12,
+            "co_count": 4,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 1792,
+          "immutable_bytes": 2640,
+          "spatial_key": "b4e0d0e39fe00258aca2057752cfd29053aee510d4d21f815718eaa183c1fa37"
+        }
+      ],
+      "nvm_reserved_bytes": 79348,
+      "output_elements": 128
+    },
+    "h4w2_co16": {
+      "jobs": [
+        {
+          "path": "8c510792bb5e294a7826713e2e33cadaa8b1f6d9c87892feb4ef82714f5726d9.npz",
+          "descriptor": {
+            "y": 1,
+            "x": 1,
+            "h": 4,
+            "w": 2,
+            "co_start": 0,
+            "co_count": 16,
+            "ci": 64,
+            "padding": "VALID",
+            "halo": 1
+          },
+          "slot_bytes": 2304,
+          "immutable_bytes": 3456,
+          "spatial_key": "b4e0d0e39fe00258aca2057752cfd29053aee510d4d21f815718eaa183c1fa37"
+        }
+      ],
+      "nvm_reserved_bytes": 62129,
+      "output_elements": 128
+    }
+  },
+  "descriptor_count": 75
+}

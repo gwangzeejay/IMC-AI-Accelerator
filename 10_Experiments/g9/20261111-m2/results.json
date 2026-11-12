@@ -1,0 +1,3507 @@
+{
+  "cells": [
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.42479310176825114,
+          "ci95": [
+            0.4222122754181947,
+            0.427669211546191
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": -0.0006590218577202656,
+          "ci95": [
+            -0.0014180811082742384,
+            -0.0002632496262457984
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": -0.0036181423964325443,
+          "ci95": [
+            -0.004258727198474199,
+            -0.00237058917305788
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 1.0120674587277279e-07,
+          "ci95": [
+            1.1102230246251565e-16,
+            3.03147416946814e-07
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.0026812500293573738
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.4269543994920233,
+          "ci95": [
+            0.4245648914401632,
+            0.4288042408098417
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.005389715084430313,
+          "ci95": [
+            0.004028379721193076,
+            0.006075655049131656
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.005627323680450713,
+          "ci95": [
+            0.004248054413851454,
+            0.006322280887748333
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 1.7930101847696278e-13,
+          "ci95": [
+            -6.661338147750939e-16,
+            5.35682609381638e-13
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.010177949433688771
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.42143762386546746,
+          "ci95": [
+            0.4186821290924948,
+            0.4240761948540569
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0015641599427430597,
+          "ci95": [
+            0.0008088283636924515,
+            0.0020900496997808575
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": -0.0025201119948563555,
+          "ci95": [
+            -0.0052260441956653025,
+            -0.00042225962384079274
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 1.9894294411848534e-07,
+          "ci95": [
+            1.3866408021812048e-13,
+            3.9910488397743023e-07
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.03700546536338101
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.4292034560040009,
+          "ci95": [
+            0.4243507691769902,
+            0.4338578925865005
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.00569186405362565,
+          "ci95": [
+            0.004657117245646991,
+            0.006719564472866146
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.005865619357130147,
+          "ci95": [
+            0.004846441906060872,
+            0.006877320063855219
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 3.7636560534792807e-14,
+          "ci95": [
+            -6.661338147750939e-16,
+            1.1324274851176597e-13
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.031173458514182295
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.4200139486602211,
+          "ci95": [
+            0.41345830111039605,
+            0.4271715506445595
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.015355618888346245,
+          "ci95": [
+            0.012218361905011466,
+            0.018530266954192687
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.006800510134884252,
+          "ci95": [
+            0.00355597961626819,
+            0.009706622794633652
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0002364354141610736,
+          "ci95": [
+            -0.0016366061192514434,
+            0.0024839138453721654
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.302920550588326
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.4359817191448999,
+          "ci95": [
+            0.4267288874605899,
+            0.4452583263079456
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.002559586121911983,
+          "ci95": [
+            0.0005425116967044952,
+            0.004712175770545049
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0015695273318616643,
+          "ci95": [
+            -2.202829595926406e-06,
+            0.003201789002094918
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 3.4450220454118607e-13,
+          "ci95": [
+            -3.552713678800501e-15,
+            1.0406120409811592e-12
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.2841654512264016
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5298911810021062,
+          "ci95": [
+            0.5274825309938265,
+            0.5324673017565485
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.04005682929533083
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5341384263176947,
+          "ci95": [
+            0.529942214306564,
+            0.5373637365670505
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.02358214358500943
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5387212146923996,
+          "ci95": [
+            0.5316655560744876,
+            0.5458965102930596
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.11946537747577934
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5355740535825384,
+          "ci95": [
+            0.5305793464671102,
+            0.5413035603716253
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.08897692346371466
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5151569087767744,
+          "ci95": [
+            0.49468677195212785,
+            0.531918576198012
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.5012655759446767
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5339586255077295,
+          "ci95": [
+            0.5206485046951127,
+            0.5446747338852256
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.4837985720441297
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5836942998568466,
+          "ci95": [
+            0.5768192374478429,
+            0.5914230429360408
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.6761860275676225,
+          "ci95": [
+            0.670412522134963,
+            0.6818296611587102
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.0599531260964804
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5752769051451747,
+          "ci95": [
+            0.5684608621847912,
+            0.5822411644874164
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.08199748178323218
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5783012596508377,
+          "ci95": [
+            0.5672248264794875,
+            0.5883857397546355
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.6799984810485356,
+          "ci95": [
+            0.6682812610721671,
+            0.6930075608328325
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.3547087243184621
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.5728735589875262,
+          "ci95": [
+            0.5586342088605911,
+            0.5869788335550968
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.35634855194878046
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.6555434971673566,
+          "ci95": [
+            0.602629063053816,
+            0.6933035499586622
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 13,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.7147159438837314,
+          "ci95": [
+            0.670671553458317,
+            0.7708415165587492
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 11,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.9476809863186723
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.6324610545132103,
+          "ci95": [
+            0.5779485463728438,
+            0.6864442842603282
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 14,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 8,
+          "control_completed": 8,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 8,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 8,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 8,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 8,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.7611644855300401,
+          "ci95": [
+            0.7479784299285983,
+            0.7727561720736676
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.5225558689472415,
+          "ci95": [
+            0.4963367325748774,
+            0.5453185457092238
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 12,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.40130349039102664
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.49966395773556727,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 3,
+          "undefined_replicates": 40
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "kws",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": -6.008527009271347e-13,
+          "ci95": [
+            -1.3296030942910875e-12,
+            -2.6312285683618028e-15
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.24295999912171007,
+          "ci95": [
+            0.24228298589236694,
+            0.24351943768990025
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.03898666618001623,
+          "ci95": [
+            0.03881236770546048,
+            0.039165155644665606
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.03873832076524664,
+          "ci95": [
+            0.03853858281691824,
+            0.03896054616952582
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 7.16416190892355e-05,
+          "ci95": [
+            -0.0002977104217077364,
+            0.0003503956612007943
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.07344207801477554
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 4.794255651252577e-06,
+          "ci95": [
+            -1.2391754289353686e-13,
+            1.4389561574637555e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.24327504218633467,
+          "ci95": [
+            0.24271023911024892,
+            0.24386817868962374
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.03851676183750796,
+          "ci95": [
+            0.03825620535266186,
+            0.038855718905236536
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.03851676183750796,
+          "ci95": [
+            0.03825620535266186,
+            0.038855718905236536
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.00016085915122632244,
+          "ci95": [
+            -0.00037327059026881493,
+            4.1683341741927116e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.05965775061991763
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 4.700452545081113e-06,
+          "ci95": [
+            -2.275957200481571e-13,
+            1.4107871973867425e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.24108030249733237,
+          "ci95": [
+            0.23970252764540978,
+            0.24251375961891067
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.04210843354917149,
+          "ci95": [
+            0.04103374406575333,
+            0.043201692102179244
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.038860330039189095,
+          "ci95": [
+            0.03785706503247721,
+            0.03986705515918987
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0004380714881324632,
+          "ci95": [
+            -0.0009278628143045697,
+            0.00011073585436638389
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.2649015368513603
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 1.3085029528792091e-05,
+          "ci95": [
+            -1.1302070390684094e-13,
+            2.6185087926400286e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.2421467414797288,
+          "ci95": [
+            0.24093866045596057,
+            0.24344563801389152
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.03826519896911351,
+          "ci95": [
+            0.03753899294274421,
+            0.039034076409932374
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.03826519896911351,
+          "ci95": [
+            0.03753899294274421,
+            0.039034076409932374
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.00021154789668942353,
+          "ci95": [
+            -0.0002732032252048544,
+            0.0007583095987773181
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.2786212700181594
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": -0.00010658406779873175,
+          "ci95": [
+            -0.00041649557797797664,
+            8.487479083740812e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.23331587001735143,
+          "ci95": [
+            0.2322281796185266,
+            0.23460257327188294
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.04843739047963869,
+          "ci95": [
+            0.047543135439325535,
+            0.04939375851130556
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.03855080839642955,
+          "ci95": [
+            0.036980467011952345,
+            0.0401005363224437
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 2.8383448079760676e-05,
+          "ci95": [
+            -0.001317299779096448,
+            0.0012295092161748178
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.8352654710810751
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 0.25,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": -0.00023002897263624256,
+          "ci95": [
+            -0.0005284688514546332,
+            4.695877414617744e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.23258939489108632,
+          "ci95": [
+            0.2303369673959007,
+            0.23481170553433062
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.03356628507439818,
+          "ci95": [
+            0.03165903764093647,
+            0.03546471742204227
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.03356628507439818,
+          "ci95": [
+            0.03165903764093647,
+            0.03546471742204227
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0011669030965419935,
+          "ci95": [
+            -0.0022476199807275332,
+            -0.00026820152001794106
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.8325572314488741
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": -9.947598300641403e-14,
+          "ci95": [
+            -2.8754776337791554e-13,
+            -4.440892098500626e-15
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.2905128107455919,
+          "ci95": [
+            0.28855247332519895,
+            0.2927797599987923
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.04781994360870123,
+          "ci95": [
+            0.04669080754508491,
+            0.049154095528822994
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.04781994360870123,
+          "ci95": [
+            0.04669080754508491,
+            0.049154095528822994
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0003032586748388244,
+          "ci95": [
+            -0.0009137520457760395,
+            0.0003100756992057141
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.19146125749244736
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": -1.3433698597964394e-13,
+          "ci95": [
+            -3.161915174132446e-13,
+            -1.7541523789077473e-14
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.2925332467883729,
+          "ci95": [
+            0.2901543768043261,
+            0.2949818006841324
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.04784317879779032,
+          "ci95": [
+            0.04676516930756025,
+            0.04886562018685636
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.04784317879779032,
+          "ci95": [
+            0.04676516930756025,
+            0.04886562018685636
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0006522446635259804,
+          "ci95": [
+            -0.0013279455491403969,
+            -6.742549353790378e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.150790290495727
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 9.694451187036712e-06,
+          "ci95": [
+            -6.290967746735987e-13,
+            1.9504718293372747e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.28860765010237477,
+          "ci95": [
+            0.2874586543218462,
+            0.28987126870004576
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.04565526150303356,
+          "ci95": [
+            0.043785060515365744,
+            0.047398881253862934
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.04565526150303356,
+          "ci95": [
+            0.043785060515365744,
+            0.047398881253862934
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0019238041792608573,
+          "ci95": [
+            -0.0027065307369661617,
+            -0.0011964216281257212
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.6531364621928727
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": -1.9562129693895258e-13,
+          "ci95": [
+            -5.355715870791755e-13,
+            1.0103029524088925e-14
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.2865171403591157,
+          "ci95": [
+            0.28322599778145285,
+            0.2888478277837836
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.044460367659615585,
+          "ci95": [
+            0.042917701252276765,
+            0.04596691024447463
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.044460367659615585,
+          "ci95": [
+            0.042917701252276765,
+            0.04596691024447463
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0016017598549851186,
+          "ci95": [
+            -0.002830475292254553,
+            -0.00023383475694926936
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.7153139669238909
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 3.2645488166171965e-05,
+          "ci95": [
+            2.099404668676197e-05,
+            4.628713900955983e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.4771631026116462,
+          "ci95": [
+            0.46955023748270375,
+            0.48424974815172583
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 12,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.03257811063748128,
+          "ci95": [
+            0.028966375814177492,
+            0.03537980342318713
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.03257811063748128,
+          "ci95": [
+            0.028966375814177492,
+            0.03537980342318713
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0006565952951202991,
+          "ci95": [
+            -0.004008340191946969,
+            0.0021540806362945197
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 1.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 2.3953122989195386e-05,
+          "ci95": [
+            9.712793654026441e-06,
+            3.915342771410035e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.4794913631875283,
+          "ci95": [
+            0.46960076893899705,
+            0.4913939682228615
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 12,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.029212715799299405,
+          "ci95": [
+            0.02728598975280483,
+            0.03108596633943428
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.029212715799299405,
+          "ci95": [
+            0.02728598975280483,
+            0.03108596633943428
+          ],
+          "noninferior": true,
+          "win": true,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.0039646154669983336,
+          "ci95": [
+            -0.006839817589731068,
+            -0.000883988128584701
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 18,
+          "control_completed": 18,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": -7.993605777301127e-14,
+          "ci95": [
+            -2.398081733190338e-13,
+            0.0
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.0017686761325362843,
+          "ci95": [
+            0.001266279829288841,
+            0.0021334468174141197
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 7.394247110992236e-05,
+          "ci95": [
+            -0.0003509488118709214,
+            0.00039401291838661834
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0018494215110116397,
+          "ci95": [
+            0.001264448808969032,
+            0.0023673588396018186
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": 0.0001764435140342302,
+          "ci95": [
+            -0.0005201019236839687,
+            0.0008889094788701035
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": 0.4998245988921355
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 1.8837767593815613e-05,
+          "ci95": [
+            -2.220446049250313e-13,
+            3.768539828707951e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": 0.002330443337505317,
+          "ci95": [
+            0.0020887078249528512,
+            0.0025937051723223803
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B4_ci64": {
+          "reduction": 0.0001974955318869709,
+          "ci95": [
+            -0.0002584627237822712,
+            0.0006393640777799188
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": 0.0001974955318869709,
+          "ci95": [
+            -0.0002584627237822712,
+            0.0006393640777799188
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.004568338102100222,
+          "ci95": [
+            -0.0049987589243299215,
+            -0.00410315528378935
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 4.5975839455980605e-05,
+          "ci95": [
+            1.7493972611304365e-05,
+            7.593383720108093e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 5,
+          "control_completed": 5,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 5,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": -0.0005620107226607107,
+          "ci95": [
+            -0.0013308190996300262,
+            0.000251369836161504
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 5,
+          "control_completed": 5,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 5,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.00042855165358579583,
+          "ci95": [
+            -0.0010803598426245564,
+            8.595428183333365e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 5,
+          "control_completed": 5,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": 1.896416118651878e-05,
+          "ci95": [
+            -1.176836406102666e-13,
+            3.795538714868041e-05
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": -0.0001802060950386597,
+          "ci95": [
+            -0.0009410106507730109,
+            0.0006199132183020151
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B5a_inas": {
+          "reduction": -0.0001802060950386597,
+          "ci95": [
+            -0.0009410106507730109,
+            0.0006199132183020151
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        },
+        "B5b_chime_dp": {
+          "reduction": -0.009749315470196196,
+          "ci95": [
+            -0.011527436818551996,
+            -0.008103868374872647
+          ],
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 6,
+          "control_completed": 6,
+          "undefined_replicates": 0
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 4.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 1.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 4.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 2.5e-05,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    },
+    {
+      "workload": "vww",
+      "nvm_energy_scale": 16.0,
+      "reset_rate_hz": 16.0,
+      "capacity_j": 0.0001,
+      "label": "tie_or_inconclusive",
+      "state_saving_fraction": 0.0,
+      "controls": {
+        "B3_adaptive": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci16": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B4_ci64": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5a_inas": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        },
+        "B5b_chime_dp": {
+          "reduction": null,
+          "ci95": null,
+          "noninferior": true,
+          "win": false,
+          "loss": false,
+          "recap_completed": 0,
+          "control_completed": 0,
+          "undefined_replicates": 2000
+        }
+      },
+      "versus_B1": null
+    }
+  ],
+  "full_grid": {
+    "verdict": "NO_REGION",
+    "per_workload": {
+      "kws": {
+        "win_cells": [],
+        "region": false
+      },
+      "vww": {
+        "win_cells": [],
+        "region": false
+      }
+    },
+    "scale_range": null
+  },
+  "primary": {
+    "verdict": "NO_REGION",
+    "per_workload": {
+      "kws": {
+        "win_cells": [],
+        "region": false
+      },
+      "vww": {
+        "win_cells": [],
+        "region": false
+      }
+    },
+    "scale_range": [
+      0.627,
+      8.91
+    ]
+  },
+  "label_counts": {
+    "win": 0,
+    "win_without_state_saving": 0,
+    "loss_to_some_control": 0,
+    "tie_or_inconclusive": 48
+  },
+  "status": "G9_MAIN_EXECUTED",
+  "calibrated": false,
+  "main_rows": 2304,
+  "secondary_rows": 896,
+  "elapsed_s": 6778.574614100002,
+  "limitations": [
+    "Assumed costs and planning hazard; model energy only.",
+    "VWW images reused from G8 (disclosed).",
+    "B5a from public code, B5b/B6 are adaptations; iNAS/INTERCEPT papers unavailable."
+  ]
+}

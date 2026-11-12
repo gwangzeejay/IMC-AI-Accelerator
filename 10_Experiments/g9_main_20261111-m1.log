@@ -1,0 +1,10 @@
+C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+main kws nvm 0.25 done 183 s
+main kws nvm 1.0 done 284 s
+main kws nvm 4.0 done 476 s
+main kws nvm 16.0 done 614 s

@@ -1,0 +1,41 @@
+{
+  "status": "PASS_MECHANICAL_PDF_CHECKS",
+  "pages": [
+    {
+      "page": 1,
+      "width_pt": 567.0,
+      "height_pt": 774.0,
+      "text_characters": 4747,
+      "fonts": [
+        "IHAIZV+NimbusRomNo9L-Regu",
+        "BZIVMZ+NimbusRomNo9L-MediItal",
+        "IXFAWU+NimbusRomNo9L-Medi",
+        "BXGEVL+DejaVuSerif"
+      ]
+    },
+    {
+      "page": 2,
+      "width_pt": 567.0,
+      "height_pt": 774.0,
+      "text_characters": 5925,
+      "fonts": [
+        "IHAIZV+NimbusRomNo9L-Regu"
+      ]
+    },
+    {
+      "page": 3,
+      "width_pt": 567.0,
+      "height_pt": 774.0,
+      "text_characters": 5209,
+      "fonts": [
+        "IHAIZV+NimbusRomNo9L-Regu",
+        "BXGEVL+DejaVuSerif"
+      ]
+    }
+  ],
+  "page_count": 3,
+  "format": "IEEEtran journal, 10pt, Times-compatible fonts, 7.875 x10.75 inch trim",
+  "visual_review": "Required separately on rendered pages; this script does not certify visual inspection.",
+  "submission_ready": false,
+  "output": "output/pdf/recap_cim_g7.pdf"
+}

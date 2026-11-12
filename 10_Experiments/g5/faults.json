@@ -1,0 +1,410 @@
+{
+  "status": "PASS_FINITE_FULL_NETWORK_FAULT_CAMPAIGN",
+  "cases": 16,
+  "executed_losses": 16,
+  "mismatches": 0,
+  "details": [
+    {
+      "fault": {
+        "action": "checkpoint_partial",
+        "cut": 0
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 6400,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002542835809999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "checkpoint_partial",
+        "cut": 702
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 6400,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002544239809999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "checkpoint_partial",
+        "cut": 1404
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 6400,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002545643809999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "checkpoint_partial",
+        "cut": 1405
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002533042739999994,
+      "energy_balance_error_j": 9.306520398072449e-17
+    },
+    {
+      "fault": {
+        "action": "checkpoint_output",
+        "cut": 0
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002530962289999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "checkpoint_output",
+        "cut": 191
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002531344289999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "checkpoint_output",
+        "cut": 381
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002527977359999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "checkpoint_output",
+        "cut": 382
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.0025279793599999943,
+      "energy_balance_error_j": 9.306520398072449e-17
+    },
+    {
+      "fault": {
+        "action": "layer_log",
+        "cut": 0
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002528017059999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "layer_log",
+        "cut": 190
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002528397059999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "layer_log",
+        "cut": 380
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002528777059999994,
+      "energy_balance_error_j": 9.306520398072449e-17
+    },
+    {
+      "fault": {
+        "action": "layer_log",
+        "cut": 381
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002528317089999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "graph_root",
+        "cut": 0
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.0025518694499999943,
+      "energy_balance_error_j": 1.0694299178853894e-16
+    },
+    {
+      "fault": {
+        "action": "graph_root",
+        "cut": 87
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.0025520434499999942,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "graph_root",
+        "cut": 173
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.002539496959999994,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    },
+    {
+      "fault": {
+        "action": "graph_root",
+        "cut": 174
+      },
+      "completed": 1,
+      "losses": 1,
+      "replayed_macs": 0,
+      "output": [
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        -128,
+        127,
+        -128,
+        -128,
+        -128,
+        -128
+      ],
+      "energy_j": 0.0025394989599999943,
+      "energy_balance_error_j": 1.0000409788463172e-16
+    }
+  ],
+  "assumptions": "atomic byte persistence ACK; external diagnostic discharge counted; CRC32 not adversarial integrity",
+  "scope": "one labeled input; CI16 SAVE_DW+KEEP_PS; four publication paths, before/mid/before-final-ACK/after-ACK; not exhaustive graph fault sequences"
+}

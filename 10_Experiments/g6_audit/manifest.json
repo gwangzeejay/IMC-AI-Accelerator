@@ -1,0 +1,8 @@
+{
+  "command": "python 10_Experiments/audit_g6.py",
+  "sha256": {
+    "10_Experiments/audit_g6.py": "1973b1f16df380b7cbd120dce6c20dadeec06310cf8a6600d5dbb7bdab5e938d",
+    "10_Experiments/g6_audit/audit.json": "1f33d49c0d3b7c80955fe39f100fc9884b1fb8045ed9c1b18bf7fd5110799ffd"
+  },
+  "g6_run_manifest_sha256": "94c57f63478c9d131eff8b58f5fd0359161039f0b5429c095660bfe56d279003"
+}

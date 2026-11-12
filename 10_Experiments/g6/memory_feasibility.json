@@ -1,0 +1,54 @@
+[
+  {
+    "workload": "kws",
+    "regime": "original",
+    "model_bytes": 53936,
+    "largest_anchor_bytes": 8000,
+    "sram_bytes": 16384,
+    "nvm_bytes": 262144,
+    "nvm_reserved_bytes": 215420,
+    "model_fits_nvm": true,
+    "resident_anchor_fits_sram": true,
+    "nvm_layout_fits": true,
+    "note": "anchor check is necessary, not sufficient; actual algorithm-buffer highwater checked in runtime"
+  },
+  {
+    "workload": "kws",
+    "regime": "extended",
+    "model_bytes": 53936,
+    "largest_anchor_bytes": 8000,
+    "sram_bytes": 65536,
+    "nvm_bytes": 2097152,
+    "nvm_reserved_bytes": 215420,
+    "model_fits_nvm": true,
+    "resident_anchor_fits_sram": true,
+    "nvm_layout_fits": true,
+    "note": "anchor check is necessary, not sufficient; actual algorithm-buffer highwater checked in runtime"
+  },
+  {
+    "workload": "vww",
+    "regime": "original",
+    "model_bytes": 333288,
+    "largest_anchor_bytes": 36864,
+    "sram_bytes": 16384,
+    "nvm_bytes": 262144,
+    "nvm_reserved_bytes": null,
+    "model_fits_nvm": false,
+    "resident_anchor_fits_sram": false,
+    "nvm_layout_fits": false,
+    "note": "anchor check is necessary, not sufficient; actual algorithm-buffer highwater checked in runtime"
+  },
+  {
+    "workload": "vww",
+    "regime": "extended",
+    "model_bytes": 333288,
+    "largest_anchor_bytes": 36864,
+    "sram_bytes": 65536,
+    "nvm_bytes": 2097152,
+    "nvm_reserved_bytes": 1027050,
+    "model_fits_nvm": true,
+    "resident_anchor_fits_sram": true,
+    "nvm_layout_fits": true,
+    "note": "anchor check is necessary, not sufficient; actual algorithm-buffer highwater checked in runtime"
+  }
+]

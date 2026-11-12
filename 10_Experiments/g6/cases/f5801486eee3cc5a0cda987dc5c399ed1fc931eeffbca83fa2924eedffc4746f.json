@@ -1,0 +1,86 @@
+{
+  "workload": "kws",
+  "method": "RECAP",
+  "variant": "full",
+  "backend": "cim",
+  "scenario_id": "g6_331300",
+  "family": "zero_cap0",
+  "seed": 331300,
+  "total_inputs": 3,
+  "energy_j": 2.500000000000004e-05,
+  "completed": 0,
+  "failed": 0,
+  "incomplete": 3,
+  "completion_rate": 0.0,
+  "on_time_rate": 0.0,
+  "throughput_per_s": 0.0,
+  "energy_per_completed_j": null,
+  "p95_latency_s": null,
+  "p95_is_infinite": true,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 2.6
+    },
+    {
+      "arrival_s": 2.6,
+      "deadline_s": 5.2
+    },
+    {
+      "arrival_s": 5.2,
+      "deadline_s": 7.800000000000001
+    }
+  ],
+  "outputs": [],
+  "breakdown_j": {
+    "boot": 5e-07,
+    "boot_root": 5.13e-07,
+    "load_feature": 4.900000000000001e-07,
+    "scan_destination": 1.24e-07,
+    "boot_scratch": 1.6384999999999996e-05,
+    "boot_parser_assumed": 2.56e-09,
+    "runtime_decision_assumed": 2e-09,
+    "weight_load": 2.8160000000000002e-06,
+    "weight_bank_load": 5.632000000000001e-07,
+    "activation_load": 6.4e-08,
+    "first_conv": 1.0239999999999999e-07,
+    "requant": 5.12e-09,
+    "checkpoint_output": 1.2760000000000001e-06,
+    "checkpoint_output_controller": 1.3392999999999998e-07,
+    "layer_log": 1.274e-06,
+    "layer_log_controller": 1.3373e-07,
+    "retention_wait": 6.150600000000415e-07
+  },
+  "units": {
+    "boot": 1.0,
+    "boot_root": 513.0,
+    "load_feature": 490.0,
+    "scan_destination": 124.0,
+    "boot_scratch": 16385.0,
+    "boot_parser_assumed": 256.0,
+    "runtime_decision_assumed": 2.0,
+    "weight_load": 2816.0,
+    "weight_bank_load": 2816.0,
+    "activation_load": 320.0,
+    "first_conv": 20480.0,
+    "requant": 512.0,
+    "checkpoint_output": 638.0,
+    "layer_log": 637.0
+  },
+  "losses": 1,
+  "admitted_units": 44,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 3.5507200000000003e-06,
+  "max_sram_algorithm_bytes": 6002,
+  "max_nvm_reserved_bytes": 215420,
+  "chosen": {
+    "p8_co64_ci1_z0ps0": 2
+  },
+  "bank_hits": 0,
+  "bank_misses": 2,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": -1.3552527156068805e-20,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}

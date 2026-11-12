@@ -1,0 +1,9 @@
+{
+  "command": "python 10_Experiments/analyze_g6.py",
+  "g6_run_manifest_sha256": "94c57f63478c9d131eff8b58f5fd0359161039f0b5429c095660bfe56d279003",
+  "sha256": {
+    "10_Experiments/analyze_g6.py": "83a4509cc5552ade05602239c2c060a41d859f0befe754d7e8fd044e6fb66332",
+    "10_Experiments/g6_analysis/analysis.json": "8a93e505f7058d3f316c086feed72ce04c1fe0b187795289e60b1519fa6c538d",
+    "10_Experiments/g6_analysis/material_loss_cases.json": "ec3338db81cc66d9b2c7a608a0d2a9d8516e136ff8a4b4021f2b8fb4f68ca662"
+  }
+}

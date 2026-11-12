@@ -1,0 +1,28 @@
+{
+  "status": "PASS_CI64_REFINEMENT",
+  "reports": {
+    "g2_micro": {
+      "cases": 13,
+      "fault_cases": 5,
+      "executed_losses": 5,
+      "transactions": 20434,
+      "cycle_checks": 10,
+      "mismatches": 0
+    },
+    "g3_selected_tile": {
+      "cases": 13,
+      "fault_cases": 5,
+      "executed_losses": 5,
+      "transactions": 20658,
+      "cycle_checks": 10,
+      "mismatches": 0
+    }
+  },
+  "total_cases": 26,
+  "fault_cases": 10,
+  "executed_losses": 10,
+  "transactions": 41092,
+  "cycle_checks": 20,
+  "test_driver_variant": "generated from CI16 bench; only stop_channel chunk 16 -> 64; no controller RTL changes",
+  "mismatches": 0
+}

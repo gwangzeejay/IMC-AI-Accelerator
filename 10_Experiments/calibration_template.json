@@ -1,0 +1,40 @@
+{
+  "status": "INCOMPLETE_NOT_CALIBRATED",
+  "scope": "Required measurements or source-backed backend characterization for a future protocol; never fill unknowns with zero",
+  "backend": {
+    "name": null,
+    "source_url_or_report": null,
+    "evidence_kind": null,
+    "voltage_v": null,
+    "clock_hz": null,
+    "arithmetic_semantics": null,
+    "pw_j_per_mac": null,
+    "dw_j_per_mac": null,
+    "weight_load_j_per_byte": null,
+    "weight_load_seconds_per_byte": null
+  },
+  "nvm": {
+    "part_number": null,
+    "capacity_bytes": null,
+    "voltage_v": null,
+    "spi_hz": null,
+    "read_transaction_j": null,
+    "write_transaction_j": null,
+    "payload_bytes": null,
+    "command_address_bytes": null,
+    "ack_persistence_contract": null,
+    "atomic_write_unit_bytes_verified": null,
+    "power_up_delay_s": null,
+    "measurement_or_datasheet_locator": null
+  },
+  "system": {
+    "controller_active_w": null,
+    "sleep_retention_w": null,
+    "boot_energy_j": null,
+    "converter_efficiency_curve": null,
+    "capacitor_f_measured": null,
+    "v_on_v": null,
+    "v_off_v": null,
+    "compiled_runtime_peak_sram_bytes": null
+  }
+}

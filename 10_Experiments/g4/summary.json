@@ -1,0 +1,135 @@
+{
+  "status": "G4_RTL_SIMULATION_VALIDATED",
+  "scope": "microtile checkpoint controller plus independent scalar arithmetic cores; not full accelerator integration",
+  "rtl": {
+    "status": "PASS_RTL_TRANSACTION_REFINEMENT",
+    "scope": "two model-backed microtiles; finite faults and simulation assertions; binary-v1 metadata",
+    "configs": {
+      "g2_micro": {
+        "baseline_cases": 10,
+        "fault_cases": 910,
+        "directed_cases": 8,
+        "executed_losses": 1415,
+        "transactions": 3251945,
+        "cycle_checks": 4147,
+        "restored_bytes": 94048,
+        "fault_categories": {
+          "boot_or_restore_reinterruption": 12,
+          "internal_state_cut": 28,
+          "pending_write_new": 123,
+          "pending_write_old": 123,
+          "preserve_previous_nonzero_ps_prefix": 1,
+          "seeded_multi_loss": 500,
+          "write_boundary_after_ack": 123
+        },
+        "mismatches": 0
+      },
+      "g3_selected_tile": {
+        "baseline_cases": 10,
+        "fault_cases": 910,
+        "directed_cases": 8,
+        "executed_losses": 1419,
+        "transactions": 3122684,
+        "cycle_checks": 4150,
+        "restored_bytes": 75104,
+        "fault_categories": {
+          "boot_or_restore_reinterruption": 12,
+          "internal_state_cut": 28,
+          "pending_write_new": 123,
+          "pending_write_old": 123,
+          "preserve_previous_nonzero_ps_prefix": 1,
+          "seeded_multi_loss": 500,
+          "write_boundary_after_ack": 123
+        },
+        "mismatches": 0
+      }
+    },
+    "total_cases": 1856,
+    "fault_cases": 1820,
+    "executed_losses": 2834,
+    "checked_transactions": 6374629,
+    "cycle_checks": 8297,
+    "mismatches": 0,
+    "seed": 82500,
+    "formal_proof_performed": false
+  },
+  "whole_unit": {
+    "status": "PASS_CI64_REFINEMENT",
+    "reports": {
+      "g2_micro": {
+        "cases": 13,
+        "fault_cases": 5,
+        "executed_losses": 5,
+        "transactions": 20434,
+        "cycle_checks": 10,
+        "mismatches": 0
+      },
+      "g3_selected_tile": {
+        "cases": 13,
+        "fault_cases": 5,
+        "executed_losses": 5,
+        "transactions": 20658,
+        "cycle_checks": 10,
+        "mismatches": 0
+      }
+    },
+    "total_cases": 26,
+    "fault_cases": 10,
+    "executed_losses": 10,
+    "transactions": 41092,
+    "cycle_checks": 20,
+    "test_driver_variant": "generated from CI16 bench; only stop_channel chunk 16 -> 64; no controller RTL changes",
+    "mismatches": 0
+  },
+  "arithmetic": {
+    "mac_cases": 647,
+    "requant_cases": 5468,
+    "seed": 82400,
+    "includes_real_model_dot_products": true,
+    "includes_256_terms": true,
+    "includes_overflow_and_invalid_length": true
+  },
+  "python_tests": {
+    "status": "PASS",
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "synthesis": {
+    "results": [
+      {
+        "top": "recap_int8_mac",
+        "status": "PASS_GENERIC_PROC_CHECK",
+        "parameters": "default",
+        "technology_mapped": false
+      },
+      {
+        "top": "recap_requantize",
+        "status": "PASS_GENERIC_PROC_CHECK",
+        "parameters": "default",
+        "technology_mapped": false
+      },
+      {
+        "top": "recap_checkpoint_ctrl",
+        "status": "PASS_GENERIC_PROC_CHECK",
+        "parameters": "reduced controller Z4/PS4/OUT1/C4/SLOT160",
+        "technology_mapped": false
+      }
+    ],
+    "full_controller_attempt": "TIMEOUT_180S_NOT_PASSED",
+    "area_mm2": null,
+    "power_w": null,
+    "frequency_hz": null
+  },
+  "total_rtl_cases": 1882,
+  "total_fault_cases": 1830,
+  "total_executed_losses": 2844,
+  "total_cycle_checks": 8317,
+  "total_checked_transactions": 6415721,
+  "physical_macro_validated": false,
+  "ready_for_paper_energy_results": false,
+  "formal_proof_performed": false,
+  "g3_energy_improvements_revalidated": false,
+  "codec": "binary_v1 CRC32 and full 256-bit identities; semantic refinement, not JSON byte equivalence"
+}

@@ -1,0 +1,2 @@
+PASS arithmetic mac_cases=647 quant_cases=5468
+09_Simulation/g4/tb_arithmetic.sv:44: $finish called at 282678000 (1ps)

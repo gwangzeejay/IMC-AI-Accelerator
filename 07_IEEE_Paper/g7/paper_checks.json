@@ -1,0 +1,14 @@
+{
+  "status": "PASS_PAPER_CONSISTENCY",
+  "references": 9,
+  "table_rows": {
+    "table1_main": 16,
+    "table2_ablations": 20,
+    "table3_sensitivity": 36
+  },
+  "figures": 6,
+  "pdf_pages": 3,
+  "all_fonts_embedded": true,
+  "submission_ready": false,
+  "scope": "Mechanical/source consistency only; not a scientific or editorial acceptance certificate."
+}

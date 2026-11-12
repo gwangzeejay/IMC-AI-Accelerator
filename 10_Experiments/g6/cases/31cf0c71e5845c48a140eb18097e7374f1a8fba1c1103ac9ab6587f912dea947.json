@@ -1,0 +1,86 @@
+{
+  "workload": "kws",
+  "method": "B2_fixed",
+  "variant": "full",
+  "backend": "cim",
+  "scenario_id": "eth_3_cap1",
+  "family": "eth_day_2019-07-14",
+  "seed": 360301,
+  "total_inputs": 3,
+  "energy_j": 0.00010000234562531508,
+  "completed": 0,
+  "failed": 0,
+  "incomplete": 3,
+  "completion_rate": 0.0,
+  "on_time_rate": 0.0,
+  "throughput_per_s": 0.0,
+  "energy_per_completed_j": null,
+  "p95_latency_s": null,
+  "p95_is_infinite": true,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 40.0
+    },
+    {
+      "arrival_s": 40.0,
+      "deadline_s": 80.0
+    },
+    {
+      "arrival_s": 80.0,
+      "deadline_s": 120.0
+    }
+  ],
+  "outputs": [],
+  "breakdown_j": {
+    "boot": 5e-07,
+    "boot_root": 5.13e-07,
+    "load_feature": 4.900000000000001e-07,
+    "scan_destination": 1.24e-07,
+    "boot_scratch": 1.6384999999999996e-05,
+    "boot_parser_assumed": 2.56e-09,
+    "runtime_decision_assumed": 5.600000000000005e-08,
+    "weight_load": 3.871999999999996e-05,
+    "weight_bank_load": 7.744000000000011e-06,
+    "activation_load": 4.400000000000004e-07,
+    "first_conv": 1.760000000000001e-07,
+    "requant": 8.800000000000001e-09,
+    "checkpoint_output": 1.5619999999999986e-05,
+    "checkpoint_output_controller": 1.637349999999999e-06,
+    "layer_log": 1.5510000000000002e-05,
+    "layer_log_controller": 1.6263499999999984e-06,
+    "retention_wait": 4.49285625315119e-07
+  },
+  "units": {
+    "boot": 1.0,
+    "boot_root": 513.0,
+    "load_feature": 490.0,
+    "scan_destination": 124.0,
+    "boot_scratch": 16385.0,
+    "boot_parser_assumed": 256.0,
+    "runtime_decision_assumed": 56.0,
+    "weight_load": 38720.0,
+    "weight_bank_load": 38720.0,
+    "activation_load": 2200.0,
+    "first_conv": 35200.0,
+    "requant": 880.0,
+    "checkpoint_output": 7810.0,
+    "layer_log": 7755.0
+  },
+  "losses": 1,
+  "admitted_units": 260,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 8.561600000000001e-07,
+  "max_sram_algorithm_bytes": 3515,
+  "max_nvm_reserved_bytes": 215420,
+  "chosen": {
+    "p1_co16_ci1_z0ps0": 56
+  },
+  "bank_hits": 0,
+  "bank_misses": 56,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": 3.6665938704270526e-19,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}

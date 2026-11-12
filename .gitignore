@@ -1,0 +1,20 @@
+# Local tool distributions, caches, historical backups and generated executables.
+tmp/
+_backups/
+02_Research/_backups/
+__pycache__/
+*.py[cod]
+.venv*/
+*.vvp
+*.vcd
+*.fst
+output/
+vivado_proj/
+.Xil/
+*.jou
+# Raw source data may have separate redistribution restrictions.
+05_Model_Training/g8_vww/*.jpg
+05_Model_Training/reference_vww/coco_subset/*.jpg
+# Third-party papers/datasheets: public repo; sources are listed in source_materials/manifest.json.
+02_Research/source_materials/*.pdf
+# Keep protocols, source manifests, raw JSONL and compact result evidence tracked.

@@ -1,0 +1,91 @@
+{
+  "workload": "vww",
+  "method": "RECAP",
+  "variant": "all_live",
+  "backend": "cim",
+  "scenario_id": "g6_341201",
+  "family": "severe_cap1",
+  "seed": 341201,
+  "total_inputs": 3,
+  "energy_j": 0.0020991141680414428,
+  "completed": 0,
+  "failed": 0,
+  "incomplete": 3,
+  "completion_rate": 0.0,
+  "on_time_rate": 0.0,
+  "throughput_per_s": 0.0,
+  "energy_per_completed_j": null,
+  "p95_latency_s": null,
+  "p95_is_infinite": true,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 2.6
+    },
+    {
+      "arrival_s": 2.6,
+      "deadline_s": 5.2
+    },
+    {
+      "arrival_s": 5.2,
+      "deadline_s": 7.800000000000001
+    }
+  ],
+  "outputs": [],
+  "breakdown_j": {
+    "boot": 1.5e-06,
+    "boot_root": 1.539e-06,
+    "load_feature": 8.294399999999981e-05,
+    "scan_destination": 5.072000000000001e-06,
+    "boot_scratch": 4.915499999999995e-05,
+    "restore_redundant_live": 0.0003169280000000001,
+    "retention_wait": 4.3403480414411626e-06,
+    "boot_parser_assumed": 5.12e-09,
+    "runtime_decision_assumed": 2.7999999999999993e-08,
+    "weight_load": 4.96e-07,
+    "weight_bank_load": 9.92e-08,
+    "activation_load": 1.2096e-06,
+    "first_conv": 2.4192000000000004e-07,
+    "requant": 1.792e-08,
+    "redundant_live_buffers": 0.0014604200000000016,
+    "redundant_live_buffers_controller": 0.00015334306000000004,
+    "checkpoint_output": 9.880000000000005e-06,
+    "checkpoint_output_controller": 1.0361000000000005e-06,
+    "layer_log": 9.827999999999996e-06,
+    "layer_log_controller": 1.0308999999999995e-06
+  },
+  "units": {
+    "boot": 3.0,
+    "boot_root": 1539.0,
+    "load_feature": 82944.0,
+    "scan_destination": 5072.0,
+    "boot_scratch": 49155.0,
+    "restore_redundant_live": 316928.0,
+    "boot_parser_assumed": 512.0,
+    "runtime_decision_assumed": 28.0,
+    "weight_load": 496.0,
+    "weight_bank_load": 496.0,
+    "activation_load": 6048.0,
+    "first_conv": 48384.0,
+    "requant": 1792.0,
+    "redundant_live_buffers": 730210.0,
+    "checkpoint_output": 4940.0,
+    "layer_log": 4914.0
+  },
+  "losses": 2,
+  "admitted_units": 1037,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 6.206781e-05,
+  "max_sram_algorithm_bytes": 30920,
+  "max_nvm_reserved_bytes": 1158122,
+  "chosen": {
+    "p8_co8_ci1_z0ps0": 28
+  },
+  "bank_hits": 26,
+  "bank_misses": 2,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": -2.2778410017562645e-17,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}

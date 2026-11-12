@@ -1,0 +1,151 @@
+{
+  "workload": "vww",
+  "method": "B3_adaptive",
+  "variant": "full",
+  "backend": "cim",
+  "scenario_id": "g6_331100",
+  "family": "mild_cap0",
+  "seed": 331100,
+  "total_inputs": 3,
+  "energy_j": 0.011251694891825767,
+  "completed": 3,
+  "failed": 0,
+  "incomplete": 0,
+  "completion_rate": 1.0,
+  "on_time_rate": 0.6666666666666666,
+  "throughput_per_s": 0.375,
+  "energy_per_completed_j": 0.0037505649639419224,
+  "p95_latency_s": 2.800342860896776,
+  "p95_is_infinite": false,
+  "statuses": [
+    {
+      "arrival_s": 0.0,
+      "deadline_s": 2.6,
+      "committed_s": 2.800342860896776
+    },
+    {
+      "arrival_s": 2.6,
+      "deadline_s": 5.2,
+      "committed_s": 4.839598045014836
+    },
+    {
+      "arrival_s": 5.2,
+      "deadline_s": 7.800000000000001,
+      "committed_s": 7.506050018710725
+    }
+  ],
+  "outputs": [
+    {
+      "input_id": "000000360960",
+      "label": 1,
+      "prediction": 1,
+      "correct": true,
+      "output": [
+        -102,
+        102
+      ]
+    },
+    {
+      "input_id": "000000376442",
+      "label": 0,
+      "prediction": 0,
+      "correct": true,
+      "output": [
+        118,
+        -118
+      ]
+    },
+    {
+      "input_id": "000000018150",
+      "label": 1,
+      "prediction": 1,
+      "correct": true,
+      "output": [
+        -122,
+        122
+      ]
+    }
+  ],
+  "breakdown_j": {
+    "boot": 1.5e-06,
+    "boot_root": 3.8475e-07,
+    "load_feature": 2.0735999999999952e-05,
+    "scan_destination": 9.3e-08,
+    "boot_scratch": 1.2288749999999988e-05,
+    "boot_parser_assumed": 7.68e-09,
+    "runtime_decision_assumed": 4.379000000000008e-06,
+    "weight_load": 0.00426593399999988,
+    "weight_bank_load": 0.003412747200000137,
+    "activation_load": 0.0007361855999999973,
+    "first_conv": 7.4649599999998605e-06,
+    "requant": 5.529599999999942e-07,
+    "checkpoint_output": 0.0004901520000000203,
+    "checkpoint_output_controller": 0.00020564489000001054,
+    "layer_log": 0.0004879624999999579,
+    "layer_log_controller": 0.00020476908999998247,
+    "load_next_anchor": 0.0002428865000000075,
+    "graph_root": 3.914999999999995e-06,
+    "graph_root_controller": 1.6420499999999981e-06,
+    "dw_compute": 0.001048291200000045,
+    "dw_requant": 3.882560000000105e-06,
+    "pw_compute": 9.289728000000345e-05,
+    "pw_requant": 3.7324799999999946e-06,
+    "retention_wait": 2.781441825726086e-06,
+    "cpu_head_assumed": 8.639999999999999e-07
+  },
+  "units": {
+    "boot": 3.0,
+    "boot_root": 1539.0,
+    "load_feature": 82944.0,
+    "scan_destination": 372.0,
+    "boot_scratch": 49155.0,
+    "boot_parser_assumed": 768.0,
+    "runtime_decision_assumed": 4379.0,
+    "weight_load": 17063736.0,
+    "weight_bank_load": 17063736.0,
+    "activation_load": 3680928.0,
+    "first_conv": 1492992.0,
+    "requant": 55296.0,
+    "checkpoint_output": 980304.0,
+    "layer_log": 975925.0,
+    "load_next_anchor": 971546.0,
+    "graph_root": 7830.0,
+    "dw_compute": 3494304.0,
+    "dw_requant": 388256.0,
+    "pw_compute": 18579456.0,
+    "pw_requant": 373248.0,
+    "cpu_head_assumed": 8640.0
+  },
+  "losses": 0,
+  "admitted_units": 23243,
+  "admitted_unit_depletions": 0,
+  "max_admitted_bound_j": 4.6310400000000005e-06,
+  "max_sram_algorithm_bytes": 41216,
+  "max_nvm_reserved_bytes": 1027050,
+  "chosen": {
+    "p8_co8_ci1_z0ps0": 864,
+    "p8_co16_ci8_z0ps0": 681,
+    "p1_co16_ci8_z0ps0": 172,
+    "p4_co16_ci8_z0ps0": 323,
+    "p8_co32_ci16_z0ps0": 359,
+    "p4_co32_ci16_z0ps0": 118,
+    "p1_co32_ci16_z0ps0": 105,
+    "p1_co16_ci16_z0ps0": 94,
+    "p8_co64_ci16_z0ps0": 98,
+    "p1_co64_ci16_z0ps0": 228,
+    "p1_co64_ci64_z0ps0": 1246,
+    "p1_co16_ci64_z0ps0": 66,
+    "p1_co2_ci1_z0ps0": 3,
+    "p2_co32_ci16_z0ps0": 1,
+    "p3_co32_ci16_z0ps0": 1,
+    "p4_co64_ci16_z0ps0": 19,
+    "p3_co64_ci16_z0ps0": 1
+  },
+  "bank_hits": 862,
+  "bank_misses": 10513,
+  "repeated_exact_range_macs": 0,
+  "energy_balance_error_j": 8.715460807478398e-16,
+  "fault_executed": false,
+  "blocked_reason": null,
+  "calibrated": false
+}
