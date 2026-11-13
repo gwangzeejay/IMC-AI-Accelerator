@@ -20,7 +20,7 @@ Contributions, all under assumed costs:
 
 ## 2. Related Work and Limits of This Study
 
-Energy-adaptive checkpoint-free inference keeps loop-index progress and guards write-after-read hazards with atomic critical sections on FRAM microcontrollers [Islam et al., arXiv:2503.06663]. CHRYSALIS models checkpoints at tile boundaries with a checkpoint-count term and a fixed re-execution factor [Hou et al., ISCA 2024]. iNAS jointly designs execution and preservation (tile, loop order, batch preservation) [Mendis et al., ACM TECS 2021]; INTERCEPT places state-persistence operations on STT-MRAM [Barjami et al., SenSys 2024]. FreeML re-executes layers with separate working buffers [arXiv:2405.10426]. DIAC synthesises netlist-level backup structures for battery-free nodes and is not a DNN or CIM design. ReRAM and spintronic CIM designs (ResiRCA, MOUSE) use non-volatile compute substrates, so they sit outside the volatile-SRAM setting studied here; we know these two only from abstracts.
+Energy-adaptive checkpoint-free inference keeps loop-index progress and guards write-after-read hazards with atomic critical sections on FRAM microcontrollers [islam2025checkpointfree]. Chime places checkpoints by dynamic programming to minimise expected recomputation energy, at register-transfer level [chime2016]. CHRYSALIS models checkpoints at tile boundaries with a checkpoint-count term and a fixed re-execution factor [hou2024chrysalis]. iNAS jointly designs execution and preservation (tile, loop order, batch preservation) [mendis2021inas]; INTERCEPT places state-persistence operations on STT-MRAM [barjami2024intercept]. FreeML re-executes layers with separate working buffers [freeml2024]. DIAC [diac2023] synthesises netlist-level backup structures for battery-free nodes and is not a DNN or CIM design. ReRAM and spintronic CIM designs (ResiRCA [resirca2020], MOUSE [mouse2020]) use non-volatile compute substrates, so they sit outside the volatile-SRAM setting studied here; we know these two only from abstracts.
 
 Evidence levels, stated plainly: the 2503.06663 paper was read in full; CHRYSALIS selectively; FreeML and DIAC from downloaded source text with keyword checks; iNAS only through its public code and a secondary description; INTERCEPT through its abstract only (the PDF was blocked and we did not circumvent this). The literature coverage is therefore partial (the internal coverage gate G1 remained `PARTIAL_NOT_PASSED`), and nothing here asserts that a technique is absent from the field.
 
@@ -32,7 +32,7 @@ Evidence levels, stated plainly: the 2503.06663 paper was read in full; CHRYSALI
 
 **Grounded range.** Chip-only datasheet energy per byte (3.3 V × current × 200 ns) was compared to the assumed costs for FM25V20A and MB85RS2MTA FRAM and MR25H10 MRAM, giving a scale range of [0.627, 8.91]; cells at 1× and 4× form the primary verdict. This is a lower bound on system cost (SPI I/O, level shifters and controller are excluded), a single scale cannot match both read and write ratios for all devices, and NOR flash was excluded. The range was declared and the protocol re-locked before any main result.
 
-**Controls.** B3 (time-oriented adaptive tile policy), B4 with partial-sum saving every 16 or 64 input channels (two fixed intervals, no tuning), B5a (iNAS-style candidate search with atomicity constraint, from public code; the latency objective is replaced by nominal energy), and B5b (dynamic-programming checkpoint placement with an exponential-hazard planning model). B1 (layer-granular) is reported but not a strong control. A loop-index control (B6) is identical to B4 at interval 16 in this backend and is not counted twice. These are adaptations, not reproductions of the original systems.
+**Controls.** B3 (time-oriented adaptive tile policy), B4 with partial-sum saving every 16 or 64 input channels (two fixed intervals, no tuning), B5a (iNAS-style candidate search with atomicity constraint, from public code; the latency objective is replaced by nominal energy), and B5b (dynamic-programming checkpoint placement with an exponential-hazard planning model, after [chime2016]). B1 (layer-granular) is reported but not a strong control. A loop-index control (B6) is identical to B4 at interval 16 in this backend and is not counted twice. These are adaptations, not reproductions of the original systems.
 
 **Policy under test.** RECAP_redo ranks candidate plans by expected redo cost under a fixed planning hazard of 2 Hz that policies do not know to equal the actual rate. A matched-hazard variant is reported as a secondary analysis.
 
@@ -48,26 +48,26 @@ Evidence levels, stated plainly: the 2503.06663 paper was read in full; CHRYSALI
 
 **State-saving use.** RECAP_redo selected a state-saving plan in none of its tile decisions in any cell, including at 0.25× NVM cost and in the matched-hazard variant. The same was true in the earlier G8 run. Table 1 shows what the controls did.
 
-**Table 1.** Completed inferences and state-saving share of tile decisions, pooled over the grid (432 arrivals per workload per policy).
+**Table 1.** Completed inferences, share of tile decisions whose plan is labelled state-saving (z=1 or ps=1), and the share of total energy actually spent on partial-sum writes, pooled over the grid (432 arrivals per workload per policy). The label is the plan the policy selected; for B5b the dynamic program may then place no saved boundary, so the write-energy column is the measure of actual saving.
 
-| Workload | Policy | Completed / arrivals | State-saving share |
-|---|---|---|---|
-| KWS | B1_layer | 304 / 432 | 0.0% |
-| KWS | B3_adaptive | 356 / 432 | 0.0% |
-| KWS | B4_ci16 | 321 / 432 | 63.8% |
-| KWS | B4_ci64 | 348 / 432 | 0.0% |
-| KWS | B5a_inas | 332 / 432 | 16.1% |
-| KWS | B5b_chime_dp | 348 / 432 | 65.1% |
-| KWS | RECAP_nominal / RECAP_redo | 356 / 432 | 0.0% |
-| VWW | B1_layer | 155 / 432 | 0.0% |
-| VWW | B3_adaptive | 239 / 432 | 0.0% |
-| VWW | B4_ci16 | 216 / 432 | 45.1% |
-| VWW | B4_ci64 | 239 / 432 | 31.2% |
-| VWW | B5a_inas | 234 / 432 | 31.3% |
-| VWW | B5b_chime_dp | 239 / 432 | 45.7% |
-| VWW | RECAP_nominal / RECAP_redo | 239 / 432 | 0.0% |
+| Workload | Policy | Completed / arrivals | Plans labelled state-saving | Partial-sum write energy / total |
+|---|---|---|---|---|
+| KWS | B1_layer | 304 / 432 | 0.0% | 0.00% |
+| KWS | B3_adaptive | 356 / 432 | 0.0% | 0.00% |
+| KWS | B4_ci16 | 321 / 432 | 63.8% | 21.54% |
+| KWS | B4_ci64 | 348 / 432 | 0.0% | 0.00% |
+| KWS | B5a_inas | 332 / 432 | 16.1% | 6.50% |
+| KWS | B5b_chime_dp | 348 / 432 | 65.1% | 1.41% |
+| KWS | RECAP_nominal / RECAP_redo | 356 / 432 | 0.0% | 0.00% |
+| VWW | B1_layer | 155 / 432 | 0.0% | 0.00% |
+| VWW | B3_adaptive | 239 / 432 | 0.0% | 0.00% |
+| VWW | B4_ci16 | 216 / 432 | 45.1% | 14.09% |
+| VWW | B4_ci64 | 239 / 432 | 31.2% | 1.94% |
+| VWW | B5a_inas | 234 / 432 | 31.3% | 4.02% |
+| VWW | B5b_chime_dp | 239 / 432 | 45.7% | 0.75% |
+| VWW | RECAP_nominal / RECAP_redo | 239 / 432 | 0.0% | 0.00% |
 
-Note: on KWS (input-channel depth 64) B4 at interval 64 is a single chunk, so it saves no state; B3 and B4_ci64 are therefore non-saving controls there.
+Note: on KWS (input-channel depth 64) B4 at interval 64 is a single chunk, so it saves no state; B3 and B4_ci64 are therefore non-saving controls there. B5b is mostly a non-saving control in practice: its selected plans are chunked, but its dynamic program places few saved boundaries (1.4% of KWS energy, 0.75% of VWW energy go to partial-sum writes), which is why its energy is within 1% of B3. For RECAP the label and the executed writes coincide, so the 10% mechanism check in the decision rule is unaffected.
 
 **Against the strong controls.** Over the full grid, RECAP_redo is identical to B3 in energy in 21 of the 37 cells where the ratio is defined (|difference| below 1e-9 in 26; the remainder is numerical noise of about 1e-13). The statements below refer to the grounded range. Against B4 at interval 16 it is 51.5–65.6% lower in energy in KWS cells within the grounded range and 0.2–48.0% lower in VWW; against B5a it is 0 or 67.6–71.5% lower in KWS and 4.8% to −0.02% in VWW (a negative value means RECAP uses more). The tightest comparison is B5b, which is up to 0.97% cheaper than RECAP_redo (VWW, 4× NVM, 4 Hz, 100 µJ), below the 2% threshold. These large reductions against B4 and B5a do not create a win because B3 and B5b match RECAP; the rule requires a win over all five.
 
@@ -100,7 +100,7 @@ Note: on KWS (input-channel depth 64) B4 at interval 64 is a single chunk, so it
 | VWW | 4 | 16 | 25 | 0% | undef. | undef. | undef. | undef. | undef. | tie_or_inconclusive |
 | VWW | 4 | 16 | 100 | 0% | undef. | undef. | undef. | undef. | undef. | tie_or_inconclusive |
 
-**Undefined cells.** In 11 of 48 cells all five paired estimates are undefined (NVM 16×, plus VWW at 4× and 16 Hz); in the two cells we inspected, no policy completed any arrival. Two of these lie inside the grounded range. We keep them rather than excluding them.
+**Undefined cells.** In 11 of 48 cells all five paired estimates are undefined (NVM 16×, plus VWW at 4× and 16 Hz); we checked all 11 and in every one no policy completed any arrival. Two of these lie inside the grounded range. We keep them rather than excluding them.
 
 ## 5. Post-Hoc Diagnosis (read-only; does not alter the verdict)
 
@@ -112,7 +112,7 @@ Note: on KWS (input-channel depth 64) B4 at interval 64 is a single chunk, so it
 4. **Why RECAP_redo equals B3.** For the tiles we examined, at 2 Hz the expected-cost differences between plans are about 0.1%, and the time-oriented and expected-redo objectives choose the same unchunked plan. We did not examine every tile.
 5. **Endpoint.** Model energy per completed inference does not charge the stored energy discarded at a reset, so a reset costs only the torn tile. This disfavours state-saving relative to latency or completion endpoints, which we did not test.
 
-Unexplained: B5b and B4 at interval 16 use state-saving for 46–77% of decisions yet B5b is within 1% of RECAP in energy. We did not inspect the tile shapes B5b chose.
+Resolved after review: B5b's selected plans are labelled state-saving for 46–65% of decisions, yet it is within 1% of RECAP in energy because its dynamic program places few saved boundaries (Table 1, last column); on KWS it picks the same 8-pixel × 64-channel tiles as RECAP_redo. Still unexamined: which boundaries it saves and under which conditions.
 
 ## 6. Limitations
 
@@ -121,6 +121,10 @@ All costs and the 2 Hz planning hazard are assumptions; results are model energy
 ## 7. Conclusion and Next Study
 
 Within a grounded NVM cost range and reset rates up to 16 Hz, state-saving did not beat strong controls on assumed-cost SRAM-CIM; the recovery-aware policy converged to the plain adaptive policy. Under the assumed costs, writing partial state costs far more than the redo it avoids at these reset rates; on KWS the ranking model's missing loss risk for single-chunk plans reinforces this. A region where state-saving can win is expected only where tiles are long relative to 1/λ (reset rates of hundreds of hertz or more), where NVM writes are about two orders of magnitude cheaper than assumed, or where tiles are forced into small chunks. Any test of those regions is a new protocol (G9.1) with a new lock; the present result is not to be adjusted toward it.
+
+## References
+
+Bibliography keys are defined in `references.bib`. Several records are incomplete (author lists, volume, pages, exact titles); each is annotated with how the source was read, and none was verified against the publisher page.
 
 ## Reproducibility
 

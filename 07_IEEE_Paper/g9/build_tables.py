@@ -30,18 +30,19 @@ with open(OUT / 'g9_cells.csv', 'w', newline='', encoding='utf-8') as f:
                    [ci(t['controls'][c]['ci95']) for c in CONTROLS] + [pct(t['versus_B1'])])
 
 # Table B: per-policy totals over the whole grid (all replicates and cells pooled; descriptive only).
-agg = collections.defaultdict(lambda: dict(inputs=0, completed=0, saved=0, total=0, rows=0))
+agg = collections.defaultdict(lambda: dict(inputs=0, completed=0, saved=0, total=0, rows=0, cp_j=0., energy_j=0.))
 for r in rows:
     a = agg[(r['workload'], r['policy'])]
     a['inputs'] += r['total_inputs']; a['completed'] += r['completed']; a['rows'] += 1
+    a['cp_j'] += r['breakdown_j'].get('checkpoint_partial', 0.); a['energy_j'] += r['energy_j']
     for k, v in r['chosen'].items():
         a['total'] += v
         a['saved'] += v if ('_z1' in k or 'ps1' in k) else 0
 with open(OUT / 'g9_policies.md', 'w', encoding='utf-8') as f:
-    f.write('| Workload | Policy | Completed / arrivals | State-saving share of tile decisions |\n|---|---|---|---|\n')
+    f.write('| Workload | Policy | Completed / arrivals | Plans labelled state-saving | Partial-sum write energy / total |\n|---|---|---|---|---|\n')
     for (work, pol), a in sorted(agg.items()):
         share = 'n/a' if a['total'] == 0 else f"{100 * a['saved'] / a['total']:.1f}%"
-        f.write(f"| {work.upper()} | {pol} | {a['completed']} / {a['inputs']} | {share} |\n")
+        f.write(f"| {work.upper()} | {pol} | {a['completed']} / {a['inputs']} | {share} | {100 * a['cp_j'] / a['energy_j']:.2f}% |\n")
 
 # Table C: grounded-range cells (NVM 1x, 4x) in compact markdown.
 lo, hi = res['primary']['scale_range']

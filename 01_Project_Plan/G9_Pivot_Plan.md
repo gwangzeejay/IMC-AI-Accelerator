@@ -188,7 +188,8 @@ Phân tích **sau kết quả**, chỉ đọc; không đổi protocol, run hay p
 4. **Vì sao B3 ≡ RECAP_redo:** với hazard lập kế hoạch 2 Hz mọi chênh lệch kỳ vọng chỉ cỡ 0,1%, và `score_time` (B3) với `score_expected` (RECAP) chọn cùng kế hoạch không chia chunk.
 5. **Endpoint:** năng lượng mô hình mỗi suy luận hoàn thành không tính điện tích tụ bị xả khi reset, nên reset chỉ tốn phần làm lại tile bị ngắt. Điều này làm state-saving khó có lợi hơn so với điểm cuối theo độ trễ/hoàn thành; chưa thử endpoint đó.
 
-Chưa giải thích được: `B5b_chime_dp` và `B4_ci16` dùng state-saving 46–77% quyết định nhưng B5b chỉ kém RECAP ≤ 1%; tôi chưa kiểm hình dạng tile mà B5b chọn.
+Đã giải thích (13/11/2026): nhãn "state-saving" của `B5b_chime_dp` (65% KWS, 46% VWW) là nhãn của kế hoạch được chọn (chunk 16, ps1, cùng tile 8 px × CO64 với RECAP); DP của B5b đặt rất ít biên lưu nên năng lượng ghi partial-sum chỉ 1,4% (KWS) và 0,75% (VWW) tổng năng lượng, vì thế năng lượng ≈ B3. Với RECAP nhãn và ghi thực trùng nhau nên kiểm tra cơ chế ≥10% không bị ảnh hưởng. Chưa xem B5b lưu ở biên nào.
+Đồng thời kiểm 11 ô không xác định: không policy nào hoàn thành arrival nào (đã xác nhận cả 11 ô, không chỉ 2).
 
 Ý nghĩa cho hướng đi: kết quả âm là **cấu trúc**, không phải do tinh chỉnh. State-saving chỉ có thể thắng khi tile dài so với 1/λ
 (tile nhiều ms, reset ≳ 0,5 kHz), hoặc NVM ghi rẻ hơn khoảng hai bậc, hoặc khi ép phải chia chunk (ci lớn/dung lượng nhỏ). Mọi thử nghiệm
